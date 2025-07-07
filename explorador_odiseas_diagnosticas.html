@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explorador de Odiseas Diagnósticas - Enfermedades Poco Frecuentes</title>
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --secondary-color: #1e40af;
+            --accent-color: #3b82f6;
+            --success-color: #10b981;
+            --warning-color: #f59e0b;
+            --danger-color: #ef4444;
+            --light-bg: #f8fafc;
+            --dark-text: #1e293b;
+            --medium-text: #64748b;
+            --light-text: #94a3b8;
+            --border-color: #e2e8f0;
+            --shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+            --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--dark-text);
+            background-color: var(--light-bg);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 2rem 0;
+            margin-bottom: 2rem;
+            box-shadow: var(--shadow-lg);
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+
+        .header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        /* Instructions Panel */
+        .instructions {
+            background: white;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            box-shadow: var(--shadow);
+            border-left: 4px solid var(--accent-color);
+        }
+
+        .instructions h2 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+
+        .instructions ul {
+            margin-left: 1.5rem;
+        }
+
+        .instructions li {
+            margin-bottom: 0.5rem;
+        }
+
+        /* Controls */
+        .controls {
+            background: white;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            box-shadow: var(--shadow);
+        }
+
+        .control-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        .control-group:last-child {
+            margin-bottom: 0;
+        }
+
+        .control-group label {
+            font-weight: 600;
+            color: var(--dark-text);
+        }
+
+        .form-control {
+            padding: 0.5rem 0.75rem;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            font-size: 0.95rem;
+            transition: border-color 0.2s, box-shadow 0.2s;
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-color: var(--accent-color);
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+        }
+
+        .btn {
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 6px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .btn-primary {
+            background-color: var(--primary-color);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background-color: var(--secondary-color);
+            transform: translateY(-1px);
+        }
+
+        .btn-secondary {
+            background-color: var(--medium-text);
+            color: white;
+        }
+
+        .btn-secondary:hover {
+            background-color: var(--dark-text);
+        }
+
+        /* Statistics */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .stat-card {
+            background: white;
+            border-radius: 12px;
+            padding: 1.5rem;
+            text-align: center;
+            box-shadow: var(--shadow);
+            transition: transform 0.2s;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-2px);
+        }
+
+        .stat-number {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-label {
+            color: var(--medium-text);
+            font-size: 0.9rem;
+        }
+
+        /* Patient List */
+        .patients-grid {
+            display: grid;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .patient-card {
+            background: white;
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: var(--shadow);
+            transition: transform 0.2s, box-shadow 0.2s;
+            cursor: pointer;
+            border: 2px solid transparent;
+        }
+
+        .patient-card:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-lg);
+            border-color: var(--accent-color);
+        }
+
+        .patient-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 1rem;
+        }
+
+        .patient-name {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: var(--dark-text);
+        }
+
+        .patient-age {
+            background: var(--light-bg);
+            padding: 0.25rem 0.5rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            color: var(--medium-text);
+        }
+
+        .patient-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .patient-info-item {
+            font-size: 0.9rem;
+        }
+
+        .patient-info-label {
+            font-weight: 600;
+            color: var(--medium-text);
+        }
+
+        .odyssey-summary {
+            background: var(--light-bg);
+            padding: 1rem;
+            border-radius: 8px;
+            margin-top: 1rem;
+        }
+
+        .odyssey-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 0.5rem;
+            text-align: center;
+        }
+
+        .odyssey-stat {
+            padding: 0.5rem;
+        }
+
+        .odyssey-stat-number {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--primary-color);
+        }
+
+        .odyssey-stat-label {
+            font-size: 0.8rem;
+            color: var(--medium-text);
+        }
+
+        .diagnosis-code {
+            background: var(--warning-color);
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+        /* Patient Detail Modal */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(5px);
+        }
+
+        .modal-content {
+            background-color: white;
+            margin: 2% auto;
+            padding: 0;
+            border-radius: 12px;
+            width: 90%;
+            max-width: 900px;
+            max-height: 90vh;
+            overflow: hidden;
+            box-shadow: var(--shadow-lg);
+        }
+
+        .modal-header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 1.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .modal-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+
+        .close {
+            color: white;
+            font-size: 2rem;
+            font-weight: bold;
+            cursor: pointer;
+            border: none;
+            background: none;
+            padding: 0;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            transition: background-color 0.2s;
+        }
+
+        .close:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .modal-body {
+            padding: 1.5rem;
+            max-height: calc(90vh - 120px);
+            overflow-y: auto;
+        }
+
+        .timeline {
+            position: relative;
+            margin: 2rem 0;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 30px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: var(--border-color);
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: 2rem;
+            padding-left: 4rem;
+        }
+
+        .timeline-marker {
+            position: absolute;
+            left: 20px;
+            top: 0.5rem;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: var(--primary-color);
+            border: 3px solid white;
+            box-shadow: var(--shadow);
+        }
+
+        .timeline-content {
+            background: white;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: var(--shadow);
+        }
+
+        .timeline-header {
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .timeline-date {
+            color: var(--medium-text);
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+
+        .experience-section {
+            margin-bottom: 1rem;
+        }
+
+        .experience-section h4 {
+            color: var(--dark-text);
+            margin-bottom: 0.5rem;
+            font-size: 0.95rem;
+        }
+
+        .experience-section p {
+            color: var(--medium-text);
+            font-style: italic;
+            line-height: 1.5;
+        }
+
+        .final-message {
+            background: linear-gradient(135deg, var(--success-color), #059669);
+            color: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-top: 2rem;
+            text-align: center;
+        }
+
+        .final-message h3 {
+            margin-bottom: 0.5rem;
+        }
+
+        /* Filter Tags */
+        .filter-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+
+        .filter-tag {
+            background: var(--accent-color);
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+
+        /* Loading States */
+        .loading {
+            text-align: center;
+            padding: 2rem;
+            color: var(--medium-text);
+        }
+
+        .spinner {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid var(--border-color);
+            border-radius: 50%;
+            border-top-color: var(--primary-color);
+            animation: spin 1s ease-in-out infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .control-group {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            
+            .patient-header {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+            
+            .modal-content {
+                width: 95%;
+                margin: 5% auto;
+            }
+            
+            .timeline-item {
+                padding-left: 3rem;
+            }
+            
+            .timeline::before {
+                left: 20px;
+            }
+            
+            .timeline-marker {
+                left: 10px;
+            }
+        }
+
+        /* Accessibility */
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
+
+        /* Focus indicators */
+        .patient-card:focus,
+        .btn:focus,
+        .form-control:focus {
+            outline: 2px solid var(--accent-color);
+            outline-offset: 2px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Explorador de Odiseas Diagnósticas</h1>
+            <p>Historias reales de pacientes con Enfermedades Poco Frecuentes (EPoF) en Chile</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Instructions -->
+        <section class="instructions">
+            <h2>📖 Instrucciones de Uso</h2>
+            <ul>
+                <li><strong>Explorar pacientes:</strong> Navega por las historias de 50 pacientes reales simulados basados en datos del sistema GRD</li>
+                <li><strong>Filtrar por enfermedad:</strong> Usa el filtro para ver pacientes con diagnósticos específicos (D84.8, E22.2, K50.9, E80.2, J84.1)</li>
+                <li><strong>Ver detalles:</strong> Haz clic en cualquier tarjeta de paciente para ver su odisea diagnóstica completa</li>
+                <li><strong>Cronología:</strong> Sigue el proceso diagnóstico paso a paso, con experiencias emocionales y costos</li>
+                <li><strong>Buscar:</strong> Usa la búsqueda para encontrar pacientes por nombre, edad o características específicas</li>
+            </ul>
+        </section>
+
+        <!-- Controls -->
+        <section class="controls">
+            <div class="control-group">
+                <label for="search">🔍 Buscar paciente:</label>
+                <input type="text" id="search" class="form-control" placeholder="Nombre, edad, diagnóstico..." style="min-width: 200px;">
+            </div>
+            <div class="control-group">
+                <label for="diagnosis-filter">🏥 Filtrar por diagnóstico:</label>
+                <select id="diagnosis-filter" class="form-control">
+                    <option value="">Todos los diagnósticos</option>
+                    <option value="D84.8">D84.8 - Inmunodeficiencia</option>
+                    <option value="E22.2">E22.2 - Síndrome de hipersecreción de la hormona antidiurética</option>
+                    <option value="K50.9">K50.9 - Enfermedad de Crohn</option>
+                    <option value="E80.2">E80.2 - Otros tipos de porfiria</option>
+                    <option value="J84.1">J84.1 - Otras enfermedades pulmonares intersticiales con fibrosis</option>
+                </select>
+                <label for="sort-by">📊 Ordenar por:</label>
+                <select id="sort-by" class="form-control">
+                    <option value="name">Nombre</option>
+                    <option value="age">Edad</option>
+                    <option value="duration">Duración de odisea</option>
+                    <option value="consultations">Número de consultas</option>
+                    <option value="cost">Costo total</option>
+                </select>
+                <button id="clear-filters" class="btn btn-secondary">🗑️ Limpiar filtros</button>
+            </div>
+        </section>
+
+        <!-- Statistics -->
+        <section class="stats-grid" id="statistics">
+            <div class="stat-card">
+                <div class="stat-number" id="total-patients">-</div>
+                <div class="stat-label">Total de Pacientes</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="avg-duration">-</div>
+                <div class="stat-label">Duración Promedio (meses)</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="avg-consultations">-</div>
+                <div class="stat-label">Consultas Promedio</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="age-range">-</div>
+                <div class="stat-label">Rango de Edades</div>
+            </div>
+        </section>
+
+        <!-- Patients List -->
+        <section class="patients-grid" id="patients-list">
+            <div class="loading">
+                <div class="spinner"></div>
+                <p>Cargando historias de pacientes...</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Patient Detail Modal -->
+    <div id="patient-modal" class="modal" role="dialog" aria-labelledby="modal-title" aria-hidden="true">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modal-title" class="modal-title">Historia del Paciente</h2>
+                <button class="close" aria-label="Cerrar">&times;</button>
+            </div>
+            <div class="modal-body" id="modal-body">
+                <!-- Patient details will be inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Global variables
+        let patientData = null;
+        let filteredPatients = [];
+        let currentSort = 'name';
+
+        // Load and initialize data
+        async function loadData() {
+            try {
+                const response = await fetch('./historias_humanas_odiseas_diagnosticas.json');
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                patientData = await response.json();
+                
+                // Convert to array for easier manipulation
+                filteredPatients = Object.entries(patientData.historias_pacientes).map(([id, data]) => ({
+                    id,
+                    ...data
+                }));
+                
+                updateStatistics();
+                renderPatients();
+            } catch (error) {
+                console.error('Error loading data:', error);
+                document.getElementById('patients-list').innerHTML = `
+                    <div style="text-align: center; padding: 2rem; color: var(--danger-color);">
+                        <h3>⚠️ Error al cargar los datos</h3>
+                        <p>Asegúrate de que el archivo 'historias_humanas_odiseas_diagnosticas.json' esté en la misma carpeta que este archivo HTML.</p>
+                        <p>Error: ${error.message}</p>
+                    </div>
+                `;
+            }
+        }
+
+        // Update statistics
+        function updateStatistics() {
+            if (!patientData) return;
+
+            const stats = patientData.estadisticas_humanas;
+            
+            document.getElementById('total-patients').textContent = stats.total_historias || filteredPatients.length;
+            document.getElementById('avg-duration').textContent = (stats.duracion_promedio_meses || 0).toFixed(1);
+            document.getElementById('avg-consultations').textContent = (stats.consultas_promedio || 0).toFixed(1);
+            document.getElementById('age-range').textContent = `${stats.rango_edades?.menor || 0} - ${stats.rango_edades?.mayor || 0}`;
+        }
+
+        // Render patients list
+        function renderPatients() {
+            const container = document.getElementById('patients-list');
+            
+            if (filteredPatients.length === 0) {
+                container.innerHTML = `
+                    <div style="text-align: center; padding: 2rem; color: var(--medium-text);">
+                        <h3>🔍 No se encontraron pacientes</h3>
+                        <p>Intenta ajustar los filtros de búsqueda.</p>
+                    </div>
+                `;
+                return;
+            }
+
+            container.innerHTML = filteredPatients.map(patient => createPatientCard(patient)).join('');
+            
+            // Add click events
+            container.querySelectorAll('.patient-card').forEach((card, index) => {
+                card.addEventListener('click', () => showPatientDetail(filteredPatients[index]));
+                card.setAttribute('tabindex', '0');
+                card.addEventListener('keydown', (e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        showPatientDetail(filteredPatients[index]);
+                    }
+                });
+            });
+        }
+
+        // Create patient card HTML
+        function createPatientCard(patient) {
+            const profile = patient.perfil_paciente;
+            const odyssey = patient.resumen_odisea_personal;
+            
+            // Parse cost (remove formatting)
+            const costMatch = odyssey.costo_total_familia?.match(/\$([0-9,]+)/);
+            const cost = costMatch ? parseInt(costMatch[1].replace(/,/g, '')) : 0;
+            
+            return `
+                <div class="patient-card" role="button" aria-label="Ver detalles de ${profile.nombre}">
+                    <div class="patient-header">
+                        <div class="patient-name">${profile.nombre}</div>
+                        <div class="patient-age">${profile.edad} años</div>
+                    </div>
+                    
+                    <div class="patient-info">
+                        <div class="patient-info-item">
+                            <span class="patient-info-label">Sexo:</span> ${profile.sexo}
+                        </div>
+                        <div class="patient-info-item">
+                            <span class="patient-info-label">Profesión:</span> ${profile.profesion}
+                        </div>
+                        <div class="patient-info-item">
+                            <span class="patient-info-label">Ciudad:</span> ${profile.ciudad_residencia}
+                        </div>
+                        <div class="patient-info-item">
+                            <span class="patient-info-label">Diagnóstico:</span> 
+                            <span class="diagnosis-code">${odyssey.diagnostico_final}</span>
+                        </div>
+                    </div>
+                    
+                    <div class="odyssey-summary">
+                        <div class="odyssey-stats">
+                            <div class="odyssey-stat">
+                                <div class="odyssey-stat-number">${odyssey.duracion_meses?.toFixed(1) || 'N/A'}</div>
+                                <div class="odyssey-stat-label">Meses</div>
+                            </div>
+                            <div class="odyssey-stat">
+                                <div class="odyssey-stat-number">${odyssey.numero_consultas || 'N/A'}</div>
+                                <div class="odyssey-stat-label">Consultas</div>
+                            </div>
+                            <div class="odyssey-stat">
+                                <div class="odyssey-stat-number">$${cost.toLocaleString()}</div>
+                                <div class="odyssey-stat-label">Costo CLP</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="filter-tags">
+                        ${profile.personalidad?.map(trait => `<span class="filter-tag">${trait}</span>`).join('') || ''}
+                    </div>
+                </div>
+            `;
+        }
+
+        // Show patient detail modal
+        function showPatientDetail(patient) {
+            const modal = document.getElementById('patient-modal');
+            const modalTitle = document.getElementById('modal-title');
+            const modalBody = document.getElementById('modal-body');
+            
+            modalTitle.textContent = `Historia de ${patient.perfil_paciente.nombre}`;
+            modalBody.innerHTML = createPatientDetailHTML(patient);
+            
+            modal.style.display = 'block';
+            modal.setAttribute('aria-hidden', 'false');
+            
+            // Focus management
+            const closeBtn = modal.querySelector('.close');
+            closeBtn.focus();
+        }
+
+        // Create patient detail HTML
+        function createPatientDetailHTML(patient) {
+            const profile = patient.perfil_paciente;
+            const odyssey = patient.resumen_odisea_personal;
+            const timeline = patient.narrativa_cronologica || [];
+            const finalReflection = patient.reflexion_final || {};
+            
+            return `
+                <div style="margin-bottom: 2rem;">
+                    <h3 style="color: var(--primary-color); margin-bottom: 1rem;">👤 Perfil del Paciente</h3>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; background: var(--light-bg); padding: 1rem; border-radius: 8px;">
+                        <div><strong>Nombre:</strong> ${profile.nombre}</div>
+                        <div><strong>Edad:</strong> ${profile.edad} años</div>
+                        <div><strong>Sexo:</strong> ${profile.sexo}</div>
+                        <div><strong>Profesión:</strong> ${profile.profesion}</div>
+                        <div><strong>Estado civil:</strong> ${profile.estado_civil}</div>
+                        <div><strong>Situación familiar:</strong> ${profile.situacion_familiar}</div>
+                        <div><strong>Ciudad:</strong> ${profile.ciudad_residencia}</div>
+                        <div><strong>Personalidad:</strong> ${profile.personalidad?.join(', ') || 'N/A'}</div>
+                    </div>
+                </div>
+
+                <div style="margin-bottom: 2rem;">
+                    <h3 style="color: var(--primary-color); margin-bottom: 1rem;">📊 Resumen de la Odisea</h3>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1rem; background: var(--light-bg); padding: 1rem; border-radius: 8px;">
+                        <div style="text-align: center;">
+                            <div style="font-size: 1.5rem; font-weight: 700; color: var(--primary-color);">${odyssey.duracion_meses?.toFixed(1) || 'N/A'}</div>
+                            <div style="color: var(--medium-text);">Meses de duración</div>
+                        </div>
+                        <div style="text-align: center;">
+                            <div style="font-size: 1.5rem; font-weight: 700; color: var(--primary-color);">${odyssey.numero_consultas || 'N/A'}</div>
+                            <div style="color: var(--medium-text);">Consultas médicas</div>
+                        </div>
+                        <div style="text-align: center;">
+                            <div style="font-size: 1.2rem; font-weight: 700; color: var(--warning-color);">${odyssey.diagnostico_final}</div>
+                            <div style="color: var(--medium-text);">Diagnóstico final</div>
+                        </div>
+                        <div style="text-align: center;">
+                            <div style="font-size: 1.2rem; font-weight: 700; color: var(--danger-color);">${odyssey.costo_total_familia || 'N/A'}</div>
+                            <div style="color: var(--medium-text);">Costo total</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="margin-bottom: 2rem;">
+                    <h3 style="color: var(--primary-color); margin-bottom: 1rem;">⏱️ Cronología de la Odisea Diagnóstica</h3>
+                    <div class="timeline">
+                        ${timeline.map((moment, index) => `
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <div class="timeline-header">${moment.momento}</div>
+                                    <div class="timeline-date">Día ${moment.dias_desde_inicio} desde el inicio • ${moment.fecha_aproximada}</div>
+                                    
+                                    <div class="experience-section">
+                                        <h4>💭 ¿Cómo me sentía?</h4>
+                                        <p>"${moment.narrativa_personal?.como_me_sentia || 'No registrado'}"</p>
+                                    </div>
+                                    
+                                    <div class="experience-section">
+                                        <h4>🤔 ¿Qué esperaba?</h4>
+                                        <p>"${moment.narrativa_personal?.que_esperaba || 'No registrado'}"</p>
+                                    </div>
+                                    
+                                    <div class="experience-section">
+                                        <h4>🏥 Experiencia en la consulta</h4>
+                                        <p>"${moment.narrativa_personal?.experiencia_consulta || 'No registrado'}"</p>
+                                    </div>
+                                    
+                                    <div class="experience-section">
+                                        <h4>😔 Sentimientos posteriores</h4>
+                                        <p>"${moment.narrativa_personal?.sentimientos_posteriores || 'No registrado'}"</p>
+                                    </div>
+                                    
+                                    <div class="experience-section">
+                                        <h4>💼 Situación laboral</h4>
+                                        <p>"${moment.contexto_vida?.situacion_trabajo || 'No registrado'}"</p>
+                                    </div>
+                                    
+                                    <div class="experience-section">
+                                        <h4>👨‍👩‍👧‍👦 Situación familiar</h4>
+                                        <p>"${moment.contexto_vida?.situacion_familiar || 'No registrado'}"</p>
+                                    </div>
+                                    
+                                    <div style="background: var(--light-bg); padding: 1rem; border-radius: 6px; margin-top: 1rem;">
+                                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 0.5rem; font-size: 0.9rem;">
+                                            <div><strong>Hospital:</strong> ${moment.aspectos_practicos?.hospital_experiencia || 'N/A'}</div>
+                                            <div><strong>Tiempo de espera:</strong> ${moment.aspectos_practicos?.tiempo_espera || 'N/A'}</div>
+                                            <div><strong>Acompañamiento:</strong> ${moment.aspectos_practicos?.acompanamiento || 'N/A'}</div>
+                                            <div><strong>Estado de ánimo:</strong> ${moment.contexto_vida?.estado_animo || 'N/A'}</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+
+                ${finalReflection.mensaje_final ? `
+                    <div class="final-message">
+                        <h3>💬 Mensaje Final del Paciente</h3>
+                        <p style="font-style: italic; font-size: 1.1rem; margin: 0;">"${finalReflection.mensaje_final}"</p>
+                        ${finalReflection.valoracion_sistema_salud?.calificacion_general ? `
+                            <p style="margin-top: 1rem; margin-bottom: 0;">
+                                <strong>Calificación del sistema de salud:</strong> ${finalReflection.valoracion_sistema_salud.calificacion_general}
+                            </p>
+                        ` : ''}
+                    </div>
+                ` : ''}
+            `;
+        }
+
+        // Filter and search functions
+        function filterPatients() {
+            if (!patientData) return;
+
+            const searchTerm = document.getElementById('search').value.toLowerCase();
+            const diagnosisFilter = document.getElementById('diagnosis-filter').value;
+            
+            const allPatients = Object.entries(patientData.historias_pacientes).map(([id, data]) => ({
+                id,
+                ...data
+            }));
+
+            filteredPatients = allPatients.filter(patient => {
+                const profile = patient.perfil_paciente;
+                const odyssey = patient.resumen_odisea_personal;
+                
+                // Search filter
+                const matchesSearch = !searchTerm || 
+                    profile.nombre.toLowerCase().includes(searchTerm) ||
+                    profile.edad.toString().includes(searchTerm) ||
+                    profile.profesion.toLowerCase().includes(searchTerm) ||
+                    profile.ciudad_residencia.toLowerCase().includes(searchTerm) ||
+                    odyssey.diagnostico_final.toLowerCase().includes(searchTerm) ||
+                    (profile.personalidad && profile.personalidad.some(trait => 
+                        trait.toLowerCase().includes(searchTerm)
+                    ));
+                
+                // Diagnosis filter
+                const matchesDiagnosis = !diagnosisFilter || 
+                    odyssey.diagnostico_final === diagnosisFilter;
+                
+                return matchesSearch && matchesDiagnosis;
+            });
+
+            sortPatients();
+            renderPatients();
+        }
+
+        // Sort patients
+        function sortPatients() {
+            const sortBy = document.getElementById('sort-by').value;
+            
+            filteredPatients.sort((a, b) => {
+                switch (sortBy) {
+                    case 'name':
+                        return a.perfil_paciente.nombre.localeCompare(b.perfil_paciente.nombre);
+                    case 'age':
+                        return a.perfil_paciente.edad - b.perfil_paciente.edad;
+                    case 'duration':
+                        return (b.resumen_odisea_personal.duracion_meses || 0) - 
+                               (a.resumen_odisea_personal.duracion_meses || 0);
+                    case 'consultations':
+                        return (b.resumen_odisea_personal.numero_consultas || 0) - 
+                               (a.resumen_odisea_personal.numero_consultas || 0);
+                    case 'cost':
+                        const getCost = (patient) => {
+                            const costMatch = patient.resumen_odisea_personal.costo_total_familia?.match(/\$([0-9,]+)/);
+                            return costMatch ? parseInt(costMatch[1].replace(/,/g, '')) : 0;
+                        };
+                        return getCost(b) - getCost(a);
+                    default:
+                        return 0;
+                }
+            });
+        }
+
+        // Clear filters
+        function clearFilters() {
+            document.getElementById('search').value = '';
+            document.getElementById('diagnosis-filter').value = '';
+            document.getElementById('sort-by').value = 'name';
+            filterPatients();
+        }
+
+        // Event listeners
+        document.addEventListener('DOMContentLoaded', () => {
+            loadData();
+            
+            // Search and filter events
+            document.getElementById('search').addEventListener('input', filterPatients);
+            document.getElementById('diagnosis-filter').addEventListener('change', filterPatients);
+            document.getElementById('sort-by').addEventListener('change', () => {
+                sortPatients();
+                renderPatients();
+            });
+            document.getElementById('clear-filters').addEventListener('click', clearFilters);
+            
+            // Modal events
+            const modal = document.getElementById('patient-modal');
+            const closeBtn = modal.querySelector('.close');
+            
+            closeBtn.addEventListener('click', () => {
+                modal.style.display = 'none';
+                modal.setAttribute('aria-hidden', 'true');
+            });
+            
+            modal.addEventListener('click', (e) => {
+                if (e.target === modal) {
+                    modal.style.display = 'none';
+                    modal.setAttribute('aria-hidden', 'true');
+                }
+            });
+            
+            // Keyboard navigation
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape' && modal.style.display === 'block') {
+                    modal.style.display = 'none';
+                    modal.setAttribute('aria-hidden', 'true');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
