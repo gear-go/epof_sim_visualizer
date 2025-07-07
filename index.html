@@ -100,6 +100,168 @@
             margin-bottom: 0.5rem;
         }
 
+        /* Diseases Information */
+        .diseases-info {
+            background: white;
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: var(--shadow);
+        }
+
+        .diseases-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .disease-card {
+            background: linear-gradient(135deg, #f8fafc, #e2e8f0);
+            border-radius: 12px;
+            padding: 1.5rem;
+            border: 1px solid var(--border-color);
+            transition: transform 0.2s, box-shadow 0.2s;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .disease-card:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .disease-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
+        }
+
+        .disease-header h3 {
+            color: var(--primary-color);
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            line-height: 1.3;
+        }
+
+        .disease-badges {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .complexity-badge, .prevalence-badge {
+            padding: 0.25rem 0.5rem;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .complexity-badge.high {
+            background: #fee2e2;
+            color: #dc2626;
+        }
+
+        .complexity-badge.medium {
+            background: #fef3c7;
+            color: #d97706;
+        }
+
+        .prevalence-badge.rare {
+            background: #f3e8ff;
+            color: #7c3aed;
+        }
+
+        .prevalence-badge.uncommon {
+            background: #e0f2fe;
+            color: #0288d1;
+        }
+
+        .prevalence-badge.moderate {
+            background: #e8f5e8;
+            color: #2e7d32;
+        }
+
+        .disease-description {
+            margin-bottom: 1.5rem;
+        }
+
+        .disease-description p {
+            color: var(--medium-text);
+            line-height: 1.5;
+            font-size: 0.9rem;
+        }
+
+        .disease-metrics {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+            padding: 1rem;
+            background: white;
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+        }
+
+        .metric {
+            text-align: center;
+        }
+
+        .metric-value {
+            display: block;
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-bottom: 0.25rem;
+        }
+
+        .metric-label {
+            font-size: 0.75rem;
+            color: var(--medium-text);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .disease-links {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .orphanet-link {
+            background: linear-gradient(135deg, var(--success-color), #059669);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 0.85rem;
+            font-weight: 600;
+            transition: all 0.2s;
+            flex-shrink: 0;
+        }
+
+        .orphanet-link:hover {
+            background: linear-gradient(135deg, #059669, #047857);
+            transform: translateY(-1px);
+            color: white;
+        }
+
+        .age-info {
+            font-size: 0.8rem;
+            color: var(--medium-text);
+            background: var(--light-bg);
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+        }
+
         /* Controls */
         .controls {
             background: white;
@@ -542,6 +704,30 @@
             .timeline-marker {
                 left: 10px;
             }
+
+            .diseases-grid {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+            }
+
+            .disease-card {
+                padding: 1rem;
+            }
+
+            .disease-metrics {
+                grid-template-columns: 1fr;
+                gap: 0.5rem;
+            }
+
+            .disease-links {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 0.5rem;
+            }
+
+            .orphanet-link {
+                text-align: center;
+            }
         }
 
         /* Accessibility */
@@ -586,6 +772,202 @@
                 <li><strong>Cronología:</strong> Sigue el proceso diagnóstico paso a paso, con experiencias emocionales y costos</li>
                 <li><strong>Buscar:</strong> Usa la búsqueda para encontrar pacientes por nombre, edad o características específicas</li>
             </ul>
+        </section>
+
+        <!-- Diseases Information -->
+        <section class="diseases-info">
+            <h2 style="color: var(--primary-color); margin-bottom: 1.5rem; text-align: center;">🏥 Enfermedades Poco Frecuentes Incluidas</h2>
+            <div class="diseases-grid">
+                <!-- D84.8 -->
+                <div class="disease-card">
+                    <div class="disease-header">
+                        <h3>D84.8 - Otras inmunodeficiencias específicas</h3>
+                        <div class="disease-badges">
+                            <span class="complexity-badge high">Complejidad Alta</span>
+                            <span class="prevalence-badge rare">Muy Rara</span>
+                        </div>
+                    </div>
+                    <div class="disease-description">
+                        <p>Grupo heterogéneo de trastornos del sistema inmunológico que incluyen deficiencias específicas de células T, células NK, y susceptibilidades mendelianas a infecciones micobacterianas.</p>
+                    </div>
+                    <div class="disease-metrics">
+                        <div class="metric">
+                            <span class="metric-value">70</span>
+                            <span class="metric-label">Casos analizados</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">6.6</span>
+                            <span class="metric-label">Eventos previos promedio</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">283</span>
+                            <span class="metric-label">Días promedio diagnóstico</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">$6,880</span>
+                            <span class="metric-label">Costo promedio CLP</span>
+                        </div>
+                    </div>
+                    <div class="disease-links">
+                        <a href="https://www.orpha.net/es/disease/detail/101997" target="_blank" class="orphanet-link">
+                            🔗 Ver en Orphanet
+                        </a>
+                        <span class="age-info">👶 Edad típica: 12.9 años</span>
+                    </div>
+                </div>
+
+                <!-- E22.2 -->
+                <div class="disease-card">
+                    <div class="disease-header">
+                        <h3>E22.2 - Síndrome de secreción inapropiada de ADH</h3>
+                        <div class="disease-badges">
+                            <span class="complexity-badge medium">Complejidad Media</span>
+                            <span class="prevalence-badge uncommon">Poco Frecuente</span>
+                        </div>
+                    </div>
+                    <div class="disease-description">
+                        <p>Trastorno endocrino caracterizado por la liberación excesiva de hormona antidiurética, causando retención de agua e hiponatremia dilucional.</p>
+                    </div>
+                    <div class="disease-metrics">
+                        <div class="metric">
+                            <span class="metric-value">93</span>
+                            <span class="metric-label">Casos analizados</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">1.9</span>
+                            <span class="metric-label">Eventos previos promedio</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">143</span>
+                            <span class="metric-label">Días promedio diagnóstico</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">$2,508</span>
+                            <span class="metric-label">Costo promedio CLP</span>
+                        </div>
+                    </div>
+                    <div class="disease-links">
+                        <a href="https://www.orpha.net/es/disease/detail/83449" target="_blank" class="orphanet-link">
+                            🔗 Ver en Orphanet
+                        </a>
+                        <span class="age-info">👨‍💼 Edad típica: 83.3 años</span>
+                    </div>
+                </div>
+
+                <!-- K50.9 -->
+                <div class="disease-card">
+                    <div class="disease-header">
+                        <h3>K50.9 - Enfermedad de Crohn</h3>
+                        <div class="disease-badges">
+                            <span class="complexity-badge high">Complejidad Alta</span>
+                            <span class="prevalence-badge moderate">Moderadamente Rara</span>
+                        </div>
+                    </div>
+                    <div class="disease-description">
+                        <p>Enfermedad inflamatoria intestinal crónica que puede afectar cualquier parte del tracto digestivo, desde la boca hasta el ano, caracterizada por inflamación transmural.</p>
+                    </div>
+                    <div class="disease-metrics">
+                        <div class="metric">
+                            <span class="metric-value">207</span>
+                            <span class="metric-label">Casos analizados</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">3.1</span>
+                            <span class="metric-label">Eventos previos promedio</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">200</span>
+                            <span class="metric-label">Días promedio diagnóstico</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">$2,494</span>
+                            <span class="metric-label">Costo promedio CLP</span>
+                        </div>
+                    </div>
+                    <div class="disease-links">
+                        <a href="https://www.orpha.net/es/disease/detail/206" target="_blank" class="orphanet-link">
+                            🔗 Ver en Orphanet
+                        </a>
+                        <span class="age-info">👨‍💼 Edad típica: 36.7 años</span>
+                    </div>
+                </div>
+
+                <!-- E80.2 -->
+                <div class="disease-card">
+                    <div class="disease-header">
+                        <h3>E80.2 - Otros tipos de porfiria</h3>
+                        <div class="disease-badges">
+                            <span class="complexity-badge high">Complejidad Alta</span>
+                            <span class="prevalence-badge rare">Muy Rara</span>
+                        </div>
+                    </div>
+                    <div class="disease-description">
+                        <p>Grupo de trastornos metabólicos hereditarios causados por deficiencias enzimáticas en la síntesis del hemo, que pueden manifestarse con síntomas neuropsiquiátricos y cutáneos.</p>
+                    </div>
+                    <div class="disease-metrics">
+                        <div class="metric">
+                            <span class="metric-value">33</span>
+                            <span class="metric-label">Casos analizados</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">2.0</span>
+                            <span class="metric-label">Eventos previos promedio</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">205</span>
+                            <span class="metric-label">Días promedio diagnóstico</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">$3,562</span>
+                            <span class="metric-label">Costo promedio CLP</span>
+                        </div>
+                    </div>
+                    <div class="disease-links">
+                        <a href="https://www.orpha.net/es/disease/detail/79276" target="_blank" class="orphanet-link">
+                            🔗 Ver en Orphanet
+                        </a>
+                        <span class="age-info">👨‍💼 Edad típica: 29.8 años</span>
+                    </div>
+                </div>
+
+                <!-- J84.1 -->
+                <div class="disease-card">
+                    <div class="disease-header">
+                        <h3>J84.1 - Enfermedades pulmonares intersticiales con fibrosis</h3>
+                        <div class="disease-badges">
+                            <span class="complexity-badge high">Complejidad Alta</span>
+                            <span class="prevalence-badge moderate">Moderadamente Rara</span>
+                        </div>
+                    </div>
+                    <div class="disease-description">
+                        <p>Grupo de enfermedades pulmonares caracterizadas por fibrosis progresiva del intersticio pulmonar, incluyendo la fibrosis pulmonar idiopática y otras formas de neumonía intersticial.</p>
+                    </div>
+                    <div class="disease-metrics">
+                        <div class="metric">
+                            <span class="metric-value">1,522</span>
+                            <span class="metric-label">Casos analizados</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">2.0</span>
+                            <span class="metric-label">Eventos previos promedio</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">145</span>
+                            <span class="metric-label">Días promedio diagnóstico</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">$2,112</span>
+                            <span class="metric-label">Costo promedio CLP</span>
+                        </div>
+                    </div>
+                    <div class="disease-links">
+                        <a href="https://www.orpha.net/es/disease/detail/2032" target="_blank" class="orphanet-link">
+                            🔗 Ver en Orphanet
+                        </a>
+                        <span class="age-info">👨‍💼 Edad típica: 64.5 años</span>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <!-- Controls -->
