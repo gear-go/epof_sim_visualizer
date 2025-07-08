@@ -12,8 +12,7 @@
     ],
     "fuente_datos": "Trayectorias sintéticas basadas en datos GRD reales"
   },
-  "estadisticas_humanas": {
-    "total_historias": 29,
+  "estadisticas_claude": {
     "duracion_promedio_meses": 5.8,
     "consultas_promedio": 4.0,
     "distribucion_epof": {
@@ -25,9 +24,11 @@
       "menor": 20,
       "mayor": 78,
       "promedio": 50.7
-    }
+    },
+    "exitosas": 29,
+    "errores": 1
   },
-  "historias_pacientes": {
+  "historias_pacientes_claude": {
     "CLAUDE_E22.2_0002": {
       "perfil_paciente": {
         "nombre": "Juana Rojas Mardones",

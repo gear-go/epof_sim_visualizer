@@ -17,9 +17,15 @@ Este proyecto presenta un explorador web interactivo que permite navegar y anali
 ## 🎯 Características Principales
 
 ### 📊 **Datos Reales**
-- **50 historias de pacientes** basadas en datos reales del sistema GRD
-- **5 tipos de EPoF** incluidos: D84.8, E22.2, K50.9, E80.2, J84.1
+- **29 historias de pacientes** basadas en datos reales del sistema GRD
+- **3 tipos de EPoF** incluidos: E22.2, E80.2, J84.1
 - **Métricas auténticas** de duración, costos y experiencias
+
+### 🤖 **Generación con IA**
+- **Historias narrativas** creadas con Anthropic Claude 3 Sonnet
+- **Basadas en datos reales** del sistema GRD 2019-2023  
+- **Contexto chileno** auténtico (FONASA, hospitales públicos)
+- **Experiencias emocionales** detalladas del paciente y cuidadores
 
 ### 🔍 **Exploración Interactiva**
 - **Búsqueda avanzada** por nombre, edad, profesión, ciudad, diagnóstico
@@ -43,18 +49,16 @@ Este proyecto presenta un explorador web interactivo que permite navegar y anali
 
 | Código | Descripción | Casos |
 |--------|-------------|-------|
-| **D84.8** | Inmunodeficiencia | 10 |
-| **E22.2** | Síndrome de hipersecreción de la hormona antidiurética | 10 |
-| **K50.9** | Enfermedad de Crohn | 10 |
+| **E22.2** | Síndrome de secreción inapropiada de ADH | 9 |
 | **E80.2** | Otros tipos de porfiria | 10 |
-| **J84.1** | Otras enfermedades pulmonares intersticiales con fibrosis | 10 |
+| **J84.1** | Enfermedades pulmonares intersticiales con fibrosis | 10 |
 
 ## 📊 Métricas Destacadas
 
-- **Duración promedio**: 7.3 meses
-- **Consultas promedio**: 5.0 consultas
-- **Rango de edades**: 9 - 77 años
-- **Costo promedio**: Variable según diagnóstico
+- **Duración promedio**: 5.8 meses
+- **Consultas promedio**: 4.0 consultas
+- **Rango de edades**: 20 - 78 años
+- **Total pacientes**: 29 historias
 
 ## 🚀 Uso del Explorador
 
@@ -103,9 +107,12 @@ epof_sim_visualizer/
 - **Procesamiento**: Análisis de odiseas diagnósticas con machine learning
 
 ### Generación de Narrativas
-- **Algoritmos de simulación** para crear historias humanas realistas
+- **Historias narrativas** creadas con Anthropic Claude 3 Sonnet
+- **Basadas en datos reales** del sistema GRD 2019-2023  
+- **Contexto chileno** auténtico (FONASA, hospitales públicos)
+- **Experiencias emocionales** detalladas del paciente y cuidadores
 - **Preservación de privacidad** con datos sintéticos basados en patrones reales
-- **Validación clínica** de las narrativas generadas
+- **Validación de realismo** manteniendo coherencia con métricas originales
 
 ## 👥 Equipo de Investigación
 
