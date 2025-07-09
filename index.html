@@ -1154,7 +1154,7 @@
         // Load and initialize data
         async function loadData() {
             try {
-                const response = await fetch('historias_humanas_odiseas_diagnosticas.json?v=' + Date.now());
+                const response = await fetch('historias_combinadas_v2.json?v=' + Date.now());
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
