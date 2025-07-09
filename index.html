@@ -1089,6 +1089,14 @@
                 <div class="stat-label">Total de Pacientes</div>
             </div>
             <div class="stat-card">
+                <div class="stat-number" id="pediatric-count">-</div>
+                <div class="stat-label">👶 Casos Pediátricos</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="adult-count">-</div>
+                <div class="stat-label">🧑 Casos Adultos</div>
+            </div>
+            <div class="stat-card">
                 <div class="stat-number" id="avg-duration">-</div>
                 <div class="stat-label">Duración Promedio (meses)</div>
             </div>
@@ -1192,7 +1200,13 @@
 
             const stats = patientData.estadisticas_humanas;
             
+            // Calcular casos pediátricos y adultos
+            const pediatricCount = filteredPatients.filter(p => p.perfil_paciente.edad <= 17).length;
+            const adultCount = filteredPatients.filter(p => p.perfil_paciente.edad >= 18).length;
+            
             document.getElementById('total-patients').textContent = stats.total_historias || filteredPatients.length;
+            document.getElementById('pediatric-count').textContent = pediatricCount;
+            document.getElementById('adult-count').textContent = adultCount;
             document.getElementById('avg-duration').textContent = (stats.duracion_promedio_meses || 0).toFixed(1);
             document.getElementById('avg-consultations').textContent = (stats.consultas_promedio || 0).toFixed(1);
             document.getElementById('age-range').textContent = `${stats.rango_edades?.menor || 0} - ${stats.rango_edades?.mayor || 0}`;
