@@ -1146,17 +1146,28 @@
         // Load and initialize data
         async function loadData() {
             try {
-                const response = await fetch('historias_humanas_odiseas_diagnosticas.json');
+                const response = await fetch('historias_humanas_odiseas_diagnosticas.json?v=' + Date.now());
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
                 patientData = await response.json();
+                
+                // Debug: Log statistics
+                console.log('Datos cargados:', patientData.metadatos);
+                console.log('Total historias:', patientData.estadisticas_humanas.total_historias);
+                console.log('Distribución EPoF:', patientData.estadisticas_humanas.distribucion_epof);
                 
                 // Convert to array for easier manipulation
                 filteredPatients = Object.entries(patientData.historias_pacientes).map(([id, data]) => ({
                     id,
                     ...data
                 }));
+                
+                // Debug: Log patient ages
+                const ages = filteredPatients.map(p => p.perfil_paciente.edad);
+                console.log('Edades de pacientes:', ages.sort((a,b) => a-b));
+                console.log('Pacientes pediátricos (≤17):', filteredPatients.filter(p => p.perfil_paciente.edad <= 17).length);
+                console.log('Pacientes adultos (≥18):', filteredPatients.filter(p => p.perfil_paciente.edad >= 18).length);
                 
                 updateStatistics();
                 renderPatients();
