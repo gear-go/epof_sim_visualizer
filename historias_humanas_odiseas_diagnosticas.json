@@ -1,30 +1,36 @@
 {
   "metadatos": {
-    "fecha_generacion": "2025-07-08 12:10:59",
-    "total_historias": 29,
-    "descripcion": "Historias realistas de odiseas diagnósticas generadas por Anthropic Claude",
+    "fecha_generacion": "2025-07-09 00:11:06",
+    "total_historias": 39,
+    "descripcion": "Historias combinadas de odiseas diagnósticas: enfermedades generales y pediátricas",
     "enfoque": "Narrativas generadas por IA basadas en trayectorias sintéticas reales",
     "modelo_ia": "claude-3-sonnet-20240229",
     "epof_incluidos": [
       "E22.2",
       "E80.2",
-      "J84.1"
+      "J84.1",
+      "Q43.8"
     ],
-    "fuente_datos": "Trayectorias sintéticas basadas en datos GRD reales"
+    "fuente_datos": "Combinación de historias Claude generales y pediátricas",
+    "archivos_origen": [
+      "historias_claude_odiseas_diagnosticas_20250708_121059.json",
+      "historias_claude_familias_pediatricas_unificadas_20250708_232222.json"
+    ]
   },
   "estadisticas_humanas": {
-    "total_historias": 29,
-    "duracion_promedio_meses": 5.8,
-    "consultas_promedio": 4.0,
+    "total_historias": 39,
+    "duracion_promedio_meses": 6.184615384615384,
+    "consultas_promedio": 4.153846153846154,
     "distribucion_epof": {
       "E22.2": 9,
       "E80.2": 10,
-      "J84.1": 10
+      "J84.1": 10,
+      "Q43.8": 10
     },
     "rango_edades": {
-      "menor": 20,
+      "menor": 2,
       "mayor": 78,
-      "promedio": 50.7
+      "promedio": 38.666666666666664
     }
   },
   "historias_pacientes": {
@@ -156,23 +162,6 @@
           "Coordinar con mis hermanos para que alguien pueda asistir con ella"
         ],
         "impacto_familiar": "Esta situación ha sido muy demandante emocionalmente para toda la familia. Los costos económicos también han sido un desafío con nuestros ingresos limitados."
-      },
-      "reflexiones_finales": {
-        "lecciones_aprendidas": [
-          "La paciencia y perseverancia son claves cuando se navega el sistema público de salud.",
-          "Es importante tener un círculo de apoyo familiar o de amigos que puedan acompañarte."
-        ],
-        "consejos_otros_pacientes": [
-          "No teman hacer preguntas y pedir explicaciones detalladas a los médicos en cada consulta.",
-          "Lleven un registro de todos los exámenes, medicamentos y copagos para estar al tanto de los costos.",
-          "Tengan un cuidador o familiar que pueda acompañarlos y apoyarlos en este proceso."
-        ],
-        "valoracion_sistema_salud": {
-          "aspectos_positivos": "A pesar de los desafíos, los profesionales de la salud en el sistema público están muy comprometidos y hacen lo mejor con los recursos disponibles.",
-          "areas_mejora": "Se necesitan más recursos y una mejor coordinación entre los distintos niveles de atención para agilizar los diagnósticos y tratamientos.",
-          "calificacion_general": "6/10"
-        },
-        "mensaje_final": "Aunque ha sido un camino difícil y frustrante, finalmente tengo un diagnóstico gracias a la perseverancia y al apoyo de mis seres queridos. Ahora puedo enfrentar el tratamiento con la fortaleza que esta experiencia me ha dado."
       }
     },
     "CLAUDE_E22.2_0003": {
@@ -303,23 +292,6 @@
           "Insistir con los médicos para que siguieran estudiando su caso"
         ],
         "impacto_familiar": "Esta situación nos unió mucho como familia y nos hizo valorar aún más la salud. Fue un proceso muy desgastante, pero estamos felices de que finalmente mi madre tenga un diagnóstico y un tratamiento."
-      },
-      "reflexiones_finales": {
-        "lecciones_aprendidas": [
-          "La perseverancia y la paciencia son fundamentales cuando se navega el sistema público de salud.",
-          "Es importante mantenerse firme y no rendirse hasta obtener un diagnóstico certero."
-        ],
-        "consejos_otros_pacientes": [
-          "No teman insistir con los médicos y pedir segundas opiniones si es necesario.",
-          "Busquen el apoyo de sus familiares y seres queridos, es fundamental para sobrellevar el proceso.",
-          "Tengan paciencia y confíen en que el equipo médico hará todo lo posible por ayudarlos, a pesar de las dificultades del sistema."
-        ],
-        "valoracion_sistema_salud": {
-          "aspectos_positivos": "A pesar de las limitaciones, los profesionales de la salud pública están muy comprometidos y hacen todo lo posible por ayudar a los pacientes.",
-          "areas_mejora": "Se necesitan más recursos y personal para reducir las largas listas de espera y la sobrecarga en los hospitales públicos.",
-          "calificacion_general": "7/10"
-        },
-        "mensaje_final": "Mi experiencia en el sistema público de salud fue difícil, pero finalmente valió la pena. Agradezco profundamente al equipo médico por su dedicación y por no rendirse conmigo. Con perseverancia y el apoyo de la familia, se pueden superar los obstáculos."
       }
     },
     "CLAUDE_E22.2_0004": {
@@ -450,23 +422,6 @@
           "Pedía ayuda a otros familiares para costear los gastos médicos."
         ],
         "impacto_familiar": "Fue un proceso muy desgastante para toda la familia. Nos unió aún más como familia, pero también fue un golpe económico difícil de sobrellevar."
-      },
-      "reflexiones_finales": {
-        "lecciones_aprendidas": [
-          "La perseverancia es clave cuando se navega el sistema público de salud. No hay que darse por vencido.",
-          "Es importante tener a la familia apoyando en todo momento, esto hace la diferencia."
-        ],
-        "consejos_otros_pacientes": [
-          "Ser pacientes y tener siempre un acompañante que pueda hacer las preguntas necesarias a los médicos.",
-          "Informarse bien sobre los costos y coberturas de FONASA para no llevar sorpresas económicas.",
-          "No desanimarse si al principio no tienen un diagnóstico claro. A veces toma tiempo llegar al especialista indicado."
-        ],
-        "valoracion_sistema_salud": {
-          "aspectos_positivos": "A pesar de las listas de espera y la sobrecarga, los profesionales de la salud pública son muy dedicados y hacen lo posible por ayudar a sus pacientes con los recursos disponibles.",
-          "areas_mejora": "Se necesita una mejor coordinación y derivación más rápida entre niveles de atención para acortar los tiempos de diagnóstico. Además, se requieren más especialistas y equipamiento en ciertos hospitales públicos.",
-          "calificacion_general": "6/10"
-        },
-        "mensaje_final": "A pesar de lo difícil que fue navegar el sistema público, estoy muy agradecida de haber recibido un diagnóstico y poder continuar con un tratamiento. Me hace valorar aún más a los profesionales de la salud pública que trabajan con tanto ahínco a pesar de los desafíos."
       }
     },
     "CLAUDE_E22.2_0005": {
@@ -620,23 +575,6 @@
           "Insistimos en que se le hicieran más exámenes y derivaciones"
         ],
         "impacto_familiar": "Fue un proceso muy desgastante para toda la familia, tanto emocional como económicamente. Sentíamos mucha impotencia ante el sistema público sobrecargado."
-      },
-      "reflexiones_finales": {
-        "lecciones_aprendidas": [
-          "Es fundamental ser perseverante y no darse por vencido ante el sistema público",
-          "La paciencia y el apoyo familiar son claves en este tipo de situaciones"
-        ],
-        "consejos_otros_pacientes": [
-          "No teman insistir y pedir segundas opiniones en el sistema público",
-          "Investiguen y pregunten todo lo que puedan sobre su condición",
-          "Aprovechen todas las instancias y beneficios que ofrece FONASA"
-        ],
-        "valoracion_sistema_salud": {
-          "aspectos_positivos": "Los profesionales del sistema público son muy comprometidos y hacen lo posible con los recursos limitados que tienen.",
-          "areas_mejora": "Se necesitan más recursos, menos burocracia y listas de espera más cortas en el sistema público.",
-          "calificacion_general": "6/10"
-        },
-        "mensaje_final": "A pesar de las dificultades, nunca perdí la fe en que el sistema público de salud pudiera ayudarme. Sólo espero que mi caso sirva para mejorar la atención de otros pacientes."
       }
     },
     "CLAUDE_E22.2_0006": {
@@ -744,23 +682,6 @@
           "Hablamos con otros familiares para pedir consejos"
         ],
         "impacto_familiar": "Fue una situación muy estresante para toda la familia, nos unió más pero también nos desgastó anímicamente."
-      },
-      "reflexiones_finales": {
-        "lecciones_aprendidas": [
-          "Hay que ser perseverante y no darse por vencido en el sistema público",
-          "Es importante el apoyo familiar en estos procesos"
-        ],
-        "consejos_otros_pacientes": [
-          "Tengan paciencia y no se desanimen con las largas esperas",
-          "Investiguen por su cuenta y pregunten todo lo que puedan a los médicos",
-          "Busquen apoyo emocional de sus seres queridos"
-        ],
-        "valoracion_sistema_salud": {
-          "aspectos_positivos": "Los profesionales son muy dedicados y hacen lo posible con los recursos que tienen.",
-          "areas_mejora": "Se necesitan más recursos, más personal y reducir los tiempos de espera.",
-          "calificacion_general": "6/10"
-        },
-        "mensaje_final": "A pesar de las dificultades, valoro mucho la atención que recibí en el sistema público de salud. Agradezco a todos los que me atendieron."
       }
     },
     "CLAUDE_E22.2_0007": {
@@ -914,23 +835,6 @@
           "Averiguar sobre los beneficios de FONASA"
         ],
         "impacto_familiar": "Fue un proceso muy desgastante para toda la familia, tanto emocional como económicamente. Pero logramos apoyarnos mutuamente."
-      },
-      "reflexiones_finales": {
-        "lecciones_aprendidas": [
-          "La perseverancia es clave para navegar el sistema público",
-          "Es importante tener una buena red de apoyo familiar"
-        ],
-        "consejos_otros_pacientes": [
-          "No desanimarse y seguir insistiendo hasta obtener un diagnóstico",
-          "Informarse bien sobre los beneficios y coberturas de FONASA",
-          "Pedir que los deriven a especialistas si es necesario"
-        ],
-        "valoracion_sistema_salud": {
-          "aspectos_positivos": "A pesar de las dificultades, los profesionales del sistema público son muy dedicados y comprometidos.",
-          "areas_mejora": "Se necesitan más recursos y personal para reducir las largas listas de espera y derivaciones.",
-          "calificacion_general": "6/10"
-        },
-        "mensaje_final": "Aunque el camino fue difícil, estoy agradecida de poder acceder a la salud pública y de contar con el apoyo de mi familia. Ahora puedo recibir el tratamiento que necesito."
       }
     },
     "CLAUDE_E22.2_0008": {
@@ -1084,23 +988,6 @@
           "Ayudarla económicamente con los gastos adicionales"
         ],
         "impacto_familiar": "Fue una situación muy estresante para toda la familia, pero nos unimos más para apoyar a mi madre. Tuvimos que hacer algunos ajustes económicos para cubrir los gastos médicos."
-      },
-      "reflexiones_finales": {
-        "lecciones_aprendidas": [
-          "La paciencia y perseverancia son claves al navegar el sistema público de salud",
-          "Es importante tener un cuidador o familiar que te apoye en el proceso"
-        ],
-        "consejos_otros_pacientes": [
-          "No duden en insistir y pedir segundas opiniones si no están conformes con el diagnóstico",
-          "Aprovechen todos los beneficios que FONASA ofrece, pero prepárense para gastos adicionales",
-          "Mantengan una actitud positiva y no pierdan la esperanza, el sistema público tiene profesionales muy dedicados"
-        ],
-        "valoracion_sistema_salud": {
-          "aspectos_positivos": "A pesar de las limitaciones, los médicos y personal de salud son muy comprometidos y hacen lo posible por ayudar a los pacientes.",
-          "areas_mejora": "Se necesitan más recursos para reducir las largas esperas y derivaciones entre servicios. También una mejor cobertura de medicamentos.",
-          "calificacion_general": "6/10"
-        },
-        "mensaje_final": "A pesar de las dificultades, estoy agradecida de haber recibido un diagnóstico y tratamiento a través del sistema público de salud. Sé que hay áreas que mejorar, pero valoro el esfuerzo y dedicación de los profesionales médicos que me atendieron."
       }
     },
     "CLAUDE_E22.2_0009": {
@@ -1208,23 +1095,6 @@
           "Conversé con nuestros hijos para que también lo apoyaran"
         ],
         "impacto_familiar": "Fue una situación muy estresante para toda la familia, pero nos unió aún más al tener que enfrentarla juntos. El apoyo mutuo fue clave."
-      },
-      "reflexiones_finales": {
-        "lecciones_aprendidas": [
-          "Es importante la perseverancia para insistir hasta obtener un diagnóstico certero",
-          "El sistema público tiene limitaciones pero los profesionales se esfuerzan por brindar una buena atención"
-        ],
-        "consejos_otros_pacientes": [
-          "Ser pacientes y comprender las largas esperas del sistema público",
-          "Informarse bien sobre los pasos a seguir y los derechos como paciente",
-          "Apoyarse en la familia y los seres queridos durante el proceso"
-        ],
-        "valoracion_sistema_salud": {
-          "aspectos_positivos": "Los médicos y personal del hospital público son muy dedicados y hacen lo posible por atender bien a los pacientes a pesar de los recursos limitados.",
-          "areas_mejora": "Se necesitan más recursos para disminuir los tiempos de espera y la sobrecarga asistencial en los hospitales públicos.",
-          "calificacion_general": "7/10"
-        },
-        "mensaje_final": "A pesar de las dificultades, pude recibir un diagnóstico y tratamiento adecuados en el sistema público gracias a la perseverancia y al apoyo de mi familia. Estoy muy agradecido con la atención médica que recibí."
       }
     },
     "CLAUDE_E22.2_0010": {
@@ -1378,23 +1248,6 @@
           "Coordinar con los equipos médicos para entender mejor el proceso"
         ],
         "impacto_familiar": "Fue un proceso muy desgastante emocionalmente para toda la familia. Tuvimos que hacer ajustes económicos para cubrir los costos no cubiertos por FONASA."
-      },
-      "reflexiones_finales": {
-        "lecciones_aprendidas": [
-          "La perseverancia y el apoyo familiar son fundamentales en el sistema público de salud",
-          "Es importante estar bien informado y ser un paciente activo en el proceso"
-        ],
-        "consejos_otros_pacientes": [
-          "No perder la esperanza y ser persistente en la búsqueda de respuestas dentro del sistema público",
-          "Pedir explicaciones claras a los equipos médicos y no tener miedo de hacer preguntas",
-          "Apoyarse en la familia y en redes de apoyo para navegar el sistema de manera más efectiva"
-        ],
-        "valoracion_sistema_salud": {
-          "aspectos_positivos": "A pesar de las limitaciones de recursos, el personal médico se mostró comprometido y amable en todo momento.",
-          "areas_mejora": "Se necesita mejorar los tiempos de espera y la coordinación entre niveles de atención para un diagnóstico más oportuno.",
-          "calificacion_general": "6/10"
-        },
-        "mensaje_final": "A pesar de las dificultades, estoy agradecida por el sistema público de salud y por el equipo médico que finalmente logró diagnosticarme. Espero que mi experiencia sirva para mejorar el proceso para otros pacientes en el futuro."
       }
     },
     "CLAUDE_E80.2_0011": {
@@ -1548,23 +1401,6 @@
           "Buscar apoyo de nuestras familias para los gastos del hogar"
         ],
         "impacto_familiar": "Fue un periodo muy angustioso y estresante, pero la unión familiar nos ayudó a sobrellevarlo juntos. El diagnóstico final fue un alivio enorme."
-      },
-      "reflexiones_finales": {
-        "lecciones_aprendidas": [
-          "Es importante ser perseverante y no darse por vencido cuando se trata de la salud.",
-          "El sistema público tiene limitaciones, pero cuenta con profesionales muy dedicados."
-        ],
-        "consejos_otros_pacientes": [
-          "Tener paciencia y ser insistente para obtener las derivaciones necesarias dentro del sistema público.",
-          "Pedir todas las explicaciones necesarias a los médicos para entender bien el caso.",
-          "Apoyarse en la familia y la comunidad para sobrellevar esta odisea de la mejor manera."
-        ],
-        "valoracion_sistema_salud": {
-          "aspectos_positivos": "A pesar de las largas esperas y la alta demanda, los profesionales se mostraron muy comprometidos y lograron finalmente hacer un diagnóstico certero.",
-          "areas_mejora": "Debería haber una mejor coordinación y derivación más rápida a especialistas para agilizar los diagnósticos complejos dentro del sistema público.",
-          "calificacion_general": "6/10"
-        },
-        "mensaje_final": "Aunque la odisea fue muy difícil, el sistema público de salud logró finalmente dar con la causa de mis males. Me siento agradecido por el trabajo de los profesionales a pesar de los recursos limitados con los que cuentan."
       }
     },
     "CLAUDE_E80.2_0012": {
@@ -1672,23 +1508,6 @@
           "Insistir en que la derivaran a los especialistas pertinentes"
         ],
         "impacto_familiar": "Fue un proceso muy desgastante económica y emocionalmente para toda la familia. Tuvimos que hacer grandes esfuerzos para costear los gastos mientras mi hija no podía trabajar."
-      },
-      "reflexiones_finales": {
-        "lecciones_aprendidas": [
-          "La perseverancia es clave cuando se navega el sistema público de salud",
-          "Hay que insistir y no darse por vencido hasta tener un diagnóstico certero"
-        ],
-        "consejos_otros_pacientes": [
-          "Mantenerse firme y pedir derivaciones a especialistas si es necesario",
-          "Informarse bien sobre los beneficios de FONASA y las patologías AUGE/GES",
-          "Pedir apoyo de familiares o amigos, es muy difícil solo"
-        ],
-        "valoracion_sistema_salud": {
-          "aspectos_positivos": "Los profesionales de la salud pública son muy dedicados y hacen lo posible con los recursos limitados que tienen.",
-          "areas_mejora": "Se necesitan más especialistas y una mejor coordinación para agilizar los diagnósticos. Los tiempos de espera son muy largos.",
-          "calificacion_general": "6/10"
-        },
-        "mensaje_final": "A pesar de las dificultades, estoy agradecida de tener un sistema público que me permitió acceder a la salud. Ojalá se pueda seguir mejorando para beneficio de todos los chilenos."
       }
     },
     "CLAUDE_E80.2_0013": {
@@ -1796,23 +1615,6 @@
           "Pedir interconsultas con especialistas en el hospital"
         ],
         "impacto_familiar": "Fue un periodo muy difícil, de mucha angustia e incertidumbre. Pero nos unió mucho como familia para apoyar a Raúl."
-      },
-      "reflexiones_finales": {
-        "lecciones_aprendidas": [
-          "Hay que ser perseverante y no desanimarse en el sistema público",
-          "Es importante exigir una atención más completa y humana"
-        ],
-        "consejos_otros_pacientes": [
-          "Infórmense bien sobre su condición y los pasos a seguir en el sistema",
-          "Pidan interconsultas con especialistas si es necesario",
-          "Cuenten con el apoyo de sus seres queridos"
-        ],
-        "valoracion_sistema_salud": {
-          "aspectos_positivos": "A pesar de las dificultades, finalmente recibí un diagnóstico certero y un tratamiento cubierto por FONASA en un hospital público de excelente nivel.",
-          "areas_mejora": "Se necesita mejorar los tiempos de espera, la comunicación médico-paciente y la coordinación entre niveles de atención.",
-          "calificacion_general": "6/10"
-        },
-        "mensaje_final": "A pesar de los desafíos que enfrenté, agradezco al equipo médico del Hospital Víctor Ríos Ruiz que finalmente logró descubrir lo que me aquejaba. Es un ejemplo del compromiso de los profesionales de la salud pública en Chile."
       }
     },
     "CLAUDE_E80.2_0014": {
@@ -1943,23 +1745,6 @@
           "Hacer malabares con mi trabajo y el cuidado de nuestros hijos para no descuidar nada"
         ],
         "impacto_familiar": "Esta situación nos unió mucho como familia, pero también fue un periodo muy estresante y desgastante para todos, especialmente en lo económico."
-      },
-      "reflexiones_finales": {
-        "lecciones_aprendidas": [
-          "La perseverancia y el apoyo familiar son claves para sobrellevar situaciones tan complejas en el sistema público",
-          "Es importante ser paciente y comprender las limitaciones que enfrentan los profesionales de la salud pública"
-        ],
-        "consejos_otros_pacientes": [
-          "No darse por vencidos y seguir insistiendo hasta obtener un diagnóstico certero en el sistema público",
-          "Pedir las derivaciones necesarias a especialistas si los síntomas persisten",
-          "Apoyarse en la familia y las redes de contención disponibles"
-        ],
-        "valoracion_sistema_salud": {
-          "aspectos_positivos": "A pesar de las deficiencias, los profesionales de la salud pública son muy comprometidos y hacen su mejor esfuerzo.",
-          "areas_mejora": "Se necesitan más recursos y una mejor coordinación entre los distintos niveles de atención para agilizar los diagnósticos.",
-          "calificacion_general": "6/10"
-        },
-        "mensaje_final": "Mi odisea por el sistema público de salud fue muy dura, pero gracias a mi perseverancia, el apoyo de mi familia y el compromiso de los equipos médicos, finalmente obtuve un diagnóstico que me permitirá seguir adelante."
       }
     },
     "CLAUDE_E80.2_0015": {
@@ -2067,23 +1852,6 @@
           "Buscar apoyo de nuestros hijos"
         ],
         "impacto_familiar": "Fue una prueba muy difícil, pero nos mantuvimos unidos como familia para apoyar a José."
-      },
-      "reflexiones_finales": {
-        "lecciones_aprendidas": [
-          "La paciencia y perseverancia son clave en el sistema público",
-          "Es importante tener un círculo de apoyo familiar y de amigos"
-        ],
-        "consejos_otros_pacientes": [
-          "Infórmense bien sobre sus derechos y coberturas en FONASA",
-          "Pidan interconsultas a especialistas si es necesario",
-          "No se rindan, el personal médico está comprometido a pesar de los desafíos"
-        ],
-        "valoracion_sistema_salud": {
-          "aspectos_positivos": "Los profesionales son muy dedicados y hacen lo posible con recursos limitados",
-          "areas_mejora": "Se necesitan más recursos, equipamiento moderno y reducir los tiempos de espera",
-          "calificacion_general": "7/10"
-        },
-        "mensaje_final": "A pesar de los desafíos, agradezco al equipo médico del hospital público de Puerto Montt por su compromiso y atención. Ahora puedo enfocarme en mi recuperación junto a mi familia."
       }
     },
     "CLAUDE_E80.2_0016": {
@@ -2191,23 +1959,6 @@
           "Reorganizar las tareas del hogar con la ayuda de nuestros hijos"
         ],
         "impacto_familiar": "Esta experiencia fue muy estresante para toda la familia. Nos unió aún más como familia, pero también nos hizo valorar la importancia de la salud y el acceso a una atención médica oportuna."
-      },
-      "reflexiones_finales": {
-        "lecciones_aprendidas": [
-          "La perseverancia y la paciencia son claves al navegar el sistema público de salud.",
-          "Es importante tener un círculo de apoyo familiar y amigos que te acompañen en el proceso."
-        ],
-        "consejos_otros_pacientes": [
-          "No te desanimes ante los retrasos y diagnósticos iniciales vagos, sigue insistiendo hasta obtener respuestas claras.",
-          "Infórmate sobre tu condición y los tratamientos disponibles en el sistema público.",
-          "Aprovecha los programas de apoyo social y psicológico que ofrecen algunos hospitales públicos."
-        ],
-        "valoracion_sistema_salud": {
-          "aspectos_positivos": "A pesar de los desafíos, los profesionales de la salud pública están muy comprometidos y hacen lo mejor con los recursos disponibles.",
-          "areas_mejora": "Se necesitan más recursos y una mejor coordinación entre los distintos niveles de atención para reducir los tiempos de espera y diagnósticos imprecisos.",
-          "calificacion_general": "6/10"
-        },
-        "mensaje_final": "Esta odisea me enseñó a valorar mi salud y la de mi familia. A pesar de las dificultades, estoy agradecida de tener acceso a un sistema público de salud que, con algunos ajustes, puede brindar una atención digna a todos los chilenos."
       }
     },
     "CLAUDE_E80.2_0017": {
@@ -2315,23 +2066,6 @@
           "Hablar con nuestros hijos para que estuvieran al tanto"
         ],
         "impacto_familiar": "Fue un proceso muy estresante para toda la familia, nos unió aún más y valoramos mucho el esfuerzo de los médicos del hospital público."
-      },
-      "reflexiones_finales": {
-        "lecciones_aprendidas": [
-          "Hay que ser paciente y perseverante cuando se navega el sistema público",
-          "Es importante tener una red de apoyo familiar y no rendirse"
-        ],
-        "consejos_otros_pacientes": [
-          "No desanimarse por las largas esperas y acudir a los controles",
-          "Anotar todos los síntomas y preguntas para los médicos",
-          "Pedir explicaciones detalladas y no tener miedo de insistir"
-        ],
-        "valoracion_sistema_salud": {
-          "aspectos_positivos": "Los profesionales son muy dedicados y hacen lo posible por ayudar a pesar de los recursos limitados",
-          "areas_mejora": "Se requieren más especialistas y recursos para agilizar los diagnósticos y tratamientos",
-          "calificacion_general": "7/10"
-        },
-        "mensaje_final": "Aunque el camino fue difícil, finalmente pude recibir un diagnóstico y tratamiento gracias a la perseverancia y al gran trabajo de los médicos del hospital público. Nunca perdí la esperanza."
       }
     },
     "CLAUDE_E80.2_0018": {
@@ -2485,23 +2219,6 @@
           "Hablar con otros profesionales para obtener segundas opiniones"
         ],
         "impacto_familiar": "Fue un proceso muy desgastante para toda la familia, con mucha incertidumbre y angustia. Pero nos mantuvimos muy unidos para apoyar a mi madre."
-      },
-      "reflexiones_finales": {
-        "lecciones_aprendidas": [
-          "La perseverancia y resiliencia son claves cuando se navega el sistema público de salud",
-          "Es importante mantenerse firme y no darse por vencido hasta obtener respuestas"
-        ],
-        "consejos_otros_pacientes": [
-          "Tener paciencia y perseverar en el sistema público, a pesar de las largas esperas",
-          "Investigar por su cuenta y buscar segundas opiniones si es necesario",
-          "Mantenerse cercano al equipo médico tratante y hacer todas las preguntas necesarias"
-        ],
-        "valoracion_sistema_salud": {
-          "aspectos_positivos": "A pesar de los desafíos, los profesionales de la salud pública son muy dedicados y hacen lo posible por entregar una buena atención con los recursos disponibles.",
-          "areas_mejora": "Se necesitan más recursos y una mejor coordinación para agilizar los diagnósticos y evitar la odisea que vivimos. Las listas de espera son un problema crónico.",
-          "calificacion_general": "6/10"
-        },
-        "mensaje_final": "Nuestra experiencia en el sistema público de salud fue muy difícil, con largos meses de angustia e incertidumbre. Pero al final pudimos obtener un diagnóstico certero, gracias a la perseverancia y al equipo médico comprometido. Es un sistema que tiene deficiencias, pero que sigue siendo una red de protección social invaluable para quienes no tenemos otra alternativa."
       }
     },
     "CLAUDE_E80.2_0019": {
@@ -2609,23 +2326,6 @@
           "Pedí ayuda a nuestras familias para el cuidado de los niños"
         ],
         "impacto_familiar": "Esta situación ha sido muy estresante para toda la familia. Hemos tenido que reajustar nuestras finanzas y roles por la enfermedad de Juana."
-      },
-      "reflexiones_finales": {
-        "lecciones_aprendidas": [
-          "La perseverancia es clave cuando se navega el sistema público de salud",
-          "Es importante tener una red de apoyo familiar y de amigos"
-        ],
-        "consejos_otros_pacientes": [
-          "Ser pacientes y perseverantes en el proceso de diagnóstico dentro del sistema público",
-          "No tener miedo de hacer todas las preguntas necesarias a los médicos",
-          "Buscar grupos de apoyo de pacientes con su misma condición"
-        ],
-        "valoracion_sistema_salud": {
-          "aspectos_positivos": "Los profesionales son muy dedicados y hacen lo posible con los recursos disponibles",
-          "areas_mejora": "Se necesitan más recursos y personal para atender la alta demanda y disminuir los tiempos de espera",
-          "calificacion_general": "6/10"
-        },
-        "mensaje_final": "A pesar de los desafíos, me siento agradecida de haber recibido un diagnóstico y de poder acceder a tratamiento en el sistema público. Seguiré luchando día a día."
       }
     },
     "CLAUDE_E80.2_0020": {
@@ -2756,23 +2456,6 @@
           "Hacer ajustes en nuestros gastos para poder subsistir"
         ],
         "impacto_familiar": "Fue un periodo muy difícil y angustioso para toda la familia, tanto en lo emocional como en lo económico. Pero nos mantuvimos unidos."
-      },
-      "reflexiones_finales": {
-        "lecciones_aprendidas": [
-          "La paciencia y perseverancia son claves para navegar el sistema público",
-          "Es importante tener un buen círculo de apoyo familiar y amigos"
-        ],
-        "consejos_otros_pacientes": [
-          "No desanimarse ante los tiempos de espera y derivaciones en el sistema público",
-          "Estar bien informado sobre los pasos a seguir y los derechos como paciente",
-          "Pedir ayuda y apoyo a familiares o amigos cuando se necesite"
-        ],
-        "valoracion_sistema_salud": {
-          "aspectos_positivos": "Los profesionales de la salud están muy comprometidos y hacen lo posible con los recursos disponibles.",
-          "areas_mejora": "Se necesitan más recursos y una mejor coordinación para agilizar los tiempos de atención.",
-          "calificacion_general": "6/10"
-        },
-        "mensaje_final": "A pesar de las dificultades, agradezco al sistema público de salud por finalmente ayudarme a recuperar mi salud. Espero que esta experiencia sirva para mejorar la atención a otros pacientes."
       }
     },
     "CLAUDE_J84.1_0021": {
@@ -2880,23 +2563,6 @@
           "Buscar formas de reducir gastos en caso de necesitar medicamentos costosos"
         ],
         "impacto_familiar": "Fue una situación muy estresante para toda la familia. Nuestros hijos se preocupaban y yo tenía que mantener la calma y el hogar funcionando mientras José luchaba por su salud."
-      },
-      "reflexiones_finales": {
-        "lecciones_aprendidas": [
-          "La perseverancia y la paciencia son claves al navegar el sistema público de salud.",
-          "Es importante tener un cuidador o familiar que te acompañe y abogue por ti."
-        ],
-        "consejos_otros_pacientes": [
-          "No te desanimes si al principio no te dan un diagnóstico claro, sigue insistiendo.",
-          "Infórmate sobre tu condición y los posibles tratamientos disponibles en el sistema público.",
-          "Prepárate para largas esperas y procesos burocráticos, pero confía en los profesionales comprometidos."
-        ],
-        "valoracion_sistema_salud": {
-          "aspectos_positivos": "A pesar de las limitaciones, el personal médico del sistema público está altamente capacitado y se esfuerza por brindar la mejor atención posible.",
-          "areas_mejora": "Se necesitan más recursos y una mejor coordinación para agilizar los procesos y evitar diagnósticos tardíos.",
-          "calificacion_general": "7/10"
-        },
-        "mensaje_final": "Aunque fue una odisea, estoy agradecido de haber recibido un diagnóstico y tratamiento adecuados en el sistema público. Con perseverancia y el apoyo de mi familia, pudimos superar esta difícil situación."
       }
     },
     "CLAUDE_J84.1_0022": {
@@ -3050,23 +2716,6 @@
           "Recurrí al apoyo de mis hijos para ayudar con los gastos"
         ],
         "impacto_familiar": "Fue un período muy estresante y agotador para toda la familia, pero nos mantuvimos unidos para apoyar a mi marido. Los gastos fueron un gran desafío para nuestra economía familiar."
-      },
-      "reflexiones_finales": {
-        "lecciones_aprendidas": [
-          "Es importante ser perseverante y no darse por vencido al navegar el sistema público de salud",
-          "El apoyo familiar es fundamental para sobrellevar una odisea médica como esta"
-        ],
-        "consejos_otros_pacientes": [
-          "No teman hacer todas las preguntas necesarias y exigir respuestas claras de los médicos",
-          "Mantengan un registro detallado de todos los síntomas, consultas y resultados",
-          "Busquen grupos de apoyo de pacientes para obtener orientación sobre el sistema público"
-        ],
-        "valoracion_sistema_salud": {
-          "aspectos_positivos": "Los profesionales de la salud pública son muy dedicados y hacen lo posible con recursos limitados.",
-          "areas_mejora": "Se necesitan mejores mecanismos de coordinación y derivación entre niveles para agilizar los diagnósticos.",
-          "calificacion_general": "6/10"
-        },
-        "mensaje_final": "A pesar de los desafíos, nunca perdí la esperanza de que en el sistema público de salud lograran ayudarme. Con perseverancia, el apoyo de mi familia y la dedicación de los médicos, finalmente obtuve las respuestas que necesitaba."
       }
     },
     "CLAUDE_J84.1_0023": {
@@ -3197,23 +2846,6 @@
           "Buscar apoyo en nuestra familia y amigos"
         ],
         "impacto_familiar": "Fue un proceso muy angustioso para toda la familia. Nuestros hijos se preocupaban al ver a su madre mal y los gastos médicos fueron un golpe fuerte para nuestro presupuesto familiar."
-      },
-      "reflexiones_finales": {
-        "lecciones_aprendidas": [
-          "La perseverancia es clave cuando se navega el sistema público de salud",
-          "Es importante tener un círculo de apoyo familiar y de amigos"
-        ],
-        "consejos_otros_pacientes": [
-          "No darse por vencidos y seguir insistiendo hasta obtener un diagnóstico certero",
-          "Pedir derivaciones a especialistas si es necesario",
-          "Informarse bien sobre los beneficios de FONASA y los copagos"
-        ],
-        "valoracion_sistema_salud": {
-          "aspectos_positivos": "A pesar de las limitaciones de recursos, los profesionales de la salud pública están muy comprometidos y hacen su mejor esfuerzo.",
-          "areas_mejora": "Se necesitan más especialistas y equipamiento moderno, además de reducir los tiempos de espera.",
-          "calificacion_general": "6/10"
-        },
-        "mensaje_final": "A pesar de las dificultades, estoy agradecida de haber recibido un diagnóstico y tratamiento a través del sistema público. Sé que no es perfecto, pero valoro el esfuerzo de los profesionales de la salud que trabajan con recursos limitados."
       }
     },
     "CLAUDE_J84.1_0024": {
@@ -3321,23 +2953,6 @@
           "Hablar con otros familiares que habían pasado por situaciones similares"
         ],
         "impacto_familiar": "Fue un proceso muy desgastante para toda la familia, tanto emocional como económicamente. Pero nos mantuvimos muy unidos para apoyar a Javier."
-      },
-      "reflexiones_finales": {
-        "lecciones_aprendidas": [
-          "La perseverancia y no darse por vencido es clave en el sistema público",
-          "Es importante tener a la familia apoyando en este tipo de procesos"
-        ],
-        "consejos_otros_pacientes": [
-          "No tener miedo de insistir y pedir segundas opiniones en el sistema público",
-          "Ser paciente y comprender las limitaciones de recursos que enfrentan",
-          "Apoyarse en la familia y las redes de contención"
-        ],
-        "valoracion_sistema_salud": {
-          "aspectos_positivos": "A pesar de las deficiencias, los profesionales de la salud pública están muy comprometidos y hacen lo posible por los pacientes.",
-          "areas_mejora": "Se necesitan más recursos, especialistas y una mejor coordinación entre niveles para agilizar los diagnósticos.",
-          "calificacion_general": "6/10"
-        },
-        "mensaje_final": "A pesar de las dificultades, salí fortalecido de esta experiencia, valorando aún más el sistema público de salud y la importancia del apoyo familiar."
       }
     },
     "CLAUDE_J84.1_0025": {
@@ -3491,23 +3106,6 @@
           "Apoyé a Javier en sus trámites y gestiones con FONASA y las licencias médicas"
         ],
         "impacto_familiar": "Fue un período muy difícil, con mucha angustia e incertidumbre. Pero la unión familiar y mi fe en que lo atenderían bien en el sistema público nos dio fuerzas."
-      },
-      "reflexiones_finales": {
-        "lecciones_aprendidas": [
-          "Es importante insistir y no darse por vencido cuando uno siente que su salud está en riesgo",
-          "Navegar el sistema público de salud requiere mucha paciencia y perseverancia"
-        ],
-        "consejos_otros_pacientes": [
-          "No teman hacer todas las preguntas necesarias a los médicos del sistema público, ellos están para ayudarnos",
-          "Busquen el apoyo y acompañamiento de sus familias, eso es clave en esta odisea",
-          "Tengan presente que el proceso puede ser lento, pero los profesionales del sistema público son muy dedicados y trabajadores"
-        ],
-        "valoracion_sistema_salud": {
-          "aspectos_positivos": "A pesar de las deficiencias, los médicos y equipos del sistema público son muy comprometidos y hacen lo posible por brindar una buena atención con los recursos que tienen.",
-          "areas_mejora": "Se necesitan mayores recursos para reducir las listas de espera, aumentar la disponibilidad de especialistas y exámenes, y una mejor derivación de los casos complejos desde un inicio.",
-          "calificacion_general": "6/10"
-        },
-        "mensaje_final": "Aunque el camino fue difícil y frustrante en varios momentos, nunca perdí la fe en que el sistema público de salud me ayudaría. Y así fue, con profesionales muy dedicados que al final lograron diagnosticarme y tratarme. Es un sistema que funciona, pero que requiere mejoras para estar a la altura de las necesidades de todos los chilenos."
       }
     },
     "CLAUDE_J84.1_0026": {
@@ -3638,23 +3236,6 @@
           "Apoyarlo anímicamente para que no se rindiera"
         ],
         "impacto_familiar": "Fue una situación muy estresante para toda la familia, especialmente para mi mamá. Pero logramos unirnos y apoyarnos mutuamente"
-      },
-      "reflexiones_finales": {
-        "lecciones_aprendidas": [
-          "Hay que ser perseverante y no rendirse en el sistema público",
-          "Es importante tener a la familia apoyando en todo el proceso"
-        ],
-        "consejos_otros_pacientes": [
-          "Infórmense bien sobre los pasos a seguir y las coberturas FONASA",
-          "Tengan paciencia y no se desanimen con las demoras",
-          "Exijan que les hagan todos los exámenes necesarios hasta tener un diagnóstico claro"
-        ],
-        "valoracion_sistema_salud": {
-          "aspectos_positivos": "Los médicos en general muy comprometidos a pesar de los recursos limitados",
-          "areas_mejora": "Hace falta más personal y recursos para agilizar los tiempos de espera y diagnósticos",
-          "calificacion_general": "6/10"
-        },
-        "mensaje_final": "A pesar de las dificultades, logré recibir un diagnóstico y tratamiento gracias a la perseverancia y al apoyo de mi familia. El sistema público tiene sus deficiencias, pero valoro el esfuerzo de los profesionales de la salud."
       }
     },
     "CLAUDE_J84.1_0027": {
@@ -3785,23 +3366,6 @@
           "Buscar apoyo de nuestra familia extendida, tanto emocional como económico"
         ],
         "impacto_familiar": "Fue un periodo muy difícil y angustioso para toda la familia. Los niños también sufrieron mucho al ver a su padre tan enfermo. Pero nos mantuvimos unidos y apoyándonos mutuamente."
-      },
-      "reflexiones_finales": {
-        "lecciones_aprendidas": [
-          "Hay que ser muy perseverante y no darse por vencido cuando se navega el sistema público de salud",
-          "Es importante tener un cuidador que insista y abogue por el paciente en cada consulta"
-        ],
-        "consejos_otros_pacientes": [
-          "No tener miedo de pedir una segunda opinión o ser derivado a un especialista si los síntomas persisten",
-          "Apoyarse en la familia y la comunidad para sobrellevar esta difícil situación",
-          "Ser paciente, pero también firme en exigir una buena atención médica"
-        ],
-        "valoracion_sistema_salud": {
-          "aspectos_positivos": "A pesar de las demoras, los médicos y personal de salud se notaban comprometidos y hacían lo posible con los recursos disponibles.",
-          "areas_mejora": "Se necesitan procesos más ágiles para derivar a especialistas, mayor tiempo de atención por paciente y mejor coordinación entre niveles de atención.",
-          "calificacion_general": "6/10"
-        },
-        "mensaje_final": "A pesar de las dificultades, me siento agradecido de haber recibido finalmente un diagnóstico y poder tratar mi enfermedad gracias al sistema público de salud. Aunque hay mucho por mejorar, valoro el trabajo de los profesionales médicos que se esfuerzan día a día."
       }
     },
     "CLAUDE_J84.1_0028": {
@@ -3955,23 +3519,6 @@
           "Buscar apoyo de familiares y amigos cercanos"
         ],
         "impacto_familiar": "Fue un periodo muy difícil y estresante para toda la familia. Los niños estaban preocupados por su padre y la situación económica nos afectó mucho. Pero nos mantuvimos unidos y apoyándonos mutuamente."
-      },
-      "reflexiones_finales": {
-        "lecciones_aprendidas": [
-          "Es importante ser persistente y no darse por vencido en el sistema público",
-          "La familia y el apoyo emocional son claves en este tipo de situaciones"
-        ],
-        "consejos_otros_pacientes": [
-          "Tomen un rol activo en su propia atención médica, investiguen y hagan preguntas",
-          "No se desanimen por las demoras, el sistema público a veces es lento pero los profesionales se esfuerzan",
-          "Busquen apoyo de sus seres queridos, no tienen que pasar por esto solos"
-        ],
-        "valoracion_sistema_salud": {
-          "aspectos_positivos": "A pesar de las demoras, finalmente llegamos a un diagnóstico gracias a los profesionales comprometidos del sistema público.",
-          "areas_mejora": "Se necesitan más recursos para agilizar los tiempos de espera y hacer derivaciones más oportunas entre niveles de atención.",
-          "calificacion_general": "6/10"
-        },
-        "mensaje_final": "Aunque fue una odisea larga y difícil, estoy agradecido de que en Chile exista un sistema público que finalmente me permitió recibir un diagnóstico y tratamiento. Con perseverancia, apoyo familiar y profesionales dedicados, pudimos superar esta prueba."
       }
     },
     "CLAUDE_J84.1_0029": {
@@ -4102,23 +3649,6 @@
           "Insistí constantemente para que le hicieran los exámenes necesarios"
         ],
         "impacto_familiar": "Fue una experiencia muy desgastante para toda la familia. Nos unió mucho, pero también generó mucha angustia y preocupación económica"
-      },
-      "reflexiones_finales": {
-        "lecciones_aprendidas": [
-          "Es importante ser perseverante y no darse por vencido en el sistema público",
-          "Hay que informarse bien y exigir que se hagan todos los exámenes necesarios"
-        ],
-        "consejos_otros_pacientes": [
-          "No desanimarse y seguir insistiendo hasta obtener un diagnóstico certero",
-          "Buscar apoyo en organizaciones de pacientes para orientarse mejor",
-          "Ser paciente y comprender las limitaciones del sistema público, pero también exigir una atención digna"
-        ],
-        "valoracion_sistema_salud": {
-          "aspectos_positivos": "A pesar de las dificultades, los profesionales de la salud pública están muy comprometidos y hacen lo posible con los recursos disponibles",
-          "areas_mejora": "Se necesitan más recursos y una mejor coordinación para agilizar los diagnósticos y evitar las largas esperas",
-          "calificacion_general": "6/10"
-        },
-        "mensaje_final": "A pesar de las muchas dificultades, finalmente pudimos obtener un diagnóstico en el sistema público. Fue una larga y desgastante odisea, pero gracias a la perseverancia y al apoyo familiar, logramos avanzar. Ahora puedo iniciar un tratamiento adecuado y recuperar mi salud."
       }
     },
     "CLAUDE_J84.1_0030": {
@@ -4272,23 +3802,982 @@
           "Buscar apoyo en nuestra familia y amigos cercanos"
         ],
         "impacto_familiar": "Esta situación fue muy difícil para toda la familia. Nos unió aún más, pero también nos agotó emocional y económicamente."
+      }
+    },
+    "CLAUDE_Q43.8_0001": {
+      "perfil_paciente": {
+        "nombre": "Renata",
+        "edad": 4,
+        "sexo": "MUJER",
+        "profesion": "Estudiante",
+        "estado_civil": "Soltero/a",
+        "situacion_familiar": "Familia nuclear con dos hijos",
+        "personalidad": [
+          "Alegre",
+          "Valiente"
+        ],
+        "ciudad_residencia": "Puerto Montt (Región de Los Lagos)"
       },
-      "reflexiones_finales": {
-        "lecciones_aprendidas": [
-          "La perseverancia y la paciencia son claves al navegar el sistema público de salud.",
-          "Es importante tener un buen equipo de apoyo familiar y amigos cercanos."
-        ],
-        "consejos_otros_pacientes": [
-          "No se rindan y sigan insistiendo hasta obtener un diagnóstico y tratamiento adecuado.",
-          "Aprovechen todos los recursos y programas disponibles en el sistema público.",
-          "Mantengan la esperanza y la fe en los profesionales de la salud."
-        ],
-        "valoracion_sistema_salud": {
-          "aspectos_positivos": "A pesar de las limitaciones, el personal médico del sistema público está realmente comprometido con sus pacientes.",
-          "areas_mejora": "Se necesitan más recursos y una mejor coordinación para reducir los tiempos de espera y agilizar los diagnósticos.",
-          "calificacion_general": "6/10"
+      "resumen_odisea_personal": {
+        "duracion_meses": 8.1,
+        "numero_consultas": 5,
+        "diagnostico_final": "Otras malformaciones congénitas del intestino, especificadas",
+        "costo_total_familia": "$7,499,173 CLP (incluye copagos y gastos extra)"
+      },
+      "narrativa_cronologica": [
+        {
+          "momento": "Consulta 1",
+          "dias_desde_inicio": 0,
+          "narrativa_padres": {
+            "como_estaba_nuestro_hijo": "Renata tenía vómitos frecuentes y dificultad para alimentarse desde que nació",
+            "nuestras_preocupaciones": "Temíamos que fuera algo grave y que no pudiera nutrirse adecuadamente",
+            "que_esperabamos_del_medico": "Esperábamos que pudieran identificar la causa de sus problemas digestivos",
+            "experiencia_en_hospital": "La sala de espera estaba llena y tuvimos que esperar mucho tiempo con una bebé llorando",
+            "como_nos_sentimos_despues": "Salimos frustrados porque solo nos dijeron que era un problema digestivo común sin un diagnóstico claro",
+            "conversaciones_en_casa": "Decidimos insistir y buscar una segunda opinión, no podíamos quedarnos tranquilos"
+          },
+          "impacto_familiar": {
+            "organizacion_familiar": "Javiera tuvo que tomar una licencia para cuidar a Renata mientras yo trabajaba",
+            "trabajo_padres": "Yo tuve que hacer horas extras para cubrir los gastos adicionales",
+            "cuidado_otros_hijos": "Los abuelos ayudaron a cuidar a Tomás mientras nos enfocábamos en Renata",
+            "estado_emocional": "Fue un momento de mucha angustia e incertidumbre para toda la familia"
+          },
+          "aspectos_practicos": {
+            "tiempo_hospital": "Pasamos casi 3 horas esperando y en la consulta",
+            "gastos_dia": "Tuvimos que pagar el traslado y algunos medicamentos",
+            "coordinacion_citas": "Nos dieron una nueva cita para un mes después",
+            "informacion_recibida": "Sólo nos dijeron que era un problema digestivo sin un diagnóstico claro"
+          }
         },
-        "mensaje_final": "A pesar de los desafíos y frustraciones, estoy agradecida de haber recibido finalmente un diagnóstico y tratamiento en el sistema público de salud. Esta experiencia me ha enseñado la importancia de la perseverancia, el apoyo familiar y la fe en los profesionales médicos comprometidos."
+        {
+          "momento": "Consulta 5",
+          "dias_desde_inicio": 247,
+          "narrativa_padres": {
+            "como_estaba_nuestro_hijo": "Renata seguía con vómitos frecuentes y había dejado de ganar peso",
+            "nuestras_preocupaciones": "Temíamos que su desarrollo se viera afectado sin un tratamiento adecuado",
+            "que_esperabamos_del_medico": "Esperábamos finalmente tener un diagnóstico certero y un plan de tratamiento",
+            "experiencia_en_hospital": "Esta vez nos atendió un especialista en gastroenterología pediátrica",
+            "como_nos_sentimos_despues": "Nos sentimos aliviados de por fin tener un diagnóstico, pero preocupados por la cirugía que necesitaría",
+            "conversaciones_en_casa": "Hablamos de la fortaleza de Renata y de que con amor y fe saldríamos adelante juntos"
+          },
+          "impacto_familiar": {
+            "organizacion_familiar": "Decidimos que uno de los dos se quedaría en casa para cuidar a Renata después de la cirugía",
+            "trabajo_padres": "Yo tomaría una licencia médica por un tiempo para estar con ella en su recuperación",
+            "cuidado_otros_hijos": "Los abuelos seguirían apoyando con el cuidado de Tomás",
+            "estado_emocional": "Aunque aliviados, aún teníamos temor por los riesgos de la operación"
+          },
+          "aspectos_practicos": {
+            "tiempo_hospital": "La consulta fue más extensa al ser con un especialista",
+            "gastos_dia": "Tuvimos que pagar traslados y algunos exámenes adicionales",
+            "coordinacion_citas": "Nos dieron una cita para programar la cirugía en las siguientes semanas",
+            "informacion_recibida": "El médico nos explicó detalladamente la condición y el procedimiento quirúrgico necesario"
+          }
+        }
+      ]
+    },
+    "CLAUDE_Q43.8_0002": {
+      "perfil_paciente": {
+        "nombre": "Diego",
+        "edad": 2,
+        "sexo": "HOMBRE",
+        "profesion": "Estudiante",
+        "estado_civil": "Soltero/a",
+        "situacion_familiar": "Familia nuclear con una hija mayor",
+        "personalidad": [
+          "alegre",
+          "curioso"
+        ],
+        "ciudad_residencia": "Santiago (Región Metropolitana)"
+      },
+      "resumen_odisea_personal": {
+        "duracion_meses": 7.8,
+        "numero_consultas": 5,
+        "diagnostico_final": "Otras malformaciones congénitas del intestino, especificadas",
+        "costo_total_familia": "$16,923,350 CLP (incluye copagos y gastos extra)"
+      },
+      "narrativa_cronologica": [
+        {
+          "momento": "Consulta 1",
+          "dias_desde_inicio": 0,
+          "narrativa_padres": {
+            "como_estaba_nuestro_hijo": "Diego presentaba vómitos frecuentes y dificultad para alimentarse",
+            "nuestras_preocupaciones": "Temíamos que fuera algo grave y que no pudiera nutrirse adecuadamente",
+            "que_esperabamos_del_medico": "Esperábamos que pudieran identificar la causa de sus síntomas",
+            "experiencia_en_hospital": "La sala de espera estaba abarrotada y tuvimos que esperar mucho tiempo",
+            "como_nos_sentimos_despues": "Salimos frustrados porque solo nos dieron un diagnóstico inespecífico",
+            "conversaciones_en_casa": "Discutimos la posibilidad de buscar una segunda opinión en otro hospital"
+          },
+          "impacto_familiar": {
+            "organizacion_familiar": "Camila tuvo que tomar días libres del trabajo para cuidar a Diego",
+            "trabajo_padres": "Javier tuvo que trabajar horas extras para compensar los gastos adicionales",
+            "cuidado_otros_hijos": "La abuela materna ayudó con el cuidado de Sofía mientras nosotros estábamos en el hospital",
+            "estado_emocional": "Estábamos preocupados y angustiados por no tener un diagnóstico claro"
+          },
+          "aspectos_practicos": {
+            "tiempo_hospital": "Pasamos casi 3 horas en el hospital entre la espera y la consulta",
+            "gastos_dia": "Gastamos en traslados y algunos alimentos durante la espera",
+            "coordinacion_citas": "Nos dieron una nueva cita para un mes después",
+            "informacion_recibida": "El médico solo nos dijo que era un problema digestivo y que siguiéramos observando"
+          }
+        },
+        {
+          "momento": "Consulta 2",
+          "dias_desde_inicio": 45,
+          "narrativa_padres": {
+            "como_estaba_nuestro_hijo": "Diego seguía con vómitos y ahora también tenía diarrea frecuente",
+            "nuestras_preocupaciones": "Temíamos que estuviera deshidratándose y perdiendo peso",
+            "que_esperabamos_del_medico": "Esperábamos que ordenaran más exámenes para encontrar la causa",
+            "experiencia_en_hospital": "La espera fue similar a la vez anterior, pero pudimos conversar con otros padres",
+            "como_nos_sentimos_despues": "Salimos decepcionados porque nuevamente no hubo un diagnóstico claro",
+            "conversaciones_en_casa": "Decidimos buscar información en internet sobre los síntomas de Diego"
+          },
+          "impacto_familiar": {
+            "organizacion_familiar": "Mis padres se ofrecieron a cuidar a Sofía mientras estábamos en el hospital",
+            "trabajo_padres": "Javier tuvo que faltar algunos días al trabajo por las consultas",
+            "cuidado_otros_hijos": "Sofía se quedaba con los abuelos mientras nosotros acompañábamos a Diego",
+            "estado_emocional": "La incertidumbre y la preocupación por Diego nos tenían muy estresados"
+          },
+          "aspectos_practicos": {
+            "tiempo_hospital": "Nuevamente pasamos alrededor de 3 horas en el hospital",
+            "gastos_dia": "Además de los traslados, tuvimos que comprar algunos medicamentos",
+            "coordinacion_citas": "Nos programaron una nueva cita para 2 meses después",
+            "informacion_recibida": "El médico dijo que podría ser una intolerancia alimentaria y nos recomendó cambiar la dieta"
+          }
+        }
+      ]
+    },
+    "CLAUDE_Q43.8_0003": {
+      "perfil_paciente": {
+        "nombre": "Matías",
+        "edad": 4,
+        "sexo": "HOMBRE",
+        "profesion": "Estudiante",
+        "estado_civil": "Soltero/a",
+        "situacion_familiar": "Familia nuclear con dos hijos",
+        "personalidad": [
+          "Alegre",
+          "Curioso"
+        ],
+        "ciudad_residencia": "Santiago"
+      },
+      "resumen_odisea_personal": {
+        "duracion_meses": 6.9,
+        "numero_consultas": 4,
+        "diagnostico_final": "Otras malformaciones congénitas del intestino, especificadas",
+        "costo_total_familia": "$21,727,767 CLP (incluye copagos y gastos extra)"
+      },
+      "narrativa_cronologica": [
+        {
+          "momento": "Consulta 1",
+          "dias_desde_inicio": 0,
+          "narrativa_padres": {
+            "como_estaba_nuestro_hijo": "Matías tenía problemas para alimentarse y vomitaba con frecuencia desde que nació",
+            "nuestras_preocupaciones": "Temíamos que fuera algo grave y que no pudiera nutrirse adecuadamente",
+            "que_esperabamos_del_medico": "Esperábamos que pudieran identificar la causa de sus problemas y darnos un tratamiento",
+            "experiencia_en_hospital": "La sala de urgencias estaba llena y tuvimos que esperar mucho tiempo para ser atendidos",
+            "como_nos_sentimos_despues": "Salimos frustrados porque no nos dieron un diagnóstico claro, solo nos dijeron que era un problema digestivo inespecífico",
+            "conversaciones_en_casa": "Nos preguntábamos si los médicos estaban tomando en serio los síntomas de nuestro bebé"
+          },
+          "impacto_familiar": {
+            "organizacion_familiar": "Tuvimos que turnarnos para cuidar a Matías y atender a nuestra hija mayor",
+            "trabajo_padres": "José tuvo que tomar días libres en su trabajo por las consultas médicas",
+            "cuidado_otros_hijos": "Los abuelos nos ayudaron a cuidar a Sofía mientras estábamos en el hospital",
+            "estado_emocional": "Fue un periodo de mucha angustia e incertidumbre para toda la familia"
+          },
+          "aspectos_practicos": {
+            "tiempo_hospital": "Pasamos casi 3 horas en la sala de urgencias",
+            "gastos_dia": "Gastamos alrededor de $3,144,022 CLP en transporte y comidas",
+            "coordinacion_citas": "Nos dieron una nueva cita para un mes después",
+            "informacion_recibida": "Sólo nos dijeron que era un problema digestivo sin especificar más"
+          }
+        },
+        {
+          "momento": "Consulta 2",
+          "dias_desde_inicio": 87,
+          "narrativa_padres": {
+            "como_estaba_nuestro_hijo": "Matías seguía con vómitos frecuentes y no lograba aumentar de peso",
+            "nuestras_preocupaciones": "Temíamos que no estuviera recibiendo los nutrientes necesarios para su desarrollo",
+            "que_esperabamos_del_medico": "Esperábamos que esta vez nos dieran un diagnóstico más preciso",
+            "experiencia_en_hospital": "Nuevamente tuvimos que esperar mucho tiempo en la sala de espera",
+            "como_nos_sentimos_despues": "Salimos decepcionados y molestos porque otra vez no nos dieron respuestas claras",
+            "conversaciones_en_casa": "Discutimos sobre la posibilidad de buscar atención médica privada"
+          },
+          "impacto_familiar": {
+            "organizacion_familiar": "Seguíamos turnándonos con los cuidados de Matías y Sofía",
+            "trabajo_padres": "Catalina tuvo que pedir algunos días libres en su trabajo",
+            "cuidado_otros_hijos": "Los abuelos maternos nos ayudaron con el cuidado de Sofía",
+            "estado_emocional": "La incertidumbre y la frustración crecían en la familia"
+          },
+          "aspectos_practicos": {
+            "tiempo_hospital": "Pasamos casi 3 horas nuevamente en el hospital",
+            "gastos_dia": "Gastamos alrededor de $2,696,287 CLP en transporte y comidas",
+            "coordinacion_citas": "Nos programaron una nueva cita para un mes después",
+            "informacion_recibida": "Nos dijeron que seguían estudiando el caso de Matías"
+          }
+        },
+        {
+          "momento": "Consulta 3",
+          "dias_desde_inicio": 122,
+          "narrativa_padres": {
+            "como_estaba_nuestro_hijo": "Matías ya casi no retenía los alimentos y se veía cada vez más delgado",
+            "nuestras_preocupaciones": "Temíamos que su condición empeorara y su vida corriera peligro",
+            "que_esperabamos_del_medico": "Esperábamos finalmente tener un diagnóstico certero",
+            "experiencia_en_hospital": "Esta vez nos atendieron un poco más rápido, pero seguía siendo una larga espera",
+            "como_nos_sentimos_despues": "Salimos desanimados y con la sensación de que no avanzábamos",
+            "conversaciones_en_casa": "Discutimos sobre la posibilidad de viajar a otro hospital para una segunda opinión"
+          },
+          "impacto_familiar": {
+            "organizacion_familiar": "Los abuelos pasaban más tiempo en casa para ayudarnos con los niños",
+            "trabajo_padres": "José tuvo que reducir su jornada laboral por las múltiples consultas",
+            "cuidado_otros_hijos": "Sofía a veces se sentía descuidada por la atención que requería su hermano",
+            "estado_emocional": "El estrés y el desgaste emocional eran muy altos en la familia"
+          },
+          "aspectos_practicos": {
+            "tiempo_hospital": "Pasamos alrededor de 2 horas y media en el hospital",
+            "gastos_dia": "Gastamos alrededor de $3,826,381 CLP en transporte, comidas y algunos exámenes",
+            "coordinacion_citas": "Nos dieron una nueva cita para dos meses después",
+            "informacion_recibida": "Nos dijeron que estaban descartando algunas posibilidades"
+          }
+        },
+        {
+          "momento": "Consulta 4",
+          "dias_desde_inicio": 211,
+          "narrativa_padres": {
+            "como_estaba_nuestro_hijo": "Matías ya casi no comía y su estado era muy delicado",
+            "nuestras_preocupaciones": "Temíamos perderlo si no recibía un tratamiento pronto",
+            "que_esperabamos_del_medico": "Esperábamos finalmente tener un diagnóstico certero y un plan de tratamiento",
+            "experiencia_en_hospital": "Esta vez nos atendieron con mayor prontitud al ver la gravedad del caso",
+            "como_nos_sentimos_despues": "Nos sentimos aliviados de por fin tener un diagnóstico, pero preocupados por la cirugía que necesitaría",
+            "conversaciones_en_casa": "Hablamos sobre la fortaleza que tendríamos que tener como familia para este proceso"
+          },
+          "impacto_familiar": {
+            "organizacion_familiar": "Catalina tuvo que tomar una licencia de su trabajo para estar con Matías",
+            "trabajo_padres": "José tuvo que trabajar horas extras para cubrir los gastos médicos",
+            "cuidado_otros_hijos": "Los abuelos se hicieron cargo de Sofía mientras estábamos en el hospital",
+            "estado_emocional": "Había una mezcla de alivio por el diagnóstico y temor por lo que vendría"
+          },
+          "aspectos_practicos": {
+            "tiempo_hospital": "Pasamos casi 4 horas realizando exámenes y consultas",
+            "gastos_dia": "Gastamos alrededor de $12,061,078 CLP en exámenes, transporte y estadía",
+            "coordinacion_citas": "Nos coordinaron rápidamente con cirujanos pediátricos",
+            "informacion_recibida": "Nos explicaron la malformación intestinal y el procedimiento quirúrgico necesario"
+          }
+        }
+      ]
+    },
+    "CLAUDE_Q43.8_0004": {
+      "perfil_paciente": {
+        "nombre": "Cristóbal",
+        "edad": 5,
+        "sexo": "HOMBRE",
+        "profesion": "Estudiante",
+        "estado_civil": "Soltero/a",
+        "situacion_familiar": "Familia nuclear con una hija mayor",
+        "personalidad": [
+          "Alegre",
+          "Curioso"
+        ],
+        "ciudad_residencia": "Puerto Montt"
+      },
+      "resumen_odisea_personal": {
+        "duracion_meses": 6.8,
+        "numero_consultas": 5,
+        "diagnostico_final": "Otras malformaciones congénitas del intestino, especificadas",
+        "costo_total_familia": "$14,520,766 CLP (incluye copagos y gastos extra)"
+      },
+      "narrativa_cronologica": [
+        {
+          "momento": "Consulta 1",
+          "dias_desde_inicio": 0,
+          "narrativa_padres": {
+            "como_estaba_nuestro_hijo": "Cristóbal presentaba vómitos recurrentes y dificultad para alimentarse desde su nacimiento",
+            "nuestras_preocupaciones": "Temíamos que fuera algo grave y no supieramos qué hacer",
+            "que_esperabamos_del_medico": "Esperábamos que nos dieran un diagnóstico claro y un plan de tratamiento",
+            "experiencia_en_hospital": "La sala de espera estaba abarrotada y tuvimos que esperar mucho tiempo para ser atendidos",
+            "como_nos_sentimos_despues": "Salimos frustrados y confundidos porque no nos dieron respuestas concretas",
+            "conversaciones_en_casa": "Discutimos si debíamos insistir en el hospital o buscar una segunda opinión"
+          },
+          "impacto_familiar": {
+            "organizacion_familiar": "Tuvimos que turnarnos para cuidar a Cristóbal y atender a nuestra hija mayor",
+            "trabajo_padres": "Rodrigo tuvo que faltar algunos días al trabajo por las consultas médicas",
+            "cuidado_otros_hijos": "Los abuelos nos ayudaron a cuidar a Sofía mientras estábamos en el hospital",
+            "estado_emocional": "Predominaba la angustia e incertidumbre por no saber qué le ocurría a nuestro hijo"
+          },
+          "aspectos_practicos": {
+            "tiempo_hospital": "Pasamos casi todo el día en el hospital entre la espera y la consulta",
+            "gastos_dia": "Gastamos en traslados, estacionamiento y algunas comidas fuera",
+            "coordinacion_citas": "Nos dieron una nueva cita para un mes después",
+            "informacion_recibida": "Sólo nos dijeron que Cristóbal tenía 'síntomas digestivos' sin un diagnóstico claro"
+          }
+        },
+        {
+          "momento": "Consulta 5",
+          "dias_desde_inicio": 207,
+          "narrativa_padres": {
+            "como_estaba_nuestro_hijo": "Cristóbal seguía con vómitos frecuentes y no lograba ganar peso adecuadamente",
+            "nuestras_preocupaciones": "Temíamos que su desarrollo se viera afectado si no recibía el tratamiento correcto",
+            "que_esperabamos_del_medico": "Esperábamos finalmente tener un diagnóstico certero y un plan de acción",
+            "experiencia_en_hospital": "Esta vez nos atendió un equipo de especialistas que realizó varios exámenes",
+            "como_nos_sentimos_despues": "Nos sentimos aliviados de por fin tener un diagnóstico, pero también preocupados por lo que vendría",
+            "conversaciones_en_casa": "Hablamos sobre la necesidad de apoyarnos como familia para enfrentar este desafío"
+          },
+          "impacto_familiar": {
+            "organizacion_familiar": "Tuvimos que reorganizar nuestras rutinas para atender las necesidades de Cristóbal",
+            "trabajo_padres": "Javiera tuvo que reducir su jornada laboral para acompañar a Cristóbal en sus tratamientos",
+            "cuidado_otros_hijos": "Los abuelos siguieron siendo un gran apoyo para cuidar a Sofía",
+            "estado_emocional": "Predominaba la esperanza de que con el tratamiento adecuado, Cristóbal pudiera recuperarse"
+          },
+          "aspectos_practicos": {
+            "tiempo_hospital": "Pasamos varias horas realizando distintos exámenes y consultas con especialistas",
+            "gastos_dia": "Los gastos fueron mayores por los múltiples exámenes y traslados",
+            "coordinacion_citas": "Nos dieron una cita con el cirujano pediátrico para programar la operación",
+            "informacion_recibida": "Nos explicaron detalladamente el diagnóstico y el procedimiento quirúrgico necesario"
+          }
+        }
+      ]
+    },
+    "CLAUDE_Q43.8_0005": {
+      "perfil_paciente": {
+        "nombre": "Benjamín",
+        "edad": 4,
+        "sexo": "HOMBRE",
+        "profesion": "Estudiante",
+        "estado_civil": "Soltero/a",
+        "situacion_familiar": "Familia nuclear con 3 hijos pequeños",
+        "personalidad": [
+          "Alegre",
+          "Curioso"
+        ],
+        "ciudad_residencia": "Valparaíso"
+      },
+      "resumen_odisea_personal": {
+        "duracion_meses": 6.2,
+        "numero_consultas": 4,
+        "diagnostico_final": "Otras malformaciones congénitas del intestino, especificadas",
+        "costo_total_familia": "$14,260,977 CLP (incluye copagos y gastos extra)"
+      },
+      "narrativa_cronologica": [
+        {
+          "momento": "Consulta 1",
+          "dias_desde_inicio": 0,
+          "narrativa_padres": {
+            "como_estaba_nuestro_hijo": "Benjamín lloraba mucho y parecía tener dolor abdominal. No quería comer y vomitaba con frecuencia",
+            "nuestras_preocupaciones": "Temíamos que fuera algo grave relacionado con su intestino o estómago",
+            "que_esperabamos_del_medico": "Esperábamos que nos dieran un diagnóstico certero y un tratamiento para aliviar sus síntomas",
+            "experiencia_en_hospital": "La sala de espera estaba llena y tuvimos que esperar mucho tiempo para ser atendidos. El médico parecía apresurado",
+            "como_nos_sentimos_despues": "Salimos frustrados y preocupados porque no tenían una respuesta clara para lo que le pasaba a Benjamín",
+            "conversaciones_en_casa": "Discutimos si deberíamos buscar una segunda opinión en otro hospital, pero con nuestros recursos limitados era difícil"
+          },
+          "impacto_familiar": {
+            "organizacion_familiar": "Camila tuvo que dejar su trabajo temporalmente para cuidar a Benjamín",
+            "trabajo_padres": "Javier tuvo que hacer horas extras para compensar la pérdida de ingresos",
+            "cuidado_otros_hijos": "Las abuelas nos ayudaban a cuidar a Isidora y Valentina mientras estábamos en el hospital",
+            "estado_emocional": "La incertidumbre y la preocupación por Benjamín generaban tensión en la familia"
+          },
+          "aspectos_practicos": {
+            "tiempo_hospital": "Pasamos casi todo el día en el hospital, desde la mañana hasta la tarde",
+            "gastos_dia": "Gastos de transporte, alimentos y algunos medicamentos para los síntomas",
+            "coordinacion_citas": "Nos dieron una nueva cita para un mes después",
+            "informacion_recibida": "El médico dijo que podría ser una indigestión o un virus estomacal, pero que habría que seguir observando"
+          }
+        },
+        {
+          "momento": "Consulta 2",
+          "dias_desde_inicio": 78,
+          "narrativa_padres": {
+            "como_estaba_nuestro_hijo": "Los síntomas de Benjamín no mejoraban, seguía con dolor abdominal y vómitos frecuentes",
+            "nuestras_preocupaciones": "Nos preocupaba que no estuvieran identificando la causa real de sus problemas",
+            "que_esperabamos_del_medico": "Esperábamos que ordenaran más exámenes para llegar a un diagnóstico certero",
+            "experiencia_en_hospital": "La espera fue larga nuevamente y el médico parecía tener poco tiempo para atendernos",
+            "como_nos_sentimos_despues": "Salimos decepcionados y frustrados porque no avanzábamos en encontrar una solución",
+            "conversaciones_en_casa": "Discutimos la posibilidad de pedir una interconsulta con un gastroenterólogo pediátrico"
+          },
+          "impacto_familiar": {
+            "organizacion_familiar": "Camila seguía sin trabajar y Javier haciendo horas extras",
+            "trabajo_padres": "La situación laboral de Javier era inestable debido a las ausencias por las consultas",
+            "cuidado_otros_hijos": "Las abuelas y algunas vecinas nos ayudaban con las niñas",
+            "estado_emocional": "La tensión y el estrés eran altos, discutíamos con frecuencia en casa"
+          },
+          "aspectos_practicos": {
+            "tiempo_hospital": "Otra jornada completa perdida en el hospital",
+            "gastos_dia": "Gastos de transporte, alimentos y algunos medicamentos",
+            "coordinacion_citas": "Nos dieron una nueva cita para dos meses después",
+            "informacion_recibida": "El médico dijo que podría ser una intolerancia alimentaria y recomendó cambios en la dieta"
+          }
+        },
+        {
+          "momento": "Consulta 3",
+          "dias_desde_inicio": 141,
+          "narrativa_padres": {
+            "como_estaba_nuestro_hijo": "Benjamín seguía con los mismos síntomas, incluso había perdido peso",
+            "nuestras_preocupaciones": "Temíamos que su condición empeorara y pusiera en riesgo su vida",
+            "que_esperabamos_del_medico": "Esperábamos que finalmente ordenaran exámenes más exhaustivos",
+            "experiencia_en_hospital": "La espera fue eterna, había mucha gente y poco personal",
+            "como_nos_sentimos_despues": "Salimos desanimados y con la sensación de que no nos tomaban en serio",
+            "conversaciones_en_casa": "Discutimos la posibilidad de ir a un hospital privado, pero los costos eran muy altos para nosotros"
+          },
+          "impacto_familiar": {
+            "organizacion_familiar": "Camila seguía sin trabajar y Javier con trabajos eventuales",
+            "trabajo_padres": "La situación laboral de ambos era muy inestable",
+            "cuidado_otros_hijos": "Las niñas estaban descuidadas, con poca atención de nosotros",
+            "estado_emocional": "Había mucha tensión y discusiones en la familia, nos sentíamos agobiados"
+          },
+          "aspectos_practicos": {
+            "tiempo_hospital": "Otra larga espera de varias horas en el hospital",
+            "gastos_dia": "Gastos de transporte, alimentos y algunos medicamentos",
+            "coordinacion_citas": "Nos dieron una nueva cita para un mes después",
+            "informacion_recibida": "El médico dijo que podría ser una infección intestinal y recetó antibióticos"
+          }
+        },
+        {
+          "momento": "Consulta 4",
+          "dias_desde_inicio": 189,
+          "narrativa_padres": {
+            "como_estaba_nuestro_hijo": "Benjamín seguía con los mismos síntomas persistentes, estaba cada vez más delgado y débil",
+            "nuestras_preocupaciones": "Temíamos lo peor, que fuera algo realmente grave y sin tratamiento",
+            "que_esperabamos_del_medico": "Esperábamos que finalmente llegaran a un diagnóstico certero",
+            "experiencia_en_hospital": "La espera fue extenuante, pero esta vez nos atendió un médico más experimentado",
+            "como_nos_sentimos_despues": "Aunque el diagnóstico era preocupante, nos sentimos aliviados de finalmente saber qué le pasaba a Benjamín",
+            "conversaciones_en_casa": "Discutimos los próximos pasos y la necesidad de que Benjamín fuera operado lo antes posible"
+          },
+          "impacto_familiar": {
+            "organizacion_familiar": "Camila pudo volver a trabajar, pero con horarios reducidos",
+            "trabajo_padres": "Javier consiguió un trabajo más estable, aunque con ingresos limitados",
+            "cuidado_otros_hijos": "Las niñas recibían más atención de la familia extendida",
+            "estado_emocional": "Aunque preocupados, había esperanza de que Benjamín pudiera ser tratado"
+          },
+          "aspectos_practicos": {
+            "tiempo_hospital": "Otra larga jornada en el hospital, pero con un desenlace positivo",
+            "gastos_dia": "Gastos de transporte, alimentos y algunos exámenes adicionales",
+            "coordinacion_citas": "Nos derivaron al Hospital Roberto del Río para la cirugía de Benjamín",
+            "informacion_recibida": "El médico nos explicó detalladamente la condición de Benjamín y el tratamiento quirúrgico necesario"
+          }
+        }
+      ]
+    },
+    "CLAUDE_Q43.8_UNIFIED_0001": {
+      "perfil_paciente": {
+        "nombre": "Isidora",
+        "edad": 4,
+        "sexo": "MUJER",
+        "profesion": "Estudiante",
+        "estado_civil": "Soltero/a",
+        "situacion_familiar": "Familia nuclear con dos hijos",
+        "personalidad": [
+          "Alegre",
+          "Valiente"
+        ],
+        "ciudad_residencia": "Puerto Montt (Región de Los Lagos)"
+      },
+      "resumen_odisea_personal": {
+        "duracion_meses": 8.1,
+        "numero_consultas": 5,
+        "diagnostico_final": "Otras malformaciones congénitas del intestino, especificadas",
+        "costo_total_familia": "$7,499,173 CLP (incluye copagos y gastos extra)"
+      },
+      "narrativa_cronologica": [
+        {
+          "momento": "Consulta 1",
+          "dias_desde_inicio": 0,
+          "narrativa_padres": {
+            "como_estaba_nuestro_hijo": "Isidora había nacido hace apenas unas horas y notamos que su abdomen se veía hinchado y no lograba expulsar las primeras heces.",
+            "nuestras_preocupaciones": "Temíamos que fuera algo grave relacionado con sus intestinos y que pudiera poner en riesgo su vida.",
+            "que_esperabamos_del_medico": "Esperábamos que el médico pudiera identificar rápidamente el problema y darnos un diagnóstico certero.",
+            "experiencia_en_hospital": "La sala de urgencias estaba llena y tuvimos que esperar bastante tiempo para ser atendidos. El personal estaba sobrecargado.",
+            "como_nos_sentimos_despues": "Salimos muy frustrados y preocupados porque no nos dieron un diagnóstico claro, solo un código inespecífico.",
+            "conversaciones_en_casa": "En casa, Javiera lloraba desconsolada temiendo lo peor para nuestra pequeña Isidora. Yo intentaba mantener la calma y la esperanza."
+          },
+          "impacto_familiar": {
+            "organizacion_familiar": "Tuve que pedir algunos días libres en el trabajo para poder acompañar a Javiera y a Isidora en las consultas.",
+            "trabajo_padres": "Javiera tuvo que dejar sus labores domésticas para dedicarse por completo al cuidado de Isidora.",
+            "cuidado_otros_hijos": "Mi madre nos ayudaba a cuidar a Martín, nuestro hijo mayor, cuando teníamos que ir al hospital.",
+            "estado_emocional": "Reinaba un ambiente de angustia e incertidumbre en nuestra familia. Todos estábamos muy preocupados por Isidora."
+          },
+          "aspectos_practicos": {
+            "tiempo_hospital": "Pasamos casi 3 horas en el hospital entre la espera y la consulta.",
+            "gastos_dia": "Gastamos alrededor de $50.000 en traslados y algunos medicamentos.",
+            "coordinacion_citas": "Nos dieron una nueva cita para un control en dos meses más.",
+            "informacion_recibida": "Lamentablemente, el médico no nos dio mucha información clara, solo un código que no entendíamos."
+          }
+        }
+      ]
+    },
+    "CLAUDE_Q43.8_UNIFIED_0002": {
+      "perfil_paciente": {
+        "nombre": "Matías",
+        "edad": 2,
+        "sexo": "HOMBRE",
+        "profesion": "Estudiante",
+        "estado_civil": "Soltero/a",
+        "situacion_familiar": "Familia nuclear con dos hijos",
+        "personalidad": [
+          "Alegre",
+          "Curioso"
+        ],
+        "ciudad_residencia": "Santiago (Región Metropolitana)"
+      },
+      "resumen_odisea_personal": {
+        "duracion_meses": 7.8,
+        "numero_consultas": 5,
+        "diagnostico_final": "Otras malformaciones congénitas del intestino, especificadas",
+        "costo_total_familia": "$16,923,350 CLP (incluye copagos y gastos extra)"
+      },
+      "narrativa_cronologica": [
+        {
+          "momento": "Consulta 1",
+          "dias_desde_inicio": 0,
+          "narrativa_padres": {
+            "como_estaba_nuestro_hijo": "Matías no retenía los alimentos y vomitaba constantemente después de las comidas",
+            "nuestras_preocupaciones": "Temíamos que no estuviera recibiendo la nutrición adecuada y que pudiera deshidratarse",
+            "que_esperabamos_del_medico": "Esperábamos que nos dieran un diagnóstico claro y un plan de tratamiento",
+            "experiencia_en_hospital": "La sala de espera estaba abarrotada y tuvimos que esperar casi 2 horas para ser atendidos",
+            "como_nos_sentimos_despues": "Salimos frustrados y preocupados porque sólo nos dieron un diagnóstico genérico sin explicaciones claras",
+            "conversaciones_en_casa": "Conversamos sobre buscar una segunda opinión, pero no teníamos los recursos para ir a una clínica privada"
+          },
+          "impacto_familiar": {
+            "organizacion_familiar": "Camila tuvo que tomar algunas semanas de licencia para cuidar a Matías",
+            "trabajo_padres": "Javier tuvo que trabajar horas extras para compensar los ingresos perdidos",
+            "cuidado_otros_hijos": "La abuela materna nos ayudó con el cuidado de Sofía mientras nos enfocábamos en Matías",
+            "estado_emocional": "Estábamos muy angustiados y preocupados por la salud de nuestro bebé"
+          },
+          "aspectos_practicos": {
+            "tiempo_hospital": "Pasamos casi 4 horas en el hospital entre la espera y la consulta",
+            "gastos_dia": "Gastamos alrededor de $20,000 en transporte y algunos alimentos",
+            "coordinacion_citas": "Nos dieron una nueva cita para un mes más tarde",
+            "informacion_recibida": "Sólo nos dijeron que Matías tenía un trastorno funcional del intestino, pero sin mayores detalles"
+          }
+        },
+        {
+          "momento": "Consulta 2",
+          "dias_desde_inicio": 45,
+          "narrativa_padres": {
+            "como_estaba_nuestro_hijo": "Matías seguía con vómitos frecuentes y había perdido algo de peso",
+            "nuestras_preocupaciones": "Temíamos que su desarrollo se viera afectado si no lográbamos resolverlo pronto",
+            "que_esperabamos_del_medico": "Esperábamos que esta vez nos dieran un diagnóstico más específico y un plan de acción",
+            "experiencia_en_hospital": "La consulta fue más rápida esta vez, pero aún tuvimos que esperar bastante",
+            "como_nos_sentimos_despues": "Salimos decepcionados porque nuevamente no hubo un diagnóstico claro",
+            "conversaciones_en_casa": "Discutimos la posibilidad de buscar un pediatra particular, pero los costos eran muy altos para nosotros"
+          },
+          "impacto_familiar": {
+            "organizacion_familiar": "Seguíamos turnándonos con Camila para cuidar a Matías y atender a Sofía",
+            "trabajo_padres": "Javier tuvo que rechazar algunos trabajos extras por el tiempo que requería el cuidado de Matías",
+            "cuidado_otros_hijos": "Los abuelos paternos nos ayudaron más con el cuidado de Sofía",
+            "estado_emocional": "La incertidumbre y la preocupación por Matías comenzaban a afectar nuestra relación de pareja"
+          },
+          "aspectos_practicos": {
+            "tiempo_hospital": "Pasamos alrededor de 3 horas en el hospital",
+            "gastos_dia": "Gastamos unos $15,000 en transporte y algunos suministros para Matías",
+            "coordinacion_citas": "Nos dieron una nueva cita para 2 meses después",
+            "informacion_recibida": "Sólo nos dijeron que Matías tenía un trastorno funcional del intestino, sin mayores explicaciones"
+          }
+        }
+      ]
+    },
+    "CLAUDE_Q43.8_UNIFIED_0003": {
+      "perfil_paciente": {
+        "nombre": "Benjamín",
+        "edad": 4,
+        "sexo": "HOMBRE",
+        "profesion": "Estudiante",
+        "estado_civil": "Soltero/a",
+        "situacion_familiar": "Familia nuclear con dos hijos",
+        "personalidad": [
+          "Alegre",
+          "Curioso"
+        ],
+        "ciudad_residencia": "Santiago (Región Metropolitana)"
+      },
+      "resumen_odisea_personal": {
+        "duracion_meses": 6.9,
+        "numero_consultas": 4,
+        "diagnostico_final": "Otras malformaciones congénitas del intestino, especificadas",
+        "costo_total_familia": "$21,727,767 CLP (incluye copagos y gastos extra)"
+      },
+      "narrativa_cronologica": [
+        {
+          "momento": "Consulta 1",
+          "dias_desde_inicio": 0,
+          "narrativa_padres": {
+            "como_estaba_nuestro_hijo": "Benjamín tenía vómitos frecuentes y dificultad para alimentarse desde que nació",
+            "nuestras_preocupaciones": "Temíamos que fuera algo grave y que no pudiera crecer saludable",
+            "que_esperabamos_del_medico": "Esperábamos que pudieran diagnosticar rápidamente el problema",
+            "experiencia_en_hospital": "La sala de espera estaba llena, tuvimos que esperar mucho tiempo para ser atendidos",
+            "como_nos_sentimos_despues": "Salimos preocupados porque no tenían un diagnóstico claro",
+            "conversaciones_en_casa": "Comentamos que tendríamos que insistir para encontrar la causa de los síntomas"
+          },
+          "impacto_familiar": {
+            "organizacion_familiar": "Sofía tuvo que pedir días libres en el trabajo para acompañar a Benjamín",
+            "trabajo_padres": "Javier tuvo que tomar algunos días sin pago en la obra",
+            "cuidado_otros_hijos": "La abuela materna cuidó a Camila mientras estábamos en el hospital",
+            "estado_emocional": "Estábamos muy preocupados y angustiados por la salud de nuestro hijo"
+          },
+          "aspectos_practicos": {
+            "tiempo_hospital": "Estuvimos casi 3 horas en el hospital entre la espera y la consulta",
+            "gastos_dia": "Gastamos alrededor de $3,000 en transporte y algunas comidas",
+            "coordinacion_citas": "Nos dieron una nueva cita para un control en 3 meses",
+            "informacion_recibida": "El médico sólo dijo que tenía problemas digestivos, pero no especificó la causa"
+          }
+        },
+        {
+          "momento": "Consulta 2",
+          "dias_desde_inicio": 87,
+          "narrativa_padres": {
+            "como_estaba_nuestro_hijo": "Benjamín seguía con vómitos frecuentes y poco aumento de peso",
+            "nuestras_preocupaciones": "Nos preocupaba que no estuviera creciendo adecuadamente",
+            "que_esperabamos_del_medico": "Esperábamos que esta vez pudieran hacer más exámenes",
+            "experiencia_en_hospital": "La consulta fue más rápida, pero seguían sin tener un diagnóstico claro",
+            "como_nos_sentimos_despues": "Salimos frustrados por la falta de respuestas concretas",
+            "conversaciones_en_casa": "Discutimos la posibilidad de buscar una segunda opinión en otro hospital"
+          },
+          "impacto_familiar": {
+            "organizacion_familiar": "Sofía siguió pidiendo permisos en el trabajo para acompañar a Benjamín",
+            "trabajo_padres": "Javier tuvo que faltar algunos días más sin remuneración",
+            "cuidado_otros_hijos": "Los abuelos maternos siguieron apoyando con el cuidado de Camila",
+            "estado_emocional": "La incertidumbre y la falta de respuestas nos tenían muy angustiados"
+          },
+          "aspectos_practicos": {
+            "tiempo_hospital": "Pasamos cerca de 2 horas en el hospital",
+            "gastos_dia": "Unos $2,500 en transporte y algunas comidas rápidas",
+            "coordinacion_citas": "Nos dieron una nueva cita de control en 2 meses más",
+            "informacion_recibida": "El médico sólo recomendó seguir con una dieta blanda y observar su evolución"
+          }
+        },
+        {
+          "momento": "Consulta 3",
+          "dias_desde_inicio": 122,
+          "narrativa_padres": {
+            "como_estaba_nuestro_hijo": "Benjamín seguía con los mismos síntomas y poco aumento de peso",
+            "nuestras_preocupaciones": "Nos angustiaba no poder encontrar la causa de su problema",
+            "que_esperabamos_del_medico": "Esperábamos que finalmente ordenaran más exámenes",
+            "experiencia_en_hospital": "Fue una larga espera de casi 3 horas para ser atendidos",
+            "como_nos_sentimos_despues": "Salimos muy decepcionados y molestos por la falta de avances",
+            "conversaciones_en_casa": "Decidimos buscar ayuda en grupos de apoyo en internet"
+          },
+          "impacto_familiar": {
+            "organizacion_familiar": "Sofía tuvo que pedir más días libres, poniendo en riesgo su trabajo",
+            "trabajo_padres": "A Javier le descontaron varios días sin pago de su sueldo",
+            "cuidado_otros_hijos": "Los abuelos ya estaban cansados de cuidar tanto a Camila",
+            "estado_emocional": "La frustración y el desgaste emocional eran muy altos"
+          },
+          "aspectos_practicos": {
+            "tiempo_hospital": "Casi 4 horas entre la espera y la consulta",
+            "gastos_dia": "Alrededor de $3,500 en transporte, comidas y algunos medicamentos",
+            "coordinacion_citas": "Nos dijeron que volviéramos en 3 meses más",
+            "informacion_recibida": "El médico sólo dijo que seguiría observando su evolución"
+          }
+        },
+        {
+          "momento": "Consulta 4",
+          "dias_desde_inicio": 211,
+          "narrativa_padres": {
+            "como_estaba_nuestro_hijo": "Benjamín seguía con vómitos, poco aumento de peso y diarreas ocasionales",
+            "nuestras_preocupaciones": "Temíamos que su condición empeorara sin un tratamiento adecuado",
+            "que_esperabamos_del_medico": "Exigimos que finalmente le hicieran los exámenes necesarios",
+            "experiencia_en_hospital": "Después de insistir, nos derivaron a un gastroenterólogo pediatra",
+            "como_nos_sentimos_despues": "Aliviados de finalmente tener un diagnóstico, pero preocupados por el tratamiento",
+            "conversaciones_en_casa": "Hablamos de la importancia de la cirugía y cómo enfrentaríamos esta nueva etapa"
+          },
+          "impacto_familiar": {
+            "organizacion_familiar": "Sofía tuvo que tomar una licencia sin goce de sueldo por un tiempo",
+            "trabajo_padres": "Javier también tuvo que ausentarse más días de su trabajo",
+            "cuidado_otros_hijos": "Los abuelos ya no podían seguir cuidando tanto a Camila",
+            "estado_emocional": "Había alivio por el diagnóstico, pero también miedo por la cirugía"
+          },
+          "aspectos_practicos": {
+            "tiempo_hospital": "Pasamos casi todo el día en el hospital con los exámenes",
+            "gastos_dia": "Alrededor de $12,000 en exámenes, transporte y algunas comidas",
+            "coordinacion_citas": "Nos dieron una cita para la cirugía en un mes más",
+            "informacion_recibida": "El médico nos explicó la malformación intestinal y la necesidad de operarlo"
+          }
+        }
+      ]
+    },
+    "CLAUDE_Q43.8_UNIFIED_0004": {
+      "perfil_paciente": {
+        "nombre": "Martín",
+        "edad": 5,
+        "sexo": "HOMBRE",
+        "profesion": "Estudiante",
+        "estado_civil": "Soltero/a",
+        "situacion_familiar": "Familia nuclear con dos hijos",
+        "personalidad": [
+          "Alegre",
+          "Curioso"
+        ],
+        "ciudad_residencia": "Puerto Montt"
+      },
+      "resumen_odisea_personal": {
+        "duracion_meses": 6.8,
+        "numero_consultas": 5,
+        "diagnostico_final": "Otras malformaciones congénitas del intestino, especificadas",
+        "costo_total_familia": "$14,520,766 CLP (incluye copagos y gastos extra)"
+      },
+      "narrativa_cronologica": [
+        {
+          "momento": "Consulta 1",
+          "dias_desde_inicio": 0,
+          "narrativa_padres": {
+            "como_estaba_nuestro_hijo": "Martín tenía vómitos frecuentes y no retenía los alimentos desde el segundo día de nacido",
+            "nuestras_preocupaciones": "Temíamos que no estuviera recibiendo la nutrición adecuada y que pudiera deshidratarse",
+            "que_esperabamos_del_medico": "Esperábamos que nos dieran un diagnóstico claro y un tratamiento para que Martín pudiera alimentarse bien",
+            "experiencia_en_hospital": "La sala de espera estaba llena y tuvimos que esperar mucho tiempo para ser atendidos",
+            "como_nos_sentimos_despues": "Salimos confundidos y preocupados porque no nos dieron un diagnóstico definitivo",
+            "conversaciones_en_casa": "Conversamos sobre buscar una segunda opinión, pero confiábamos en que los médicos encontrarían la causa"
+          },
+          "impacto_familiar": {
+            "organizacion_familiar": "Camila tuvo que tomar una licencia del trabajo para cuidar a Martín",
+            "trabajo_padres": "Cristián siguió trabajando, pero con mucha preocupación por su hijo",
+            "cuidado_otros_hijos": "La abuela materna ayudó con el cuidado de Sofía mientras nos enfocábamos en Martín",
+            "estado_emocional": "Estábamos muy angustiados y con miedo por la salud de nuestro bebé"
+          },
+          "aspectos_practicos": {
+            "tiempo_hospital": "Estuvimos casi 3 horas en el hospital",
+            "gastos_dia": "Gastamos alrededor de $40.000 en traslados y algunos insumos",
+            "coordinacion_citas": "Nos dieron una nueva cita para un mes después",
+            "informacion_recibida": "Nos dijeron que podría ser un problema digestivo, pero que necesitaban hacer más estudios"
+          }
+        },
+        {
+          "momento": "Consulta 2",
+          "dias_desde_inicio": 65,
+          "narrativa_padres": {
+            "como_estaba_nuestro_hijo": "Martín seguía con vómitos frecuentes y no aumentaba de peso adecuadamente",
+            "nuestras_preocupaciones": "Temíamos que no estuviera recibiendo los nutrientes necesarios para su desarrollo",
+            "que_esperabamos_del_medico": "Esperábamos que nos dieran un diagnóstico certero y un plan de tratamiento",
+            "experiencia_en_hospital": "La espera fue nuevamente muy larga y sentimos que no avanzábamos",
+            "como_nos_sentimos_despues": "Salimos frustrados y con la sensación de que no nos escuchaban",
+            "conversaciones_en_casa": "Discutimos la posibilidad de buscar atención en un centro privado, pero los costos eran muy altos para nosotros"
+          },
+          "impacto_familiar": {
+            "organizacion_familiar": "Seguíamos con la misma dinámica, con Camila cuidando a Martín y la abuela apoyando",
+            "trabajo_padres": "Cristián tuvo que tomar algunos días libres por las consultas",
+            "cuidado_otros_hijos": "Sofía estaba extrañando la atención de sus padres",
+            "estado_emocional": "La incertidumbre y la falta de respuestas nos tenían muy angustiados"
+          },
+          "aspectos_practicos": {
+            "tiempo_hospital": "Nuevamente casi 3 horas de espera",
+            "gastos_dia": "Alrededor de $35.000 en traslados y algunos alimentos",
+            "coordinacion_citas": "Nos dieron una nueva cita para 2 meses después",
+            "informacion_recibida": "Nos dijeron que seguirían estudiando el caso, pero sin un diagnóstico claro"
+          }
+        },
+        {
+          "momento": "Consulta 3",
+          "dias_desde_inicio": 128,
+          "narrativa_padres": {
+            "como_estaba_nuestro_hijo": "Martín seguía con los mismos síntomas y su desarrollo era lento",
+            "nuestras_preocupaciones": "Temíamos que no estuvieran viendo algo grave y que se estuviera perdiendo un tiempo valioso",
+            "que_esperabamos_del_medico": "Esperábamos finalmente tener un diagnóstico certero y un plan de acción",
+            "experiencia_en_hospital": "La consulta fue muy breve y sentimos que no nos escuchaban realmente",
+            "como_nos_sentimos_despues": "Salimos decepcionados y con la sensación de que no avanzábamos",
+            "conversaciones_en_casa": "Comenzamos a buscar información por nuestra cuenta en internet y grupos de apoyo"
+          },
+          "impacto_familiar": {
+            "organizacion_familiar": "Seguíamos con el mismo esquema, pero cada vez más agotados",
+            "trabajo_padres": "Cristián tuvo que faltar algunos días más al trabajo",
+            "cuidado_otros_hijos": "Sofía estaba resentida por la falta de atención de sus padres",
+            "estado_emocional": "Estábamos agotados emocionalmente y con mucha frustración"
+          },
+          "aspectos_practicos": {
+            "tiempo_hospital": "Otra larga espera de casi 3 horas",
+            "gastos_dia": "Alrededor de $45.000 en traslados, estacionamiento y algunos alimentos",
+            "coordinacion_citas": "Nos dieron una nueva cita para 2 meses más",
+            "informacion_recibida": "Nuevamente no tuvimos un diagnóstico claro, sólo que seguirían estudiando el caso"
+          }
+        },
+        {
+          "momento": "Consulta 4",
+          "dias_desde_inicio": 174,
+          "narrativa_padres": {
+            "como_estaba_nuestro_hijo": "Martín seguía con los mismos síntomas y su desarrollo estaba muy retrasado",
+            "nuestras_preocupaciones": "Temíamos que su condición fuera algo realmente grave y que no lo estuvieran detectando",
+            "que_esperabamos_del_medico": "Esperábamos finalmente tener respuestas claras y un plan de acción",
+            "experiencia_en_hospital": "La consulta fue nuevamente muy breve y sentimos que no nos tomaban en serio",
+            "como_nos_sentimos_despues": "Salimos devastados y con la sensación de que no avanzábamos",
+            "conversaciones_en_casa": "Discutimos la posibilidad de buscar atención en otro hospital o incluso en otro país"
+          },
+          "impacto_familiar": {
+            "organizacion_familiar": "Estábamos agotados y la dinámica familiar estaba muy tensa",
+            "trabajo_padres": "Cristián tuvo que tomar más días libres, lo que afectó su situación laboral",
+            "cuidado_otros_hijos": "Sofía estaba resentida y con problemas en la escuela",
+            "estado_emocional": "Estábamos al borde de la desesperación y con mucha angustia"
+          },
+          "aspectos_practicos": {
+            "tiempo_hospital": "Otra larga espera de casi 3 horas",
+            "gastos_dia": "Alrededor de $40.000 en traslados y algunos alimentos",
+            "coordinacion_citas": "Nos dieron una nueva cita para 2 meses más",
+            "informacion_recibida": "Nuevamente no tuvimos un diagnóstico claro, sólo que seguirían estudiando el caso"
+          }
+        },
+        {
+          "momento": "Consulta 5",
+          "dias_desde_inicio": 207,
+          "narrativa_padres": {
+            "como_estaba_nuestro_hijo": "Martín seguía con los mismos síntomas y su desarrollo estaba muy retrasado",
+            "nuestras_preocupaciones": "Temíamos que su condición fuera algo realmente grave y que no lo estuvieran detectando",
+            "que_esperabamos_del_medico": "Esperábamos finalmente tener respuestas claras y un plan de acción",
+            "experiencia_en_hospital": "Esta vez nos atendió un especialista y finalmente nos dieron un diagnóstico",
+            "como_nos_sentimos_despues": "Nos sentimos aliviados de tener un diagnóstico, pero también preocupados por el tratamiento",
+            "conversaciones_en_casa": "Conversamos sobre los pasos a seguir y cómo enfrentar la cirugía de Martín"
+          },
+          "impacto_familiar": {
+            "organizacion_familiar": "Tuvimos que reorganizarnos para poder acompañar a Martín en su tratamiento",
+            "trabajo_padres": "Cristián tuvo que tomar una licencia temporal del trabajo",
+            "cuidado_otros_hijos": "La abuela materna se hizo cargo de Sofía mientras nos enfocábamos en Martín",
+            "estado_emocional": "Estábamos aliviados de tener un diagnóstico, pero también preocupados por el futuro"
+          },
+          "aspectos_practicos": {
+            "tiempo_hospital": "Estuvimos casi 4 horas en el hospital",
+            "gastos_dia": "Alrededor de $120.000 en traslados, estacionamiento y algunos alimentos",
+            "coordinacion_citas": "Nos dieron las instrucciones para coordinar la cirugía y el seguimiento",
+            "informacion_recibida": "Nos explicaron el diagnóstico y el tratamiento quirúrgico necesario"
+          }
+        }
+      ]
+    },
+    "CLAUDE_Q43.8_UNIFIED_0005": {
+      "perfil_paciente": {
+        "nombre": "Matías",
+        "edad": 4,
+        "sexo": "HOMBRE",
+        "profesion": "Estudiante",
+        "estado_civil": "Soltero/a",
+        "situacion_familiar": "Familia nuclear con una hija mayor",
+        "personalidad": [
+          "Alegre",
+          "Curioso"
+        ],
+        "ciudad_residencia": "Valparaíso"
+      },
+      "resumen_odisea_personal": {
+        "duracion_meses": 6.2,
+        "numero_consultas": 4,
+        "diagnostico_final": "Otras malformaciones congénitas del intestino, especificadas",
+        "costo_total_familia": "$14,260,977 CLP (incluye copagos y gastos extra)"
+      },
+      "narrativa_cronologica": [
+        {
+          "momento": "Consulta 1",
+          "dias_desde_inicio": 0,
+          "narrativa_padres": {
+            "como_estaba_nuestro_hijo": "Matías presentaba vómitos frecuentes y dificultad para alimentarse",
+            "nuestras_preocupaciones": "Temíamos que fuera algo grave y que no pudiera crecer sanamente",
+            "que_esperabamos_del_medico": "Esperábamos que nos dieran un diagnóstico certero y un tratamiento adecuado",
+            "experiencia_en_hospital": "La sala de espera estaba muy concurrida y tuvimos que esperar mucho tiempo",
+            "como_nos_sentimos_despues": "Salimos confundidos y preocupados porque no tenían claridad sobre lo que le pasaba a Matías",
+            "conversaciones_en_casa": "Analizamos si debíamos buscar una segunda opinión en otro hospital"
+          },
+          "impacto_familiar": {
+            "organizacion_familiar": "Camila tuvo que tomar días libres en el trabajo para cuidar a Matías",
+            "trabajo_padres": "Javier tuvo que hacer turnos extras para cubrir los gastos adicionales",
+            "cuidado_otros_hijos": "La abuela materna ayudó con el cuidado de Sofía mientras estábamos en el hospital",
+            "estado_emocional": "Predominaba la angustia e incertidumbre por no saber qué le pasaba a nuestro hijo"
+          },
+          "aspectos_practicos": {
+            "tiempo_hospital": "Pasamos casi todo el día en el hospital",
+            "gastos_dia": "Tuvimos gastos de traslado, comidas y algunos medicamentos",
+            "coordinacion_citas": "Nos dieron una nueva cita para un mes después",
+            "informacion_recibida": "Sólo nos dijeron que seguirían evaluando los síntomas"
+          }
+        },
+        {
+          "momento": "Consulta 2",
+          "dias_desde_inicio": 78,
+          "narrativa_padres": {
+            "como_estaba_nuestro_hijo": "Matías seguía con vómitos y dificultad para aumentar de peso",
+            "nuestras_preocupaciones": "Nos preocupaba que no estuviera recibiendo el tratamiento adecuado",
+            "que_esperabamos_del_medico": "Esperábamos que nos derivaran a un especialista para un diagnóstico certero",
+            "experiencia_en_hospital": "La atención fue un poco más rápida, pero seguía habiendo mucha gente",
+            "como_nos_sentimos_despues": "Salimos frustrados porque nuevamente no tenían respuestas claras",
+            "conversaciones_en_casa": "Discutimos la posibilidad de consultar en un centro privado para agilizar el diagnóstico"
+          },
+          "impacto_familiar": {
+            "organizacion_familiar": "Los abuelos paternos nos ayudaron a cuidar a Matías y Sofía cuando estábamos trabajando",
+            "trabajo_padres": "Javier tuvo que pedir algunos días libres por las consultas médicas",
+            "cuidado_otros_hijos": "Sofía a veces se sentía desplazada por la atención que requerían las consultas de Matías",
+            "estado_emocional": "Predominaba la impaciencia y el estrés por no tener un diagnóstico claro"
+          },
+          "aspectos_practicos": {
+            "tiempo_hospital": "Estuvimos casi medio día en el hospital",
+            "gastos_dia": "Tuvimos gastos de traslado y algunas pruebas adicionales",
+            "coordinacion_citas": "Nos agendaron una nueva cita para dos meses después",
+            "informacion_recibida": "Sólo nos dijeron que seguirían evaluando y descartando posibles causas"
+          }
+        },
+        {
+          "momento": "Consulta 3",
+          "dias_desde_inicio": 141,
+          "narrativa_padres": {
+            "como_estaba_nuestro_hijo": "Matías ahora también presentaba episodios de diarrea y dolores abdominales",
+            "nuestras_preocupaciones": "Temíamos que fuera algo más grave de lo que pensaban",
+            "que_esperabamos_del_medico": "Esperábamos finalmente tener un diagnóstico certero y un plan de tratamiento",
+            "experiencia_en_hospital": "La atención fue un poco más rápida, pero el personal parecía muy saturado",
+            "como_nos_sentimos_despues": "Salimos desanimados y con la sensación de que no avanzábamos",
+            "conversaciones_en_casa": "Comenzamos a buscar información por nuestra cuenta en internet y grupos de apoyo"
+          },
+          "impacto_familiar": {
+            "organizacion_familiar": "Camila tuvo que dejar su trabajo temporalmente para poder llevar a Matías a todas las consultas",
+            "trabajo_padres": "Javier trabajaba turnos extras para compensar la falta de ingresos de Camila",
+            "cuidado_otros_hijos": "Los abuelos maternos se hicieron cargo del cuidado de Sofía la mayor parte del tiempo",
+            "estado_emocional": "Predominaba la frustración y el agotamiento por la situación prolongada"
+          },
+          "aspectos_practicos": {
+            "tiempo_hospital": "Pasamos casi todo el día nuevamente en el hospital",
+            "gastos_dia": "Tuvimos gastos de traslado, comidas y algunos exámenes adicionales",
+            "coordinacion_citas": "Nos dijeron que nos contactarían para una nueva cita con un especialista",
+            "informacion_recibida": "Sólo mencionaron que podrían ser algunos problemas gastrointestinales"
+          }
+        },
+        {
+          "momento": "Consulta 4",
+          "dias_desde_inicio": 189,
+          "narrativa_padres": {
+            "como_estaba_nuestro_hijo": "Matías continuaba con los mismos síntomas y dificultades para aumentar de peso",
+            "nuestras_preocupaciones": "Temíamos que no recibiera el tratamiento adecuado a tiempo",
+            "que_esperabamos_del_medico": "Esperábamos finalmente tener un diagnóstico certero y un plan de tratamiento",
+            "experiencia_en_hospital": "La atención fue un poco más ágil, pero igual tuvimos que esperar bastante tiempo",
+            "como_nos_sentimos_despues": "Nos sentimos aliviados de por fin tener un diagnóstico, pero preocupados por los próximos pasos",
+            "conversaciones_en_casa": "Conversamos sobre la importancia de seguir todas las indicaciones médicas y apoyarnos como familia"
+          },
+          "impacto_familiar": {
+            "organizacion_familiar": "Tuvimos que reorganizarnos nuevamente como familia para el tratamiento de Matías",
+            "trabajo_padres": "Camila pudo reincorporarse a su trabajo con un horario más flexible",
+            "cuidado_otros_hijos": "Sofía entendió mejor la situación y ayudaba en el cuidado de su hermano",
+            "estado_emocional": "Predominaba el alivio de tener un diagnóstico, pero también la preocupación por el futuro"
+          },
+          "aspectos_practicos": {
+            "tiempo_hospital": "Estuvimos casi todo el día en el hospital",
+            "gastos_dia": "Tuvimos gastos de traslado, comidas y algunos exámenes adicionales",
+            "coordinacion_citas": "Nos agendaron citas con diferentes especialistas para coordinar el tratamiento",
+            "informacion_recibida": "Nos explicaron detalladamente el diagnóstico y los próximos pasos a seguir"
+          }
+        }
+      ]
+    }
+  },
+  "informacion_enfermedades": {
+    "Q43.8": {
+      "nombre": "Otras malformaciones congénitas del intestino, especificadas",
+      "descripcion": "Incluye diversas malformaciones congénitas intestinales como diverticulitis congénita del colon, divertículo congénito del intestino, dolicocolon, megaloapéndice, megaloduodeno, microcolon, síndrome de asa ciega congénita, y transposición del colon, intestino o apéndice. Una condición específica es el síndrome de ulceración del cordón umbilical-atresia intestinal.",
+      "edad_aparicion": {
+        "periodo": "Neonatal - Primera infancia",
+        "detalle": "Al nacer o dentro del primero o segundo día de vida. En malrotación intestinal: 30% en el primer mes de vida y 75% en los primeros 5 años."
+      },
+      "diagnostico": {
+        "dificultad": "Relativamente sencillo",
+        "metodos": "Sonda nasogástrica para detectar líquido en estómago (especialmente si está teñido de bilis). Radiografías gastrointestinales, seriada gastrointestinal superior y/o enema de bario.",
+        "hallazgos_clave": "Obstrucción intestinal, dificultades alimentarias, distensión, vómitos, incapacidad para eliminar gases y heces"
+      },
+      "tratamiento": {
+        "principal": "Reparación quirúrgica en lactantes sintomáticos",
+        "tasa_cirugia": "137 de 148 pacientes estudiados requirieron cirugía",
+        "urgencia": "Tratamiento quirúrgico temprano es esencial"
+      },
+      "pronostico": {
+        "variable": "Depende de la malformación específica",
+        "bueno": "Malrotación tiene muy buen pronóstico",
+        "malo": "Hernia diafragmática congénita: mortalidad 10-30%",
+        "mortalidad_global": "14.2%, principalmente por malformaciones extraintestinales"
       }
     }
   }

@@ -403,11 +403,47 @@
         }
 
         .patient-age {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 0.25rem;
             background: var(--light-bg);
             padding: 0.25rem 0.5rem;
             border-radius: 20px;
             font-size: 0.8rem;
             color: var(--medium-text);
+        }
+
+        .age-type-badge {
+            background: var(--success-color);
+            color: white;
+            padding: 0.2rem 0.5rem;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            margin-left: 0.5rem;
+        }
+
+        .age-badge.pediatric {
+            background: #fef3c7;
+            color: #d97706;
+            border: 1px solid #d97706;
+        }
+
+        .pediatric-case {
+            border-left: 4px solid #f59e0b;
+        }
+
+        .pediatric-case .age-type-badge {
+            background: #f59e0b;
+        }
+
+        .adult-case {
+            border-left: 4px solid var(--primary-color);
+        }
+
+        .adult-case .age-type-badge {
+            background: var(--primary-color);
         }
 
         .patient-info {
@@ -766,8 +802,10 @@
         <section class="instructions">
             <h2>📖 Cómo usar este explorador</h2>
             <ul>
-                <li><strong>Explorar pacientes:</strong> Navega por las historias de 50 pacientes reales simulados basados en datos del sistema GRD</li>
-                <li><strong>Filtrar por enfermedad:</strong> Usa el filtro para ver pacientes con diagnósticos específicos (D84.8, E22.2, K50.9, E80.2, J84.1)</li>
+                <li><strong>Explorar pacientes:</strong> Navega por las historias de 39 pacientes simulados basados en datos del sistema GRD</li>
+                <li><strong>Casos pediátricos y adultos:</strong> Las historias incluyen tanto casos pediátricos (👶 ≤17 años) como adultos (🧑 ≥18 años)</li>
+                <li><strong>Filtrar por enfermedad:</strong> Usa el filtro para ver pacientes con diagnósticos específicos (E22.2, E80.2, J84.1, Q43.8)</li>
+                <li><strong>Filtrar por edad:</strong> Filtra específicamente por casos pediátricos o adultos</li>
                 <li><strong>Ver detalles:</strong> Haz clic en cualquier tarjeta de paciente para ver su odisea diagnóstica completa</li>
                 <li><strong>Cronología:</strong> Sigue el proceso diagnóstico paso a paso, con experiencias emocionales y costos</li>
                 <li><strong>Buscar:</strong> Usa la búsqueda para encontrar pacientes por nombre, edad o características específicas</li>
@@ -967,6 +1005,45 @@
                         <span class="age-info">👨‍💼 Edad típica: 64.5 años</span>
                     </div>
                 </div>
+
+                <!-- Q43.8 -->
+                <div class="disease-card">
+                    <div class="disease-header">
+                        <h3>Q43.8 - Otras malformaciones congénitas del intestino, especificadas</h3>
+                        <div class="disease-badges">
+                            <span class="complexity-badge medium">Complejidad Media</span>
+                            <span class="prevalence-badge rare">Muy Rara</span>
+                            <span class="age-badge pediatric">👶 Pediátrica</span>
+                        </div>
+                    </div>
+                    <div class="disease-description">
+                        <p>Incluye diversas malformaciones congénitas intestinales como diverticulosis congénita del colon, dolicocolon, megaloapéndice, megaloduodeno, microcolon y síndrome de asa ciega congénita. Se manifiesta desde el nacimiento con problemas digestivos.</p>
+                    </div>
+                    <div class="disease-metrics">
+                        <div class="metric">
+                            <span class="metric-value">10</span>
+                            <span class="metric-label">Casos analizados</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">5.0</span>
+                            <span class="metric-label">Consultas promedio</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">8.1</span>
+                            <span class="metric-label">Meses promedio diagnóstico</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">$7,499</span>
+                            <span class="metric-label">Costo promedio CLP</span>
+                        </div>
+                    </div>
+                    <div class="disease-links">
+                        <a href="https://www.orpha.net/es/disease/detail/1201" target="_blank" class="orphanet-link">
+                            🔗 Ver en Orphanet
+                        </a>
+                        <span class="age-info">👶 Edad típica: 3.8 años (Pediátrica)</span>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -977,14 +1054,21 @@
                 <input type="text" id="search" class="form-control" placeholder="Nombre, edad, diagnóstico..." style="min-width: 200px;">
             </div>
             <div class="control-group">
+                <label for="age-type-filter">👶 Filtrar por tipo de caso:</label>
+                <select id="age-type-filter" class="form-control">
+                    <option value="">Todos los casos</option>
+                    <option value="pediatric">Casos pediátricos (≤ 17 años)</option>
+                    <option value="adult">Casos adultos (≥ 18 años)</option>
+                </select>
+            </div>
+            <div class="control-group">
                 <label for="diagnosis-filter">🏥 Filtrar por diagnóstico:</label>
                 <select id="diagnosis-filter" class="form-control">
                     <option value="">Todos los diagnósticos</option>
-                    <option value="D84.8">D84.8 - Inmunodeficiencia</option>
                     <option value="E22.2">E22.2 - Síndrome de hipersecreción de la hormona antidiurética</option>
-                    <option value="K50.9">K50.9 - Enfermedad de Crohn</option>
                     <option value="E80.2">E80.2 - Otros tipos de porfiria</option>
                     <option value="J84.1">J84.1 - Otras enfermedades pulmonares intersticiales con fibrosis</option>
+                    <option value="Q43.8">Q43.8 - Otras malformaciones congénitas del intestino, especificadas</option>
                 </select>
                 <label for="sort-by">📊 Ordenar por:</label>
                 <select id="sort-by" class="form-control">
@@ -1141,11 +1225,16 @@
             const costMatch = odyssey.costo_total_familia?.match(/\$([0-9,]+)/);
             const cost = costMatch ? parseInt(costMatch[1].replace(/,/g, '')) : 0;
             
+            // Determinar si es caso pediátrico
+            const isPediatric = profile.edad <= 17;
+            const ageTypeLabel = isPediatric ? '👶 Pediátrico' : '🧑 Adulto';
+            const ageTypeClass = isPediatric ? 'pediatric-case' : 'adult-case';
+            
             return `
-                <div class="patient-card" role="button" aria-label="Ver detalles de ${profile.nombre}">
+                <div class="patient-card ${ageTypeClass}" role="button" aria-label="Ver detalles de ${profile.nombre}">
                     <div class="patient-header">
                         <div class="patient-name">${profile.nombre}</div>
-                        <div class="patient-age">${profile.edad} años</div>
+                        <div class="patient-age">${profile.edad} años <span class="age-type-badge">${ageTypeLabel}</span></div>
                     </div>
                     
                     <div class="patient-info">
@@ -1323,6 +1412,7 @@
 
             const searchTerm = document.getElementById('search').value.toLowerCase();
             const diagnosisFilter = document.getElementById('diagnosis-filter').value;
+            const ageTypeFilter = document.getElementById('age-type-filter').value;
             
             const allPatients = Object.entries(patientData.historias_pacientes).map(([id, data]) => ({
                 id,
@@ -1346,9 +1436,14 @@
                 
                 // Diagnosis filter
                 const matchesDiagnosis = !diagnosisFilter || 
-                    odyssey.diagnostico_final === diagnosisFilter;
+                    odyssey.diagnostico_final.includes(diagnosisFilter);
                 
-                return matchesSearch && matchesDiagnosis;
+                // Age type filter
+                const matchesAgeType = !ageTypeFilter || 
+                    (ageTypeFilter === 'pediatric' && profile.edad <= 17) ||
+                    (ageTypeFilter === 'adult' && profile.edad >= 18);
+                
+                return matchesSearch && matchesDiagnosis && matchesAgeType;
             });
 
             sortPatients();
@@ -1387,6 +1482,7 @@
         function clearFilters() {
             document.getElementById('search').value = '';
             document.getElementById('diagnosis-filter').value = '';
+            document.getElementById('age-type-filter').value = '';
             document.getElementById('sort-by').value = 'name';
             filterPatients();
         }
@@ -1398,6 +1494,7 @@
             // Search and filter events
             document.getElementById('search').addEventListener('input', filterPatients);
             document.getElementById('diagnosis-filter').addEventListener('change', filterPatients);
+            document.getElementById('age-type-filter').addEventListener('change', filterPatients);
             document.getElementById('sort-by').addEventListener('change', () => {
                 sortPatients();
                 renderPatients();
