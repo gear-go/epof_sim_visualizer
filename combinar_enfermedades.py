@@ -27,6 +27,7 @@ def convert_claude_to_web_format(claude_patient_id, claude_patient_data, diagnos
         family_profile = claude_patient_data.get('perfil_familia', {})
         patient_info = family_profile.get('paciente', {})
         odyssey = claude_patient_data.get('odisea_diagnostica_familiar', {})
+        context_disease = claude_patient_data.get('contexto_enfermedad_rara', {})
         narrative = claude_patient_data.get('narrativa_cronologica_padres', [])
         
         # Obtener información del contexto familiar
@@ -44,11 +45,10 @@ def convert_claude_to_web_format(claude_patient_id, claude_patient_data, diagnos
             'ciudad_residencia': city
         }
         
-        # Si hay información de diagnóstico adicional, usarla
-        if diagnosis_info:
-            diagnosis_name = diagnosis_info.get('nombre', odyssey.get('diagnostico_final', ''))
-        else:
-            diagnosis_name = odyssey.get('diagnostico_final', '')
+        # Para casos pediátricos, usar el diagnóstico del contexto de enfermedad rara
+        diagnosis_name = context_disease.get('nombre_enfermedad', '') or odyssey.get('diagnostico_final', '')
+        if diagnosis_info and diagnosis_info.get('nombre'):
+            diagnosis_name = diagnosis_info.get('nombre')
             
         odyssey_summary = {
             'duracion_meses': odyssey.get('duracion_meses', 0),
@@ -56,6 +56,40 @@ def convert_claude_to_web_format(claude_patient_id, claude_patient_data, diagnos
             'diagnostico_final': diagnosis_name,
             'costo_total_familia': odyssey.get('costo_estimado_familia', '')
         }
+        
+        # Convertir narrativa pediátrica a formato estándar
+        converted_narrative = []
+        for entry in narrative:
+            if isinstance(entry, dict):
+                momento = entry.get('momento', '')
+                dias = entry.get('dias_desde_inicio', 0)
+                narrativa_padres = entry.get('narrativa_padres', {})
+                
+                # Convertir la narrativa de padres al formato estándar
+                converted_entry = {
+                    'momento': momento,
+                    'fecha_aproximada': 'Fecha no especificada',
+                    'dias_desde_inicio': dias,
+                    'narrativa_personal': {
+                        'como_me_sentia': f"Como familia: {narrativa_padres.get('como_estaba_nuestro_hijo', '')}",
+                        'que_esperaba': narrativa_padres.get('que_esperabamos_del_medico', ''),
+                        'experiencia_consulta': narrativa_padres.get('experiencia_en_hospital', ''),
+                        'sentimientos_posteriores': narrativa_padres.get('como_nos_sentimos_despues', ''),
+                        'impacto_emocional': narrativa_padres.get('conversaciones_en_casa', '')
+                    },
+                    'contexto_vida': {
+                        'situacion_trabajo': entry.get('impacto_familiar', {}).get('trabajo_padres', ''),
+                        'situacion_familiar': entry.get('impacto_familiar', {}).get('organizacion_familiar', ''),
+                        'estado_animo': entry.get('impacto_familiar', {}).get('estado_emocional', '')
+                    },
+                    'aspectos_practicos': {
+                        'hospital_experiencia': narrativa_padres.get('experiencia_en_hospital', ''),
+                        'tiempo_espera': entry.get('aspectos_practicos', {}).get('tiempo_hospital', ''),
+                        'costo_percibido': 'Tuvimos que pagar traslados y algunos exámenes adicionales',
+                        'acompanamiento': 'Padres y familia'
+                    }
+                }
+                converted_narrative.append(converted_entry)
         
     else:
         # Para casos no pediátricos (adultos), usar la estructura original
@@ -86,16 +120,31 @@ def convert_claude_to_web_format(claude_patient_id, claude_patient_data, diagnos
             'diagnostico_final': diagnosis_name,
             'costo_total_familia': odyssey.get('costo_total_familia', '')
         }
+        
+        converted_narrative = narrative
     
     web_format = {
         'perfil_paciente': profile,
         'resumen_odisea_personal': odyssey_summary,
-        'narrativa_cronologica': narrative
+        'narrativa_cronologica': converted_narrative
     }
     
     # Agregar datos específicos de casos pediátricos si existen
     if 'perspectiva_cuidador' in claude_patient_data:
         web_format['perspectiva_cuidador'] = claude_patient_data['perspectiva_cuidador']
+    elif is_pediatric:
+        # Para casos pediátricos, crear perspectiva de cuidador basada en datos familiares
+        context_disease = claude_patient_data.get('contexto_enfermedad_rara', {})
+        web_format['perspectiva_cuidador'] = {
+            'relacion': 'padres',
+            'testimonio_inicial': f"Como padres de {profile['nombre']}, enfrentar {diagnosis_name} ha sido muy desafiante",
+            'preocupaciones': context_disease.get('principal_preocupacion', ''),
+            'acciones_tomadas': [
+                'Acompañar a todas las citas médicas',
+                'Buscar segundas opiniones',
+                'Coordinar con especialistas'
+            ]
+        }
     
     return web_format
 

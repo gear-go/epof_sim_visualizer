@@ -1,6 +1,6 @@
 {
   "metadatos": {
-    "fecha_generacion": "2025-07-09 00:11:06",
+    "fecha_generacion": "2025-07-09 00:38:00",
     "total_historias": 39,
     "descripcion": "Historias combinadas de odiseas diagnósticas: enfermedades generales y pediátricas",
     "enfoque": "Narrativas generadas por IA basadas en trayectorias sintéticas reales",
@@ -3827,53 +3827,61 @@
       "narrativa_cronologica": [
         {
           "momento": "Consulta 1",
+          "fecha_aproximada": "Fecha no especificada",
           "dias_desde_inicio": 0,
-          "narrativa_padres": {
-            "como_estaba_nuestro_hijo": "Renata tenía vómitos frecuentes y dificultad para alimentarse desde que nació",
-            "nuestras_preocupaciones": "Temíamos que fuera algo grave y que no pudiera nutrirse adecuadamente",
-            "que_esperabamos_del_medico": "Esperábamos que pudieran identificar la causa de sus problemas digestivos",
-            "experiencia_en_hospital": "La sala de espera estaba llena y tuvimos que esperar mucho tiempo con una bebé llorando",
-            "como_nos_sentimos_despues": "Salimos frustrados porque solo nos dijeron que era un problema digestivo común sin un diagnóstico claro",
-            "conversaciones_en_casa": "Decidimos insistir y buscar una segunda opinión, no podíamos quedarnos tranquilos"
+          "narrativa_personal": {
+            "como_me_sentia": "Como familia: Renata tenía vómitos frecuentes y dificultad para alimentarse desde que nació",
+            "que_esperaba": "Esperábamos que pudieran identificar la causa de sus problemas digestivos",
+            "experiencia_consulta": "La sala de espera estaba llena y tuvimos que esperar mucho tiempo con una bebé llorando",
+            "sentimientos_posteriores": "Salimos frustrados porque solo nos dijeron que era un problema digestivo común sin un diagnóstico claro",
+            "impacto_emocional": "Decidimos insistir y buscar una segunda opinión, no podíamos quedarnos tranquilos"
           },
-          "impacto_familiar": {
-            "organizacion_familiar": "Javiera tuvo que tomar una licencia para cuidar a Renata mientras yo trabajaba",
-            "trabajo_padres": "Yo tuve que hacer horas extras para cubrir los gastos adicionales",
-            "cuidado_otros_hijos": "Los abuelos ayudaron a cuidar a Tomás mientras nos enfocábamos en Renata",
-            "estado_emocional": "Fue un momento de mucha angustia e incertidumbre para toda la familia"
+          "contexto_vida": {
+            "situacion_trabajo": "Yo tuve que hacer horas extras para cubrir los gastos adicionales",
+            "situacion_familiar": "Javiera tuvo que tomar una licencia para cuidar a Renata mientras yo trabajaba",
+            "estado_animo": "Fue un momento de mucha angustia e incertidumbre para toda la familia"
           },
           "aspectos_practicos": {
-            "tiempo_hospital": "Pasamos casi 3 horas esperando y en la consulta",
-            "gastos_dia": "Tuvimos que pagar el traslado y algunos medicamentos",
-            "coordinacion_citas": "Nos dieron una nueva cita para un mes después",
-            "informacion_recibida": "Sólo nos dijeron que era un problema digestivo sin un diagnóstico claro"
+            "hospital_experiencia": "La sala de espera estaba llena y tuvimos que esperar mucho tiempo con una bebé llorando",
+            "tiempo_espera": "Pasamos casi 3 horas esperando y en la consulta",
+            "costo_percibido": "Tuvimos que pagar traslados y algunos exámenes adicionales",
+            "acompanamiento": "Padres y familia"
           }
         },
         {
           "momento": "Consulta 5",
+          "fecha_aproximada": "Fecha no especificada",
           "dias_desde_inicio": 247,
-          "narrativa_padres": {
-            "como_estaba_nuestro_hijo": "Renata seguía con vómitos frecuentes y había dejado de ganar peso",
-            "nuestras_preocupaciones": "Temíamos que su desarrollo se viera afectado sin un tratamiento adecuado",
-            "que_esperabamos_del_medico": "Esperábamos finalmente tener un diagnóstico certero y un plan de tratamiento",
-            "experiencia_en_hospital": "Esta vez nos atendió un especialista en gastroenterología pediátrica",
-            "como_nos_sentimos_despues": "Nos sentimos aliviados de por fin tener un diagnóstico, pero preocupados por la cirugía que necesitaría",
-            "conversaciones_en_casa": "Hablamos de la fortaleza de Renata y de que con amor y fe saldríamos adelante juntos"
+          "narrativa_personal": {
+            "como_me_sentia": "Como familia: Renata seguía con vómitos frecuentes y había dejado de ganar peso",
+            "que_esperaba": "Esperábamos finalmente tener un diagnóstico certero y un plan de tratamiento",
+            "experiencia_consulta": "Esta vez nos atendió un especialista en gastroenterología pediátrica",
+            "sentimientos_posteriores": "Nos sentimos aliviados de por fin tener un diagnóstico, pero preocupados por la cirugía que necesitaría",
+            "impacto_emocional": "Hablamos de la fortaleza de Renata y de que con amor y fe saldríamos adelante juntos"
           },
-          "impacto_familiar": {
-            "organizacion_familiar": "Decidimos que uno de los dos se quedaría en casa para cuidar a Renata después de la cirugía",
-            "trabajo_padres": "Yo tomaría una licencia médica por un tiempo para estar con ella en su recuperación",
-            "cuidado_otros_hijos": "Los abuelos seguirían apoyando con el cuidado de Tomás",
-            "estado_emocional": "Aunque aliviados, aún teníamos temor por los riesgos de la operación"
+          "contexto_vida": {
+            "situacion_trabajo": "Yo tomaría una licencia médica por un tiempo para estar con ella en su recuperación",
+            "situacion_familiar": "Decidimos que uno de los dos se quedaría en casa para cuidar a Renata después de la cirugía",
+            "estado_animo": "Aunque aliviados, aún teníamos temor por los riesgos de la operación"
           },
           "aspectos_practicos": {
-            "tiempo_hospital": "La consulta fue más extensa al ser con un especialista",
-            "gastos_dia": "Tuvimos que pagar traslados y algunos exámenes adicionales",
-            "coordinacion_citas": "Nos dieron una cita para programar la cirugía en las siguientes semanas",
-            "informacion_recibida": "El médico nos explicó detalladamente la condición y el procedimiento quirúrgico necesario"
+            "hospital_experiencia": "Esta vez nos atendió un especialista en gastroenterología pediátrica",
+            "tiempo_espera": "La consulta fue más extensa al ser con un especialista",
+            "costo_percibido": "Tuvimos que pagar traslados y algunos exámenes adicionales",
+            "acompanamiento": "Padres y familia"
           }
         }
-      ]
+      ],
+      "perspectiva_cuidador": {
+        "relacion": "padres",
+        "testimonio_inicial": "Como padres de Renata, enfrentar Otras malformaciones congénitas del intestino, especificadas ha sido muy desafiante",
+        "preocupaciones": "Nuestra mayor preocupación era que pudiera sufrir complicaciones graves sin un tratamiento oportuno",
+        "acciones_tomadas": [
+          "Acompañar a todas las citas médicas",
+          "Buscar segundas opiniones",
+          "Coordinar con especialistas"
+        ]
+      }
     },
     "CLAUDE_Q43.8_0002": {
       "perfil_paciente": {
@@ -3898,53 +3906,61 @@
       "narrativa_cronologica": [
         {
           "momento": "Consulta 1",
+          "fecha_aproximada": "Fecha no especificada",
           "dias_desde_inicio": 0,
-          "narrativa_padres": {
-            "como_estaba_nuestro_hijo": "Diego presentaba vómitos frecuentes y dificultad para alimentarse",
-            "nuestras_preocupaciones": "Temíamos que fuera algo grave y que no pudiera nutrirse adecuadamente",
-            "que_esperabamos_del_medico": "Esperábamos que pudieran identificar la causa de sus síntomas",
-            "experiencia_en_hospital": "La sala de espera estaba abarrotada y tuvimos que esperar mucho tiempo",
-            "como_nos_sentimos_despues": "Salimos frustrados porque solo nos dieron un diagnóstico inespecífico",
-            "conversaciones_en_casa": "Discutimos la posibilidad de buscar una segunda opinión en otro hospital"
+          "narrativa_personal": {
+            "como_me_sentia": "Como familia: Diego presentaba vómitos frecuentes y dificultad para alimentarse",
+            "que_esperaba": "Esperábamos que pudieran identificar la causa de sus síntomas",
+            "experiencia_consulta": "La sala de espera estaba abarrotada y tuvimos que esperar mucho tiempo",
+            "sentimientos_posteriores": "Salimos frustrados porque solo nos dieron un diagnóstico inespecífico",
+            "impacto_emocional": "Discutimos la posibilidad de buscar una segunda opinión en otro hospital"
           },
-          "impacto_familiar": {
-            "organizacion_familiar": "Camila tuvo que tomar días libres del trabajo para cuidar a Diego",
-            "trabajo_padres": "Javier tuvo que trabajar horas extras para compensar los gastos adicionales",
-            "cuidado_otros_hijos": "La abuela materna ayudó con el cuidado de Sofía mientras nosotros estábamos en el hospital",
-            "estado_emocional": "Estábamos preocupados y angustiados por no tener un diagnóstico claro"
+          "contexto_vida": {
+            "situacion_trabajo": "Javier tuvo que trabajar horas extras para compensar los gastos adicionales",
+            "situacion_familiar": "Camila tuvo que tomar días libres del trabajo para cuidar a Diego",
+            "estado_animo": "Estábamos preocupados y angustiados por no tener un diagnóstico claro"
           },
           "aspectos_practicos": {
-            "tiempo_hospital": "Pasamos casi 3 horas en el hospital entre la espera y la consulta",
-            "gastos_dia": "Gastamos en traslados y algunos alimentos durante la espera",
-            "coordinacion_citas": "Nos dieron una nueva cita para un mes después",
-            "informacion_recibida": "El médico solo nos dijo que era un problema digestivo y que siguiéramos observando"
+            "hospital_experiencia": "La sala de espera estaba abarrotada y tuvimos que esperar mucho tiempo",
+            "tiempo_espera": "Pasamos casi 3 horas en el hospital entre la espera y la consulta",
+            "costo_percibido": "Tuvimos que pagar traslados y algunos exámenes adicionales",
+            "acompanamiento": "Padres y familia"
           }
         },
         {
           "momento": "Consulta 2",
+          "fecha_aproximada": "Fecha no especificada",
           "dias_desde_inicio": 45,
-          "narrativa_padres": {
-            "como_estaba_nuestro_hijo": "Diego seguía con vómitos y ahora también tenía diarrea frecuente",
-            "nuestras_preocupaciones": "Temíamos que estuviera deshidratándose y perdiendo peso",
-            "que_esperabamos_del_medico": "Esperábamos que ordenaran más exámenes para encontrar la causa",
-            "experiencia_en_hospital": "La espera fue similar a la vez anterior, pero pudimos conversar con otros padres",
-            "como_nos_sentimos_despues": "Salimos decepcionados porque nuevamente no hubo un diagnóstico claro",
-            "conversaciones_en_casa": "Decidimos buscar información en internet sobre los síntomas de Diego"
+          "narrativa_personal": {
+            "como_me_sentia": "Como familia: Diego seguía con vómitos y ahora también tenía diarrea frecuente",
+            "que_esperaba": "Esperábamos que ordenaran más exámenes para encontrar la causa",
+            "experiencia_consulta": "La espera fue similar a la vez anterior, pero pudimos conversar con otros padres",
+            "sentimientos_posteriores": "Salimos decepcionados porque nuevamente no hubo un diagnóstico claro",
+            "impacto_emocional": "Decidimos buscar información en internet sobre los síntomas de Diego"
           },
-          "impacto_familiar": {
-            "organizacion_familiar": "Mis padres se ofrecieron a cuidar a Sofía mientras estábamos en el hospital",
-            "trabajo_padres": "Javier tuvo que faltar algunos días al trabajo por las consultas",
-            "cuidado_otros_hijos": "Sofía se quedaba con los abuelos mientras nosotros acompañábamos a Diego",
-            "estado_emocional": "La incertidumbre y la preocupación por Diego nos tenían muy estresados"
+          "contexto_vida": {
+            "situacion_trabajo": "Javier tuvo que faltar algunos días al trabajo por las consultas",
+            "situacion_familiar": "Mis padres se ofrecieron a cuidar a Sofía mientras estábamos en el hospital",
+            "estado_animo": "La incertidumbre y la preocupación por Diego nos tenían muy estresados"
           },
           "aspectos_practicos": {
-            "tiempo_hospital": "Nuevamente pasamos alrededor de 3 horas en el hospital",
-            "gastos_dia": "Además de los traslados, tuvimos que comprar algunos medicamentos",
-            "coordinacion_citas": "Nos programaron una nueva cita para 2 meses después",
-            "informacion_recibida": "El médico dijo que podría ser una intolerancia alimentaria y nos recomendó cambiar la dieta"
+            "hospital_experiencia": "La espera fue similar a la vez anterior, pero pudimos conversar con otros padres",
+            "tiempo_espera": "Nuevamente pasamos alrededor de 3 horas en el hospital",
+            "costo_percibido": "Tuvimos que pagar traslados y algunos exámenes adicionales",
+            "acompanamiento": "Padres y familia"
           }
         }
-      ]
+      ],
+      "perspectiva_cuidador": {
+        "relacion": "padres",
+        "testimonio_inicial": "Como padres de Diego, enfrentar Otras malformaciones congénitas del intestino, especificadas ha sido muy desafiante",
+        "preocupaciones": "Nuestro mayor temor era que la condición de Diego empeorara sin un tratamiento adecuado",
+        "acciones_tomadas": [
+          "Acompañar a todas las citas médicas",
+          "Buscar segundas opiniones",
+          "Coordinar con especialistas"
+        ]
+      }
     },
     "CLAUDE_Q43.8_0003": {
       "perfil_paciente": {
@@ -3969,101 +3985,107 @@
       "narrativa_cronologica": [
         {
           "momento": "Consulta 1",
+          "fecha_aproximada": "Fecha no especificada",
           "dias_desde_inicio": 0,
-          "narrativa_padres": {
-            "como_estaba_nuestro_hijo": "Matías tenía problemas para alimentarse y vomitaba con frecuencia desde que nació",
-            "nuestras_preocupaciones": "Temíamos que fuera algo grave y que no pudiera nutrirse adecuadamente",
-            "que_esperabamos_del_medico": "Esperábamos que pudieran identificar la causa de sus problemas y darnos un tratamiento",
-            "experiencia_en_hospital": "La sala de urgencias estaba llena y tuvimos que esperar mucho tiempo para ser atendidos",
-            "como_nos_sentimos_despues": "Salimos frustrados porque no nos dieron un diagnóstico claro, solo nos dijeron que era un problema digestivo inespecífico",
-            "conversaciones_en_casa": "Nos preguntábamos si los médicos estaban tomando en serio los síntomas de nuestro bebé"
+          "narrativa_personal": {
+            "como_me_sentia": "Como familia: Matías tenía problemas para alimentarse y vomitaba con frecuencia desde que nació",
+            "que_esperaba": "Esperábamos que pudieran identificar la causa de sus problemas y darnos un tratamiento",
+            "experiencia_consulta": "La sala de urgencias estaba llena y tuvimos que esperar mucho tiempo para ser atendidos",
+            "sentimientos_posteriores": "Salimos frustrados porque no nos dieron un diagnóstico claro, solo nos dijeron que era un problema digestivo inespecífico",
+            "impacto_emocional": "Nos preguntábamos si los médicos estaban tomando en serio los síntomas de nuestro bebé"
           },
-          "impacto_familiar": {
-            "organizacion_familiar": "Tuvimos que turnarnos para cuidar a Matías y atender a nuestra hija mayor",
-            "trabajo_padres": "José tuvo que tomar días libres en su trabajo por las consultas médicas",
-            "cuidado_otros_hijos": "Los abuelos nos ayudaron a cuidar a Sofía mientras estábamos en el hospital",
-            "estado_emocional": "Fue un periodo de mucha angustia e incertidumbre para toda la familia"
+          "contexto_vida": {
+            "situacion_trabajo": "José tuvo que tomar días libres en su trabajo por las consultas médicas",
+            "situacion_familiar": "Tuvimos que turnarnos para cuidar a Matías y atender a nuestra hija mayor",
+            "estado_animo": "Fue un periodo de mucha angustia e incertidumbre para toda la familia"
           },
           "aspectos_practicos": {
-            "tiempo_hospital": "Pasamos casi 3 horas en la sala de urgencias",
-            "gastos_dia": "Gastamos alrededor de $3,144,022 CLP en transporte y comidas",
-            "coordinacion_citas": "Nos dieron una nueva cita para un mes después",
-            "informacion_recibida": "Sólo nos dijeron que era un problema digestivo sin especificar más"
+            "hospital_experiencia": "La sala de urgencias estaba llena y tuvimos que esperar mucho tiempo para ser atendidos",
+            "tiempo_espera": "Pasamos casi 3 horas en la sala de urgencias",
+            "costo_percibido": "Tuvimos que pagar traslados y algunos exámenes adicionales",
+            "acompanamiento": "Padres y familia"
           }
         },
         {
           "momento": "Consulta 2",
+          "fecha_aproximada": "Fecha no especificada",
           "dias_desde_inicio": 87,
-          "narrativa_padres": {
-            "como_estaba_nuestro_hijo": "Matías seguía con vómitos frecuentes y no lograba aumentar de peso",
-            "nuestras_preocupaciones": "Temíamos que no estuviera recibiendo los nutrientes necesarios para su desarrollo",
-            "que_esperabamos_del_medico": "Esperábamos que esta vez nos dieran un diagnóstico más preciso",
-            "experiencia_en_hospital": "Nuevamente tuvimos que esperar mucho tiempo en la sala de espera",
-            "como_nos_sentimos_despues": "Salimos decepcionados y molestos porque otra vez no nos dieron respuestas claras",
-            "conversaciones_en_casa": "Discutimos sobre la posibilidad de buscar atención médica privada"
+          "narrativa_personal": {
+            "como_me_sentia": "Como familia: Matías seguía con vómitos frecuentes y no lograba aumentar de peso",
+            "que_esperaba": "Esperábamos que esta vez nos dieran un diagnóstico más preciso",
+            "experiencia_consulta": "Nuevamente tuvimos que esperar mucho tiempo en la sala de espera",
+            "sentimientos_posteriores": "Salimos decepcionados y molestos porque otra vez no nos dieron respuestas claras",
+            "impacto_emocional": "Discutimos sobre la posibilidad de buscar atención médica privada"
           },
-          "impacto_familiar": {
-            "organizacion_familiar": "Seguíamos turnándonos con los cuidados de Matías y Sofía",
-            "trabajo_padres": "Catalina tuvo que pedir algunos días libres en su trabajo",
-            "cuidado_otros_hijos": "Los abuelos maternos nos ayudaron con el cuidado de Sofía",
-            "estado_emocional": "La incertidumbre y la frustración crecían en la familia"
+          "contexto_vida": {
+            "situacion_trabajo": "Catalina tuvo que pedir algunos días libres en su trabajo",
+            "situacion_familiar": "Seguíamos turnándonos con los cuidados de Matías y Sofía",
+            "estado_animo": "La incertidumbre y la frustración crecían en la familia"
           },
           "aspectos_practicos": {
-            "tiempo_hospital": "Pasamos casi 3 horas nuevamente en el hospital",
-            "gastos_dia": "Gastamos alrededor de $2,696,287 CLP en transporte y comidas",
-            "coordinacion_citas": "Nos programaron una nueva cita para un mes después",
-            "informacion_recibida": "Nos dijeron que seguían estudiando el caso de Matías"
+            "hospital_experiencia": "Nuevamente tuvimos que esperar mucho tiempo en la sala de espera",
+            "tiempo_espera": "Pasamos casi 3 horas nuevamente en el hospital",
+            "costo_percibido": "Tuvimos que pagar traslados y algunos exámenes adicionales",
+            "acompanamiento": "Padres y familia"
           }
         },
         {
           "momento": "Consulta 3",
+          "fecha_aproximada": "Fecha no especificada",
           "dias_desde_inicio": 122,
-          "narrativa_padres": {
-            "como_estaba_nuestro_hijo": "Matías ya casi no retenía los alimentos y se veía cada vez más delgado",
-            "nuestras_preocupaciones": "Temíamos que su condición empeorara y su vida corriera peligro",
-            "que_esperabamos_del_medico": "Esperábamos finalmente tener un diagnóstico certero",
-            "experiencia_en_hospital": "Esta vez nos atendieron un poco más rápido, pero seguía siendo una larga espera",
-            "como_nos_sentimos_despues": "Salimos desanimados y con la sensación de que no avanzábamos",
-            "conversaciones_en_casa": "Discutimos sobre la posibilidad de viajar a otro hospital para una segunda opinión"
+          "narrativa_personal": {
+            "como_me_sentia": "Como familia: Matías ya casi no retenía los alimentos y se veía cada vez más delgado",
+            "que_esperaba": "Esperábamos finalmente tener un diagnóstico certero",
+            "experiencia_consulta": "Esta vez nos atendieron un poco más rápido, pero seguía siendo una larga espera",
+            "sentimientos_posteriores": "Salimos desanimados y con la sensación de que no avanzábamos",
+            "impacto_emocional": "Discutimos sobre la posibilidad de viajar a otro hospital para una segunda opinión"
           },
-          "impacto_familiar": {
-            "organizacion_familiar": "Los abuelos pasaban más tiempo en casa para ayudarnos con los niños",
-            "trabajo_padres": "José tuvo que reducir su jornada laboral por las múltiples consultas",
-            "cuidado_otros_hijos": "Sofía a veces se sentía descuidada por la atención que requería su hermano",
-            "estado_emocional": "El estrés y el desgaste emocional eran muy altos en la familia"
+          "contexto_vida": {
+            "situacion_trabajo": "José tuvo que reducir su jornada laboral por las múltiples consultas",
+            "situacion_familiar": "Los abuelos pasaban más tiempo en casa para ayudarnos con los niños",
+            "estado_animo": "El estrés y el desgaste emocional eran muy altos en la familia"
           },
           "aspectos_practicos": {
-            "tiempo_hospital": "Pasamos alrededor de 2 horas y media en el hospital",
-            "gastos_dia": "Gastamos alrededor de $3,826,381 CLP en transporte, comidas y algunos exámenes",
-            "coordinacion_citas": "Nos dieron una nueva cita para dos meses después",
-            "informacion_recibida": "Nos dijeron que estaban descartando algunas posibilidades"
+            "hospital_experiencia": "Esta vez nos atendieron un poco más rápido, pero seguía siendo una larga espera",
+            "tiempo_espera": "Pasamos alrededor de 2 horas y media en el hospital",
+            "costo_percibido": "Tuvimos que pagar traslados y algunos exámenes adicionales",
+            "acompanamiento": "Padres y familia"
           }
         },
         {
           "momento": "Consulta 4",
+          "fecha_aproximada": "Fecha no especificada",
           "dias_desde_inicio": 211,
-          "narrativa_padres": {
-            "como_estaba_nuestro_hijo": "Matías ya casi no comía y su estado era muy delicado",
-            "nuestras_preocupaciones": "Temíamos perderlo si no recibía un tratamiento pronto",
-            "que_esperabamos_del_medico": "Esperábamos finalmente tener un diagnóstico certero y un plan de tratamiento",
-            "experiencia_en_hospital": "Esta vez nos atendieron con mayor prontitud al ver la gravedad del caso",
-            "como_nos_sentimos_despues": "Nos sentimos aliviados de por fin tener un diagnóstico, pero preocupados por la cirugía que necesitaría",
-            "conversaciones_en_casa": "Hablamos sobre la fortaleza que tendríamos que tener como familia para este proceso"
+          "narrativa_personal": {
+            "como_me_sentia": "Como familia: Matías ya casi no comía y su estado era muy delicado",
+            "que_esperaba": "Esperábamos finalmente tener un diagnóstico certero y un plan de tratamiento",
+            "experiencia_consulta": "Esta vez nos atendieron con mayor prontitud al ver la gravedad del caso",
+            "sentimientos_posteriores": "Nos sentimos aliviados de por fin tener un diagnóstico, pero preocupados por la cirugía que necesitaría",
+            "impacto_emocional": "Hablamos sobre la fortaleza que tendríamos que tener como familia para este proceso"
           },
-          "impacto_familiar": {
-            "organizacion_familiar": "Catalina tuvo que tomar una licencia de su trabajo para estar con Matías",
-            "trabajo_padres": "José tuvo que trabajar horas extras para cubrir los gastos médicos",
-            "cuidado_otros_hijos": "Los abuelos se hicieron cargo de Sofía mientras estábamos en el hospital",
-            "estado_emocional": "Había una mezcla de alivio por el diagnóstico y temor por lo que vendría"
+          "contexto_vida": {
+            "situacion_trabajo": "José tuvo que trabajar horas extras para cubrir los gastos médicos",
+            "situacion_familiar": "Catalina tuvo que tomar una licencia de su trabajo para estar con Matías",
+            "estado_animo": "Había una mezcla de alivio por el diagnóstico y temor por lo que vendría"
           },
           "aspectos_practicos": {
-            "tiempo_hospital": "Pasamos casi 4 horas realizando exámenes y consultas",
-            "gastos_dia": "Gastamos alrededor de $12,061,078 CLP en exámenes, transporte y estadía",
-            "coordinacion_citas": "Nos coordinaron rápidamente con cirujanos pediátricos",
-            "informacion_recibida": "Nos explicaron la malformación intestinal y el procedimiento quirúrgico necesario"
+            "hospital_experiencia": "Esta vez nos atendieron con mayor prontitud al ver la gravedad del caso",
+            "tiempo_espera": "Pasamos casi 4 horas realizando exámenes y consultas",
+            "costo_percibido": "Tuvimos que pagar traslados y algunos exámenes adicionales",
+            "acompanamiento": "Padres y familia"
           }
         }
-      ]
+      ],
+      "perspectiva_cuidador": {
+        "relacion": "padres",
+        "testimonio_inicial": "Como padres de Matías, enfrentar Otras malformaciones congénitas del intestino, especificadas ha sido muy desafiante",
+        "preocupaciones": "Nuestra mayor preocupación es que la cirugía sea un éxito y que Matías pueda desarrollarse sanamente",
+        "acciones_tomadas": [
+          "Acompañar a todas las citas médicas",
+          "Buscar segundas opiniones",
+          "Coordinar con especialistas"
+        ]
+      }
     },
     "CLAUDE_Q43.8_0004": {
       "perfil_paciente": {
@@ -4088,53 +4110,61 @@
       "narrativa_cronologica": [
         {
           "momento": "Consulta 1",
+          "fecha_aproximada": "Fecha no especificada",
           "dias_desde_inicio": 0,
-          "narrativa_padres": {
-            "como_estaba_nuestro_hijo": "Cristóbal presentaba vómitos recurrentes y dificultad para alimentarse desde su nacimiento",
-            "nuestras_preocupaciones": "Temíamos que fuera algo grave y no supieramos qué hacer",
-            "que_esperabamos_del_medico": "Esperábamos que nos dieran un diagnóstico claro y un plan de tratamiento",
-            "experiencia_en_hospital": "La sala de espera estaba abarrotada y tuvimos que esperar mucho tiempo para ser atendidos",
-            "como_nos_sentimos_despues": "Salimos frustrados y confundidos porque no nos dieron respuestas concretas",
-            "conversaciones_en_casa": "Discutimos si debíamos insistir en el hospital o buscar una segunda opinión"
+          "narrativa_personal": {
+            "como_me_sentia": "Como familia: Cristóbal presentaba vómitos recurrentes y dificultad para alimentarse desde su nacimiento",
+            "que_esperaba": "Esperábamos que nos dieran un diagnóstico claro y un plan de tratamiento",
+            "experiencia_consulta": "La sala de espera estaba abarrotada y tuvimos que esperar mucho tiempo para ser atendidos",
+            "sentimientos_posteriores": "Salimos frustrados y confundidos porque no nos dieron respuestas concretas",
+            "impacto_emocional": "Discutimos si debíamos insistir en el hospital o buscar una segunda opinión"
           },
-          "impacto_familiar": {
-            "organizacion_familiar": "Tuvimos que turnarnos para cuidar a Cristóbal y atender a nuestra hija mayor",
-            "trabajo_padres": "Rodrigo tuvo que faltar algunos días al trabajo por las consultas médicas",
-            "cuidado_otros_hijos": "Los abuelos nos ayudaron a cuidar a Sofía mientras estábamos en el hospital",
-            "estado_emocional": "Predominaba la angustia e incertidumbre por no saber qué le ocurría a nuestro hijo"
+          "contexto_vida": {
+            "situacion_trabajo": "Rodrigo tuvo que faltar algunos días al trabajo por las consultas médicas",
+            "situacion_familiar": "Tuvimos que turnarnos para cuidar a Cristóbal y atender a nuestra hija mayor",
+            "estado_animo": "Predominaba la angustia e incertidumbre por no saber qué le ocurría a nuestro hijo"
           },
           "aspectos_practicos": {
-            "tiempo_hospital": "Pasamos casi todo el día en el hospital entre la espera y la consulta",
-            "gastos_dia": "Gastamos en traslados, estacionamiento y algunas comidas fuera",
-            "coordinacion_citas": "Nos dieron una nueva cita para un mes después",
-            "informacion_recibida": "Sólo nos dijeron que Cristóbal tenía 'síntomas digestivos' sin un diagnóstico claro"
+            "hospital_experiencia": "La sala de espera estaba abarrotada y tuvimos que esperar mucho tiempo para ser atendidos",
+            "tiempo_espera": "Pasamos casi todo el día en el hospital entre la espera y la consulta",
+            "costo_percibido": "Tuvimos que pagar traslados y algunos exámenes adicionales",
+            "acompanamiento": "Padres y familia"
           }
         },
         {
           "momento": "Consulta 5",
+          "fecha_aproximada": "Fecha no especificada",
           "dias_desde_inicio": 207,
-          "narrativa_padres": {
-            "como_estaba_nuestro_hijo": "Cristóbal seguía con vómitos frecuentes y no lograba ganar peso adecuadamente",
-            "nuestras_preocupaciones": "Temíamos que su desarrollo se viera afectado si no recibía el tratamiento correcto",
-            "que_esperabamos_del_medico": "Esperábamos finalmente tener un diagnóstico certero y un plan de acción",
-            "experiencia_en_hospital": "Esta vez nos atendió un equipo de especialistas que realizó varios exámenes",
-            "como_nos_sentimos_despues": "Nos sentimos aliviados de por fin tener un diagnóstico, pero también preocupados por lo que vendría",
-            "conversaciones_en_casa": "Hablamos sobre la necesidad de apoyarnos como familia para enfrentar este desafío"
+          "narrativa_personal": {
+            "como_me_sentia": "Como familia: Cristóbal seguía con vómitos frecuentes y no lograba ganar peso adecuadamente",
+            "que_esperaba": "Esperábamos finalmente tener un diagnóstico certero y un plan de acción",
+            "experiencia_consulta": "Esta vez nos atendió un equipo de especialistas que realizó varios exámenes",
+            "sentimientos_posteriores": "Nos sentimos aliviados de por fin tener un diagnóstico, pero también preocupados por lo que vendría",
+            "impacto_emocional": "Hablamos sobre la necesidad de apoyarnos como familia para enfrentar este desafío"
           },
-          "impacto_familiar": {
-            "organizacion_familiar": "Tuvimos que reorganizar nuestras rutinas para atender las necesidades de Cristóbal",
-            "trabajo_padres": "Javiera tuvo que reducir su jornada laboral para acompañar a Cristóbal en sus tratamientos",
-            "cuidado_otros_hijos": "Los abuelos siguieron siendo un gran apoyo para cuidar a Sofía",
-            "estado_emocional": "Predominaba la esperanza de que con el tratamiento adecuado, Cristóbal pudiera recuperarse"
+          "contexto_vida": {
+            "situacion_trabajo": "Javiera tuvo que reducir su jornada laboral para acompañar a Cristóbal en sus tratamientos",
+            "situacion_familiar": "Tuvimos que reorganizar nuestras rutinas para atender las necesidades de Cristóbal",
+            "estado_animo": "Predominaba la esperanza de que con el tratamiento adecuado, Cristóbal pudiera recuperarse"
           },
           "aspectos_practicos": {
-            "tiempo_hospital": "Pasamos varias horas realizando distintos exámenes y consultas con especialistas",
-            "gastos_dia": "Los gastos fueron mayores por los múltiples exámenes y traslados",
-            "coordinacion_citas": "Nos dieron una cita con el cirujano pediátrico para programar la operación",
-            "informacion_recibida": "Nos explicaron detalladamente el diagnóstico y el procedimiento quirúrgico necesario"
+            "hospital_experiencia": "Esta vez nos atendió un equipo de especialistas que realizó varios exámenes",
+            "tiempo_espera": "Pasamos varias horas realizando distintos exámenes y consultas con especialistas",
+            "costo_percibido": "Tuvimos que pagar traslados y algunos exámenes adicionales",
+            "acompanamiento": "Padres y familia"
           }
         }
-      ]
+      ],
+      "perspectiva_cuidador": {
+        "relacion": "padres",
+        "testimonio_inicial": "Como padres de Cristóbal, enfrentar Otras malformaciones congénitas del intestino, especificadas ha sido muy desafiante",
+        "preocupaciones": "Nuestra mayor preocupación era asegurar un diagnóstico preciso y un tratamiento oportuno para evitar complicaciones graves",
+        "acciones_tomadas": [
+          "Acompañar a todas las citas médicas",
+          "Buscar segundas opiniones",
+          "Coordinar con especialistas"
+        ]
+      }
     },
     "CLAUDE_Q43.8_0005": {
       "perfil_paciente": {
@@ -4159,101 +4189,107 @@
       "narrativa_cronologica": [
         {
           "momento": "Consulta 1",
+          "fecha_aproximada": "Fecha no especificada",
           "dias_desde_inicio": 0,
-          "narrativa_padres": {
-            "como_estaba_nuestro_hijo": "Benjamín lloraba mucho y parecía tener dolor abdominal. No quería comer y vomitaba con frecuencia",
-            "nuestras_preocupaciones": "Temíamos que fuera algo grave relacionado con su intestino o estómago",
-            "que_esperabamos_del_medico": "Esperábamos que nos dieran un diagnóstico certero y un tratamiento para aliviar sus síntomas",
-            "experiencia_en_hospital": "La sala de espera estaba llena y tuvimos que esperar mucho tiempo para ser atendidos. El médico parecía apresurado",
-            "como_nos_sentimos_despues": "Salimos frustrados y preocupados porque no tenían una respuesta clara para lo que le pasaba a Benjamín",
-            "conversaciones_en_casa": "Discutimos si deberíamos buscar una segunda opinión en otro hospital, pero con nuestros recursos limitados era difícil"
+          "narrativa_personal": {
+            "como_me_sentia": "Como familia: Benjamín lloraba mucho y parecía tener dolor abdominal. No quería comer y vomitaba con frecuencia",
+            "que_esperaba": "Esperábamos que nos dieran un diagnóstico certero y un tratamiento para aliviar sus síntomas",
+            "experiencia_consulta": "La sala de espera estaba llena y tuvimos que esperar mucho tiempo para ser atendidos. El médico parecía apresurado",
+            "sentimientos_posteriores": "Salimos frustrados y preocupados porque no tenían una respuesta clara para lo que le pasaba a Benjamín",
+            "impacto_emocional": "Discutimos si deberíamos buscar una segunda opinión en otro hospital, pero con nuestros recursos limitados era difícil"
           },
-          "impacto_familiar": {
-            "organizacion_familiar": "Camila tuvo que dejar su trabajo temporalmente para cuidar a Benjamín",
-            "trabajo_padres": "Javier tuvo que hacer horas extras para compensar la pérdida de ingresos",
-            "cuidado_otros_hijos": "Las abuelas nos ayudaban a cuidar a Isidora y Valentina mientras estábamos en el hospital",
-            "estado_emocional": "La incertidumbre y la preocupación por Benjamín generaban tensión en la familia"
+          "contexto_vida": {
+            "situacion_trabajo": "Javier tuvo que hacer horas extras para compensar la pérdida de ingresos",
+            "situacion_familiar": "Camila tuvo que dejar su trabajo temporalmente para cuidar a Benjamín",
+            "estado_animo": "La incertidumbre y la preocupación por Benjamín generaban tensión en la familia"
           },
           "aspectos_practicos": {
-            "tiempo_hospital": "Pasamos casi todo el día en el hospital, desde la mañana hasta la tarde",
-            "gastos_dia": "Gastos de transporte, alimentos y algunos medicamentos para los síntomas",
-            "coordinacion_citas": "Nos dieron una nueva cita para un mes después",
-            "informacion_recibida": "El médico dijo que podría ser una indigestión o un virus estomacal, pero que habría que seguir observando"
+            "hospital_experiencia": "La sala de espera estaba llena y tuvimos que esperar mucho tiempo para ser atendidos. El médico parecía apresurado",
+            "tiempo_espera": "Pasamos casi todo el día en el hospital, desde la mañana hasta la tarde",
+            "costo_percibido": "Tuvimos que pagar traslados y algunos exámenes adicionales",
+            "acompanamiento": "Padres y familia"
           }
         },
         {
           "momento": "Consulta 2",
+          "fecha_aproximada": "Fecha no especificada",
           "dias_desde_inicio": 78,
-          "narrativa_padres": {
-            "como_estaba_nuestro_hijo": "Los síntomas de Benjamín no mejoraban, seguía con dolor abdominal y vómitos frecuentes",
-            "nuestras_preocupaciones": "Nos preocupaba que no estuvieran identificando la causa real de sus problemas",
-            "que_esperabamos_del_medico": "Esperábamos que ordenaran más exámenes para llegar a un diagnóstico certero",
-            "experiencia_en_hospital": "La espera fue larga nuevamente y el médico parecía tener poco tiempo para atendernos",
-            "como_nos_sentimos_despues": "Salimos decepcionados y frustrados porque no avanzábamos en encontrar una solución",
-            "conversaciones_en_casa": "Discutimos la posibilidad de pedir una interconsulta con un gastroenterólogo pediátrico"
+          "narrativa_personal": {
+            "como_me_sentia": "Como familia: Los síntomas de Benjamín no mejoraban, seguía con dolor abdominal y vómitos frecuentes",
+            "que_esperaba": "Esperábamos que ordenaran más exámenes para llegar a un diagnóstico certero",
+            "experiencia_consulta": "La espera fue larga nuevamente y el médico parecía tener poco tiempo para atendernos",
+            "sentimientos_posteriores": "Salimos decepcionados y frustrados porque no avanzábamos en encontrar una solución",
+            "impacto_emocional": "Discutimos la posibilidad de pedir una interconsulta con un gastroenterólogo pediátrico"
           },
-          "impacto_familiar": {
-            "organizacion_familiar": "Camila seguía sin trabajar y Javier haciendo horas extras",
-            "trabajo_padres": "La situación laboral de Javier era inestable debido a las ausencias por las consultas",
-            "cuidado_otros_hijos": "Las abuelas y algunas vecinas nos ayudaban con las niñas",
-            "estado_emocional": "La tensión y el estrés eran altos, discutíamos con frecuencia en casa"
+          "contexto_vida": {
+            "situacion_trabajo": "La situación laboral de Javier era inestable debido a las ausencias por las consultas",
+            "situacion_familiar": "Camila seguía sin trabajar y Javier haciendo horas extras",
+            "estado_animo": "La tensión y el estrés eran altos, discutíamos con frecuencia en casa"
           },
           "aspectos_practicos": {
-            "tiempo_hospital": "Otra jornada completa perdida en el hospital",
-            "gastos_dia": "Gastos de transporte, alimentos y algunos medicamentos",
-            "coordinacion_citas": "Nos dieron una nueva cita para dos meses después",
-            "informacion_recibida": "El médico dijo que podría ser una intolerancia alimentaria y recomendó cambios en la dieta"
+            "hospital_experiencia": "La espera fue larga nuevamente y el médico parecía tener poco tiempo para atendernos",
+            "tiempo_espera": "Otra jornada completa perdida en el hospital",
+            "costo_percibido": "Tuvimos que pagar traslados y algunos exámenes adicionales",
+            "acompanamiento": "Padres y familia"
           }
         },
         {
           "momento": "Consulta 3",
+          "fecha_aproximada": "Fecha no especificada",
           "dias_desde_inicio": 141,
-          "narrativa_padres": {
-            "como_estaba_nuestro_hijo": "Benjamín seguía con los mismos síntomas, incluso había perdido peso",
-            "nuestras_preocupaciones": "Temíamos que su condición empeorara y pusiera en riesgo su vida",
-            "que_esperabamos_del_medico": "Esperábamos que finalmente ordenaran exámenes más exhaustivos",
-            "experiencia_en_hospital": "La espera fue eterna, había mucha gente y poco personal",
-            "como_nos_sentimos_despues": "Salimos desanimados y con la sensación de que no nos tomaban en serio",
-            "conversaciones_en_casa": "Discutimos la posibilidad de ir a un hospital privado, pero los costos eran muy altos para nosotros"
+          "narrativa_personal": {
+            "como_me_sentia": "Como familia: Benjamín seguía con los mismos síntomas, incluso había perdido peso",
+            "que_esperaba": "Esperábamos que finalmente ordenaran exámenes más exhaustivos",
+            "experiencia_consulta": "La espera fue eterna, había mucha gente y poco personal",
+            "sentimientos_posteriores": "Salimos desanimados y con la sensación de que no nos tomaban en serio",
+            "impacto_emocional": "Discutimos la posibilidad de ir a un hospital privado, pero los costos eran muy altos para nosotros"
           },
-          "impacto_familiar": {
-            "organizacion_familiar": "Camila seguía sin trabajar y Javier con trabajos eventuales",
-            "trabajo_padres": "La situación laboral de ambos era muy inestable",
-            "cuidado_otros_hijos": "Las niñas estaban descuidadas, con poca atención de nosotros",
-            "estado_emocional": "Había mucha tensión y discusiones en la familia, nos sentíamos agobiados"
+          "contexto_vida": {
+            "situacion_trabajo": "La situación laboral de ambos era muy inestable",
+            "situacion_familiar": "Camila seguía sin trabajar y Javier con trabajos eventuales",
+            "estado_animo": "Había mucha tensión y discusiones en la familia, nos sentíamos agobiados"
           },
           "aspectos_practicos": {
-            "tiempo_hospital": "Otra larga espera de varias horas en el hospital",
-            "gastos_dia": "Gastos de transporte, alimentos y algunos medicamentos",
-            "coordinacion_citas": "Nos dieron una nueva cita para un mes después",
-            "informacion_recibida": "El médico dijo que podría ser una infección intestinal y recetó antibióticos"
+            "hospital_experiencia": "La espera fue eterna, había mucha gente y poco personal",
+            "tiempo_espera": "Otra larga espera de varias horas en el hospital",
+            "costo_percibido": "Tuvimos que pagar traslados y algunos exámenes adicionales",
+            "acompanamiento": "Padres y familia"
           }
         },
         {
           "momento": "Consulta 4",
+          "fecha_aproximada": "Fecha no especificada",
           "dias_desde_inicio": 189,
-          "narrativa_padres": {
-            "como_estaba_nuestro_hijo": "Benjamín seguía con los mismos síntomas persistentes, estaba cada vez más delgado y débil",
-            "nuestras_preocupaciones": "Temíamos lo peor, que fuera algo realmente grave y sin tratamiento",
-            "que_esperabamos_del_medico": "Esperábamos que finalmente llegaran a un diagnóstico certero",
-            "experiencia_en_hospital": "La espera fue extenuante, pero esta vez nos atendió un médico más experimentado",
-            "como_nos_sentimos_despues": "Aunque el diagnóstico era preocupante, nos sentimos aliviados de finalmente saber qué le pasaba a Benjamín",
-            "conversaciones_en_casa": "Discutimos los próximos pasos y la necesidad de que Benjamín fuera operado lo antes posible"
+          "narrativa_personal": {
+            "como_me_sentia": "Como familia: Benjamín seguía con los mismos síntomas persistentes, estaba cada vez más delgado y débil",
+            "que_esperaba": "Esperábamos que finalmente llegaran a un diagnóstico certero",
+            "experiencia_consulta": "La espera fue extenuante, pero esta vez nos atendió un médico más experimentado",
+            "sentimientos_posteriores": "Aunque el diagnóstico era preocupante, nos sentimos aliviados de finalmente saber qué le pasaba a Benjamín",
+            "impacto_emocional": "Discutimos los próximos pasos y la necesidad de que Benjamín fuera operado lo antes posible"
           },
-          "impacto_familiar": {
-            "organizacion_familiar": "Camila pudo volver a trabajar, pero con horarios reducidos",
-            "trabajo_padres": "Javier consiguió un trabajo más estable, aunque con ingresos limitados",
-            "cuidado_otros_hijos": "Las niñas recibían más atención de la familia extendida",
-            "estado_emocional": "Aunque preocupados, había esperanza de que Benjamín pudiera ser tratado"
+          "contexto_vida": {
+            "situacion_trabajo": "Javier consiguió un trabajo más estable, aunque con ingresos limitados",
+            "situacion_familiar": "Camila pudo volver a trabajar, pero con horarios reducidos",
+            "estado_animo": "Aunque preocupados, había esperanza de que Benjamín pudiera ser tratado"
           },
           "aspectos_practicos": {
-            "tiempo_hospital": "Otra larga jornada en el hospital, pero con un desenlace positivo",
-            "gastos_dia": "Gastos de transporte, alimentos y algunos exámenes adicionales",
-            "coordinacion_citas": "Nos derivaron al Hospital Roberto del Río para la cirugía de Benjamín",
-            "informacion_recibida": "El médico nos explicó detalladamente la condición de Benjamín y el tratamiento quirúrgico necesario"
+            "hospital_experiencia": "La espera fue extenuante, pero esta vez nos atendió un médico más experimentado",
+            "tiempo_espera": "Otra larga jornada en el hospital, pero con un desenlace positivo",
+            "costo_percibido": "Tuvimos que pagar traslados y algunos exámenes adicionales",
+            "acompanamiento": "Padres y familia"
           }
         }
-      ]
+      ],
+      "perspectiva_cuidador": {
+        "relacion": "padres",
+        "testimonio_inicial": "Como padres de Benjamín, enfrentar Otras malformaciones congénitas del intestino, especificadas ha sido muy desafiante",
+        "preocupaciones": "Nuestro mayor temor es que la condición de Benjamín empeore y ponga en riesgo su vida",
+        "acciones_tomadas": [
+          "Acompañar a todas las citas médicas",
+          "Buscar segundas opiniones",
+          "Coordinar con especialistas"
+        ]
+      }
     },
     "CLAUDE_Q43.8_UNIFIED_0001": {
       "perfil_paciente": {
@@ -4278,29 +4314,38 @@
       "narrativa_cronologica": [
         {
           "momento": "Consulta 1",
+          "fecha_aproximada": "Fecha no especificada",
           "dias_desde_inicio": 0,
-          "narrativa_padres": {
-            "como_estaba_nuestro_hijo": "Isidora había nacido hace apenas unas horas y notamos que su abdomen se veía hinchado y no lograba expulsar las primeras heces.",
-            "nuestras_preocupaciones": "Temíamos que fuera algo grave relacionado con sus intestinos y que pudiera poner en riesgo su vida.",
-            "que_esperabamos_del_medico": "Esperábamos que el médico pudiera identificar rápidamente el problema y darnos un diagnóstico certero.",
-            "experiencia_en_hospital": "La sala de urgencias estaba llena y tuvimos que esperar bastante tiempo para ser atendidos. El personal estaba sobrecargado.",
-            "como_nos_sentimos_despues": "Salimos muy frustrados y preocupados porque no nos dieron un diagnóstico claro, solo un código inespecífico.",
-            "conversaciones_en_casa": "En casa, Javiera lloraba desconsolada temiendo lo peor para nuestra pequeña Isidora. Yo intentaba mantener la calma y la esperanza."
+          "narrativa_personal": {
+            "como_me_sentia": "Como familia: Isidora había nacido hace apenas unas horas y notamos que su abdomen se veía hinchado y no lograba expulsar las primeras heces.",
+            "que_esperaba": "Esperábamos que el médico pudiera identificar rápidamente el problema y darnos un diagnóstico certero.",
+            "experiencia_consulta": "La sala de urgencias estaba llena y tuvimos que esperar bastante tiempo para ser atendidos. El personal estaba sobrecargado.",
+            "sentimientos_posteriores": "Salimos muy frustrados y preocupados porque no nos dieron un diagnóstico claro, solo un código inespecífico.",
+            "impacto_emocional": "En casa, Javiera lloraba desconsolada temiendo lo peor para nuestra pequeña Isidora. Yo intentaba mantener la calma y la esperanza."
           },
-          "impacto_familiar": {
-            "organizacion_familiar": "Tuve que pedir algunos días libres en el trabajo para poder acompañar a Javiera y a Isidora en las consultas.",
-            "trabajo_padres": "Javiera tuvo que dejar sus labores domésticas para dedicarse por completo al cuidado de Isidora.",
-            "cuidado_otros_hijos": "Mi madre nos ayudaba a cuidar a Martín, nuestro hijo mayor, cuando teníamos que ir al hospital.",
-            "estado_emocional": "Reinaba un ambiente de angustia e incertidumbre en nuestra familia. Todos estábamos muy preocupados por Isidora."
+          "contexto_vida": {
+            "situacion_trabajo": "Javiera tuvo que dejar sus labores domésticas para dedicarse por completo al cuidado de Isidora.",
+            "situacion_familiar": "Tuve que pedir algunos días libres en el trabajo para poder acompañar a Javiera y a Isidora en las consultas.",
+            "estado_animo": "Reinaba un ambiente de angustia e incertidumbre en nuestra familia. Todos estábamos muy preocupados por Isidora."
           },
           "aspectos_practicos": {
-            "tiempo_hospital": "Pasamos casi 3 horas en el hospital entre la espera y la consulta.",
-            "gastos_dia": "Gastamos alrededor de $50.000 en traslados y algunos medicamentos.",
-            "coordinacion_citas": "Nos dieron una nueva cita para un control en dos meses más.",
-            "informacion_recibida": "Lamentablemente, el médico no nos dio mucha información clara, solo un código que no entendíamos."
+            "hospital_experiencia": "La sala de urgencias estaba llena y tuvimos que esperar bastante tiempo para ser atendidos. El personal estaba sobrecargado.",
+            "tiempo_espera": "Pasamos casi 3 horas en el hospital entre la espera y la consulta.",
+            "costo_percibido": "Tuvimos que pagar traslados y algunos exámenes adicionales",
+            "acompanamiento": "Padres y familia"
           }
         }
-      ]
+      ],
+      "perspectiva_cuidador": {
+        "relacion": "padres",
+        "testimonio_inicial": "Como padres de Isidora, enfrentar Otras malformaciones congénitas del intestino, especificadas ha sido muy desafiante",
+        "preocupaciones": "Nuestra mayor preocupación era que Isidora no estuviera recibiendo la nutrición adecuada y que su desarrollo se viera afectado",
+        "acciones_tomadas": [
+          "Acompañar a todas las citas médicas",
+          "Buscar segundas opiniones",
+          "Coordinar con especialistas"
+        ]
+      }
     },
     "CLAUDE_Q43.8_UNIFIED_0002": {
       "perfil_paciente": {
@@ -4325,53 +4370,61 @@
       "narrativa_cronologica": [
         {
           "momento": "Consulta 1",
+          "fecha_aproximada": "Fecha no especificada",
           "dias_desde_inicio": 0,
-          "narrativa_padres": {
-            "como_estaba_nuestro_hijo": "Matías no retenía los alimentos y vomitaba constantemente después de las comidas",
-            "nuestras_preocupaciones": "Temíamos que no estuviera recibiendo la nutrición adecuada y que pudiera deshidratarse",
-            "que_esperabamos_del_medico": "Esperábamos que nos dieran un diagnóstico claro y un plan de tratamiento",
-            "experiencia_en_hospital": "La sala de espera estaba abarrotada y tuvimos que esperar casi 2 horas para ser atendidos",
-            "como_nos_sentimos_despues": "Salimos frustrados y preocupados porque sólo nos dieron un diagnóstico genérico sin explicaciones claras",
-            "conversaciones_en_casa": "Conversamos sobre buscar una segunda opinión, pero no teníamos los recursos para ir a una clínica privada"
+          "narrativa_personal": {
+            "como_me_sentia": "Como familia: Matías no retenía los alimentos y vomitaba constantemente después de las comidas",
+            "que_esperaba": "Esperábamos que nos dieran un diagnóstico claro y un plan de tratamiento",
+            "experiencia_consulta": "La sala de espera estaba abarrotada y tuvimos que esperar casi 2 horas para ser atendidos",
+            "sentimientos_posteriores": "Salimos frustrados y preocupados porque sólo nos dieron un diagnóstico genérico sin explicaciones claras",
+            "impacto_emocional": "Conversamos sobre buscar una segunda opinión, pero no teníamos los recursos para ir a una clínica privada"
           },
-          "impacto_familiar": {
-            "organizacion_familiar": "Camila tuvo que tomar algunas semanas de licencia para cuidar a Matías",
-            "trabajo_padres": "Javier tuvo que trabajar horas extras para compensar los ingresos perdidos",
-            "cuidado_otros_hijos": "La abuela materna nos ayudó con el cuidado de Sofía mientras nos enfocábamos en Matías",
-            "estado_emocional": "Estábamos muy angustiados y preocupados por la salud de nuestro bebé"
+          "contexto_vida": {
+            "situacion_trabajo": "Javier tuvo que trabajar horas extras para compensar los ingresos perdidos",
+            "situacion_familiar": "Camila tuvo que tomar algunas semanas de licencia para cuidar a Matías",
+            "estado_animo": "Estábamos muy angustiados y preocupados por la salud de nuestro bebé"
           },
           "aspectos_practicos": {
-            "tiempo_hospital": "Pasamos casi 4 horas en el hospital entre la espera y la consulta",
-            "gastos_dia": "Gastamos alrededor de $20,000 en transporte y algunos alimentos",
-            "coordinacion_citas": "Nos dieron una nueva cita para un mes más tarde",
-            "informacion_recibida": "Sólo nos dijeron que Matías tenía un trastorno funcional del intestino, pero sin mayores detalles"
+            "hospital_experiencia": "La sala de espera estaba abarrotada y tuvimos que esperar casi 2 horas para ser atendidos",
+            "tiempo_espera": "Pasamos casi 4 horas en el hospital entre la espera y la consulta",
+            "costo_percibido": "Tuvimos que pagar traslados y algunos exámenes adicionales",
+            "acompanamiento": "Padres y familia"
           }
         },
         {
           "momento": "Consulta 2",
+          "fecha_aproximada": "Fecha no especificada",
           "dias_desde_inicio": 45,
-          "narrativa_padres": {
-            "como_estaba_nuestro_hijo": "Matías seguía con vómitos frecuentes y había perdido algo de peso",
-            "nuestras_preocupaciones": "Temíamos que su desarrollo se viera afectado si no lográbamos resolverlo pronto",
-            "que_esperabamos_del_medico": "Esperábamos que esta vez nos dieran un diagnóstico más específico y un plan de acción",
-            "experiencia_en_hospital": "La consulta fue más rápida esta vez, pero aún tuvimos que esperar bastante",
-            "como_nos_sentimos_despues": "Salimos decepcionados porque nuevamente no hubo un diagnóstico claro",
-            "conversaciones_en_casa": "Discutimos la posibilidad de buscar un pediatra particular, pero los costos eran muy altos para nosotros"
+          "narrativa_personal": {
+            "como_me_sentia": "Como familia: Matías seguía con vómitos frecuentes y había perdido algo de peso",
+            "que_esperaba": "Esperábamos que esta vez nos dieran un diagnóstico más específico y un plan de acción",
+            "experiencia_consulta": "La consulta fue más rápida esta vez, pero aún tuvimos que esperar bastante",
+            "sentimientos_posteriores": "Salimos decepcionados porque nuevamente no hubo un diagnóstico claro",
+            "impacto_emocional": "Discutimos la posibilidad de buscar un pediatra particular, pero los costos eran muy altos para nosotros"
           },
-          "impacto_familiar": {
-            "organizacion_familiar": "Seguíamos turnándonos con Camila para cuidar a Matías y atender a Sofía",
-            "trabajo_padres": "Javier tuvo que rechazar algunos trabajos extras por el tiempo que requería el cuidado de Matías",
-            "cuidado_otros_hijos": "Los abuelos paternos nos ayudaron más con el cuidado de Sofía",
-            "estado_emocional": "La incertidumbre y la preocupación por Matías comenzaban a afectar nuestra relación de pareja"
+          "contexto_vida": {
+            "situacion_trabajo": "Javier tuvo que rechazar algunos trabajos extras por el tiempo que requería el cuidado de Matías",
+            "situacion_familiar": "Seguíamos turnándonos con Camila para cuidar a Matías y atender a Sofía",
+            "estado_animo": "La incertidumbre y la preocupación por Matías comenzaban a afectar nuestra relación de pareja"
           },
           "aspectos_practicos": {
-            "tiempo_hospital": "Pasamos alrededor de 3 horas en el hospital",
-            "gastos_dia": "Gastamos unos $15,000 en transporte y algunos suministros para Matías",
-            "coordinacion_citas": "Nos dieron una nueva cita para 2 meses después",
-            "informacion_recibida": "Sólo nos dijeron que Matías tenía un trastorno funcional del intestino, sin mayores explicaciones"
+            "hospital_experiencia": "La consulta fue más rápida esta vez, pero aún tuvimos que esperar bastante",
+            "tiempo_espera": "Pasamos alrededor de 3 horas en el hospital",
+            "costo_percibido": "Tuvimos que pagar traslados y algunos exámenes adicionales",
+            "acompanamiento": "Padres y familia"
           }
         }
-      ]
+      ],
+      "perspectiva_cuidador": {
+        "relacion": "padres",
+        "testimonio_inicial": "Como padres de Matías, enfrentar Otras malformaciones congénitas del intestino, especificadas ha sido muy desafiante",
+        "preocupaciones": "Nuestro mayor temor es que Matías no pueda alimentarse y crecer adecuadamente",
+        "acciones_tomadas": [
+          "Acompañar a todas las citas médicas",
+          "Buscar segundas opiniones",
+          "Coordinar con especialistas"
+        ]
+      }
     },
     "CLAUDE_Q43.8_UNIFIED_0003": {
       "perfil_paciente": {
@@ -4396,101 +4449,107 @@
       "narrativa_cronologica": [
         {
           "momento": "Consulta 1",
+          "fecha_aproximada": "Fecha no especificada",
           "dias_desde_inicio": 0,
-          "narrativa_padres": {
-            "como_estaba_nuestro_hijo": "Benjamín tenía vómitos frecuentes y dificultad para alimentarse desde que nació",
-            "nuestras_preocupaciones": "Temíamos que fuera algo grave y que no pudiera crecer saludable",
-            "que_esperabamos_del_medico": "Esperábamos que pudieran diagnosticar rápidamente el problema",
-            "experiencia_en_hospital": "La sala de espera estaba llena, tuvimos que esperar mucho tiempo para ser atendidos",
-            "como_nos_sentimos_despues": "Salimos preocupados porque no tenían un diagnóstico claro",
-            "conversaciones_en_casa": "Comentamos que tendríamos que insistir para encontrar la causa de los síntomas"
+          "narrativa_personal": {
+            "como_me_sentia": "Como familia: Benjamín tenía vómitos frecuentes y dificultad para alimentarse desde que nació",
+            "que_esperaba": "Esperábamos que pudieran diagnosticar rápidamente el problema",
+            "experiencia_consulta": "La sala de espera estaba llena, tuvimos que esperar mucho tiempo para ser atendidos",
+            "sentimientos_posteriores": "Salimos preocupados porque no tenían un diagnóstico claro",
+            "impacto_emocional": "Comentamos que tendríamos que insistir para encontrar la causa de los síntomas"
           },
-          "impacto_familiar": {
-            "organizacion_familiar": "Sofía tuvo que pedir días libres en el trabajo para acompañar a Benjamín",
-            "trabajo_padres": "Javier tuvo que tomar algunos días sin pago en la obra",
-            "cuidado_otros_hijos": "La abuela materna cuidó a Camila mientras estábamos en el hospital",
-            "estado_emocional": "Estábamos muy preocupados y angustiados por la salud de nuestro hijo"
+          "contexto_vida": {
+            "situacion_trabajo": "Javier tuvo que tomar algunos días sin pago en la obra",
+            "situacion_familiar": "Sofía tuvo que pedir días libres en el trabajo para acompañar a Benjamín",
+            "estado_animo": "Estábamos muy preocupados y angustiados por la salud de nuestro hijo"
           },
           "aspectos_practicos": {
-            "tiempo_hospital": "Estuvimos casi 3 horas en el hospital entre la espera y la consulta",
-            "gastos_dia": "Gastamos alrededor de $3,000 en transporte y algunas comidas",
-            "coordinacion_citas": "Nos dieron una nueva cita para un control en 3 meses",
-            "informacion_recibida": "El médico sólo dijo que tenía problemas digestivos, pero no especificó la causa"
+            "hospital_experiencia": "La sala de espera estaba llena, tuvimos que esperar mucho tiempo para ser atendidos",
+            "tiempo_espera": "Estuvimos casi 3 horas en el hospital entre la espera y la consulta",
+            "costo_percibido": "Tuvimos que pagar traslados y algunos exámenes adicionales",
+            "acompanamiento": "Padres y familia"
           }
         },
         {
           "momento": "Consulta 2",
+          "fecha_aproximada": "Fecha no especificada",
           "dias_desde_inicio": 87,
-          "narrativa_padres": {
-            "como_estaba_nuestro_hijo": "Benjamín seguía con vómitos frecuentes y poco aumento de peso",
-            "nuestras_preocupaciones": "Nos preocupaba que no estuviera creciendo adecuadamente",
-            "que_esperabamos_del_medico": "Esperábamos que esta vez pudieran hacer más exámenes",
-            "experiencia_en_hospital": "La consulta fue más rápida, pero seguían sin tener un diagnóstico claro",
-            "como_nos_sentimos_despues": "Salimos frustrados por la falta de respuestas concretas",
-            "conversaciones_en_casa": "Discutimos la posibilidad de buscar una segunda opinión en otro hospital"
+          "narrativa_personal": {
+            "como_me_sentia": "Como familia: Benjamín seguía con vómitos frecuentes y poco aumento de peso",
+            "que_esperaba": "Esperábamos que esta vez pudieran hacer más exámenes",
+            "experiencia_consulta": "La consulta fue más rápida, pero seguían sin tener un diagnóstico claro",
+            "sentimientos_posteriores": "Salimos frustrados por la falta de respuestas concretas",
+            "impacto_emocional": "Discutimos la posibilidad de buscar una segunda opinión en otro hospital"
           },
-          "impacto_familiar": {
-            "organizacion_familiar": "Sofía siguió pidiendo permisos en el trabajo para acompañar a Benjamín",
-            "trabajo_padres": "Javier tuvo que faltar algunos días más sin remuneración",
-            "cuidado_otros_hijos": "Los abuelos maternos siguieron apoyando con el cuidado de Camila",
-            "estado_emocional": "La incertidumbre y la falta de respuestas nos tenían muy angustiados"
+          "contexto_vida": {
+            "situacion_trabajo": "Javier tuvo que faltar algunos días más sin remuneración",
+            "situacion_familiar": "Sofía siguió pidiendo permisos en el trabajo para acompañar a Benjamín",
+            "estado_animo": "La incertidumbre y la falta de respuestas nos tenían muy angustiados"
           },
           "aspectos_practicos": {
-            "tiempo_hospital": "Pasamos cerca de 2 horas en el hospital",
-            "gastos_dia": "Unos $2,500 en transporte y algunas comidas rápidas",
-            "coordinacion_citas": "Nos dieron una nueva cita de control en 2 meses más",
-            "informacion_recibida": "El médico sólo recomendó seguir con una dieta blanda y observar su evolución"
+            "hospital_experiencia": "La consulta fue más rápida, pero seguían sin tener un diagnóstico claro",
+            "tiempo_espera": "Pasamos cerca de 2 horas en el hospital",
+            "costo_percibido": "Tuvimos que pagar traslados y algunos exámenes adicionales",
+            "acompanamiento": "Padres y familia"
           }
         },
         {
           "momento": "Consulta 3",
+          "fecha_aproximada": "Fecha no especificada",
           "dias_desde_inicio": 122,
-          "narrativa_padres": {
-            "como_estaba_nuestro_hijo": "Benjamín seguía con los mismos síntomas y poco aumento de peso",
-            "nuestras_preocupaciones": "Nos angustiaba no poder encontrar la causa de su problema",
-            "que_esperabamos_del_medico": "Esperábamos que finalmente ordenaran más exámenes",
-            "experiencia_en_hospital": "Fue una larga espera de casi 3 horas para ser atendidos",
-            "como_nos_sentimos_despues": "Salimos muy decepcionados y molestos por la falta de avances",
-            "conversaciones_en_casa": "Decidimos buscar ayuda en grupos de apoyo en internet"
+          "narrativa_personal": {
+            "como_me_sentia": "Como familia: Benjamín seguía con los mismos síntomas y poco aumento de peso",
+            "que_esperaba": "Esperábamos que finalmente ordenaran más exámenes",
+            "experiencia_consulta": "Fue una larga espera de casi 3 horas para ser atendidos",
+            "sentimientos_posteriores": "Salimos muy decepcionados y molestos por la falta de avances",
+            "impacto_emocional": "Decidimos buscar ayuda en grupos de apoyo en internet"
           },
-          "impacto_familiar": {
-            "organizacion_familiar": "Sofía tuvo que pedir más días libres, poniendo en riesgo su trabajo",
-            "trabajo_padres": "A Javier le descontaron varios días sin pago de su sueldo",
-            "cuidado_otros_hijos": "Los abuelos ya estaban cansados de cuidar tanto a Camila",
-            "estado_emocional": "La frustración y el desgaste emocional eran muy altos"
+          "contexto_vida": {
+            "situacion_trabajo": "A Javier le descontaron varios días sin pago de su sueldo",
+            "situacion_familiar": "Sofía tuvo que pedir más días libres, poniendo en riesgo su trabajo",
+            "estado_animo": "La frustración y el desgaste emocional eran muy altos"
           },
           "aspectos_practicos": {
-            "tiempo_hospital": "Casi 4 horas entre la espera y la consulta",
-            "gastos_dia": "Alrededor de $3,500 en transporte, comidas y algunos medicamentos",
-            "coordinacion_citas": "Nos dijeron que volviéramos en 3 meses más",
-            "informacion_recibida": "El médico sólo dijo que seguiría observando su evolución"
+            "hospital_experiencia": "Fue una larga espera de casi 3 horas para ser atendidos",
+            "tiempo_espera": "Casi 4 horas entre la espera y la consulta",
+            "costo_percibido": "Tuvimos que pagar traslados y algunos exámenes adicionales",
+            "acompanamiento": "Padres y familia"
           }
         },
         {
           "momento": "Consulta 4",
+          "fecha_aproximada": "Fecha no especificada",
           "dias_desde_inicio": 211,
-          "narrativa_padres": {
-            "como_estaba_nuestro_hijo": "Benjamín seguía con vómitos, poco aumento de peso y diarreas ocasionales",
-            "nuestras_preocupaciones": "Temíamos que su condición empeorara sin un tratamiento adecuado",
-            "que_esperabamos_del_medico": "Exigimos que finalmente le hicieran los exámenes necesarios",
-            "experiencia_en_hospital": "Después de insistir, nos derivaron a un gastroenterólogo pediatra",
-            "como_nos_sentimos_despues": "Aliviados de finalmente tener un diagnóstico, pero preocupados por el tratamiento",
-            "conversaciones_en_casa": "Hablamos de la importancia de la cirugía y cómo enfrentaríamos esta nueva etapa"
+          "narrativa_personal": {
+            "como_me_sentia": "Como familia: Benjamín seguía con vómitos, poco aumento de peso y diarreas ocasionales",
+            "que_esperaba": "Exigimos que finalmente le hicieran los exámenes necesarios",
+            "experiencia_consulta": "Después de insistir, nos derivaron a un gastroenterólogo pediatra",
+            "sentimientos_posteriores": "Aliviados de finalmente tener un diagnóstico, pero preocupados por el tratamiento",
+            "impacto_emocional": "Hablamos de la importancia de la cirugía y cómo enfrentaríamos esta nueva etapa"
           },
-          "impacto_familiar": {
-            "organizacion_familiar": "Sofía tuvo que tomar una licencia sin goce de sueldo por un tiempo",
-            "trabajo_padres": "Javier también tuvo que ausentarse más días de su trabajo",
-            "cuidado_otros_hijos": "Los abuelos ya no podían seguir cuidando tanto a Camila",
-            "estado_emocional": "Había alivio por el diagnóstico, pero también miedo por la cirugía"
+          "contexto_vida": {
+            "situacion_trabajo": "Javier también tuvo que ausentarse más días de su trabajo",
+            "situacion_familiar": "Sofía tuvo que tomar una licencia sin goce de sueldo por un tiempo",
+            "estado_animo": "Había alivio por el diagnóstico, pero también miedo por la cirugía"
           },
           "aspectos_practicos": {
-            "tiempo_hospital": "Pasamos casi todo el día en el hospital con los exámenes",
-            "gastos_dia": "Alrededor de $12,000 en exámenes, transporte y algunas comidas",
-            "coordinacion_citas": "Nos dieron una cita para la cirugía en un mes más",
-            "informacion_recibida": "El médico nos explicó la malformación intestinal y la necesidad de operarlo"
+            "hospital_experiencia": "Después de insistir, nos derivaron a un gastroenterólogo pediatra",
+            "tiempo_espera": "Pasamos casi todo el día en el hospital con los exámenes",
+            "costo_percibido": "Tuvimos que pagar traslados y algunos exámenes adicionales",
+            "acompanamiento": "Padres y familia"
           }
         }
-      ]
+      ],
+      "perspectiva_cuidador": {
+        "relacion": "padres",
+        "testimonio_inicial": "Como padres de Benjamín, enfrentar Otras malformaciones congénitas del intestino, especificadas ha sido muy desafiante",
+        "preocupaciones": "Temíamos que la malformación pudiera poner en riesgo la vida de nuestro hijo",
+        "acciones_tomadas": [
+          "Acompañar a todas las citas médicas",
+          "Buscar segundas opiniones",
+          "Coordinar con especialistas"
+        ]
+      }
     },
     "CLAUDE_Q43.8_UNIFIED_0004": {
       "perfil_paciente": {
@@ -4515,125 +4574,130 @@
       "narrativa_cronologica": [
         {
           "momento": "Consulta 1",
+          "fecha_aproximada": "Fecha no especificada",
           "dias_desde_inicio": 0,
-          "narrativa_padres": {
-            "como_estaba_nuestro_hijo": "Martín tenía vómitos frecuentes y no retenía los alimentos desde el segundo día de nacido",
-            "nuestras_preocupaciones": "Temíamos que no estuviera recibiendo la nutrición adecuada y que pudiera deshidratarse",
-            "que_esperabamos_del_medico": "Esperábamos que nos dieran un diagnóstico claro y un tratamiento para que Martín pudiera alimentarse bien",
-            "experiencia_en_hospital": "La sala de espera estaba llena y tuvimos que esperar mucho tiempo para ser atendidos",
-            "como_nos_sentimos_despues": "Salimos confundidos y preocupados porque no nos dieron un diagnóstico definitivo",
-            "conversaciones_en_casa": "Conversamos sobre buscar una segunda opinión, pero confiábamos en que los médicos encontrarían la causa"
+          "narrativa_personal": {
+            "como_me_sentia": "Como familia: Martín tenía vómitos frecuentes y no retenía los alimentos desde el segundo día de nacido",
+            "que_esperaba": "Esperábamos que nos dieran un diagnóstico claro y un tratamiento para que Martín pudiera alimentarse bien",
+            "experiencia_consulta": "La sala de espera estaba llena y tuvimos que esperar mucho tiempo para ser atendidos",
+            "sentimientos_posteriores": "Salimos confundidos y preocupados porque no nos dieron un diagnóstico definitivo",
+            "impacto_emocional": "Conversamos sobre buscar una segunda opinión, pero confiábamos en que los médicos encontrarían la causa"
           },
-          "impacto_familiar": {
-            "organizacion_familiar": "Camila tuvo que tomar una licencia del trabajo para cuidar a Martín",
-            "trabajo_padres": "Cristián siguió trabajando, pero con mucha preocupación por su hijo",
-            "cuidado_otros_hijos": "La abuela materna ayudó con el cuidado de Sofía mientras nos enfocábamos en Martín",
-            "estado_emocional": "Estábamos muy angustiados y con miedo por la salud de nuestro bebé"
+          "contexto_vida": {
+            "situacion_trabajo": "Cristián siguió trabajando, pero con mucha preocupación por su hijo",
+            "situacion_familiar": "Camila tuvo que tomar una licencia del trabajo para cuidar a Martín",
+            "estado_animo": "Estábamos muy angustiados y con miedo por la salud de nuestro bebé"
           },
           "aspectos_practicos": {
-            "tiempo_hospital": "Estuvimos casi 3 horas en el hospital",
-            "gastos_dia": "Gastamos alrededor de $40.000 en traslados y algunos insumos",
-            "coordinacion_citas": "Nos dieron una nueva cita para un mes después",
-            "informacion_recibida": "Nos dijeron que podría ser un problema digestivo, pero que necesitaban hacer más estudios"
+            "hospital_experiencia": "La sala de espera estaba llena y tuvimos que esperar mucho tiempo para ser atendidos",
+            "tiempo_espera": "Estuvimos casi 3 horas en el hospital",
+            "costo_percibido": "Tuvimos que pagar traslados y algunos exámenes adicionales",
+            "acompanamiento": "Padres y familia"
           }
         },
         {
           "momento": "Consulta 2",
+          "fecha_aproximada": "Fecha no especificada",
           "dias_desde_inicio": 65,
-          "narrativa_padres": {
-            "como_estaba_nuestro_hijo": "Martín seguía con vómitos frecuentes y no aumentaba de peso adecuadamente",
-            "nuestras_preocupaciones": "Temíamos que no estuviera recibiendo los nutrientes necesarios para su desarrollo",
-            "que_esperabamos_del_medico": "Esperábamos que nos dieran un diagnóstico certero y un plan de tratamiento",
-            "experiencia_en_hospital": "La espera fue nuevamente muy larga y sentimos que no avanzábamos",
-            "como_nos_sentimos_despues": "Salimos frustrados y con la sensación de que no nos escuchaban",
-            "conversaciones_en_casa": "Discutimos la posibilidad de buscar atención en un centro privado, pero los costos eran muy altos para nosotros"
+          "narrativa_personal": {
+            "como_me_sentia": "Como familia: Martín seguía con vómitos frecuentes y no aumentaba de peso adecuadamente",
+            "que_esperaba": "Esperábamos que nos dieran un diagnóstico certero y un plan de tratamiento",
+            "experiencia_consulta": "La espera fue nuevamente muy larga y sentimos que no avanzábamos",
+            "sentimientos_posteriores": "Salimos frustrados y con la sensación de que no nos escuchaban",
+            "impacto_emocional": "Discutimos la posibilidad de buscar atención en un centro privado, pero los costos eran muy altos para nosotros"
           },
-          "impacto_familiar": {
-            "organizacion_familiar": "Seguíamos con la misma dinámica, con Camila cuidando a Martín y la abuela apoyando",
-            "trabajo_padres": "Cristián tuvo que tomar algunos días libres por las consultas",
-            "cuidado_otros_hijos": "Sofía estaba extrañando la atención de sus padres",
-            "estado_emocional": "La incertidumbre y la falta de respuestas nos tenían muy angustiados"
+          "contexto_vida": {
+            "situacion_trabajo": "Cristián tuvo que tomar algunos días libres por las consultas",
+            "situacion_familiar": "Seguíamos con la misma dinámica, con Camila cuidando a Martín y la abuela apoyando",
+            "estado_animo": "La incertidumbre y la falta de respuestas nos tenían muy angustiados"
           },
           "aspectos_practicos": {
-            "tiempo_hospital": "Nuevamente casi 3 horas de espera",
-            "gastos_dia": "Alrededor de $35.000 en traslados y algunos alimentos",
-            "coordinacion_citas": "Nos dieron una nueva cita para 2 meses después",
-            "informacion_recibida": "Nos dijeron que seguirían estudiando el caso, pero sin un diagnóstico claro"
+            "hospital_experiencia": "La espera fue nuevamente muy larga y sentimos que no avanzábamos",
+            "tiempo_espera": "Nuevamente casi 3 horas de espera",
+            "costo_percibido": "Tuvimos que pagar traslados y algunos exámenes adicionales",
+            "acompanamiento": "Padres y familia"
           }
         },
         {
           "momento": "Consulta 3",
+          "fecha_aproximada": "Fecha no especificada",
           "dias_desde_inicio": 128,
-          "narrativa_padres": {
-            "como_estaba_nuestro_hijo": "Martín seguía con los mismos síntomas y su desarrollo era lento",
-            "nuestras_preocupaciones": "Temíamos que no estuvieran viendo algo grave y que se estuviera perdiendo un tiempo valioso",
-            "que_esperabamos_del_medico": "Esperábamos finalmente tener un diagnóstico certero y un plan de acción",
-            "experiencia_en_hospital": "La consulta fue muy breve y sentimos que no nos escuchaban realmente",
-            "como_nos_sentimos_despues": "Salimos decepcionados y con la sensación de que no avanzábamos",
-            "conversaciones_en_casa": "Comenzamos a buscar información por nuestra cuenta en internet y grupos de apoyo"
+          "narrativa_personal": {
+            "como_me_sentia": "Como familia: Martín seguía con los mismos síntomas y su desarrollo era lento",
+            "que_esperaba": "Esperábamos finalmente tener un diagnóstico certero y un plan de acción",
+            "experiencia_consulta": "La consulta fue muy breve y sentimos que no nos escuchaban realmente",
+            "sentimientos_posteriores": "Salimos decepcionados y con la sensación de que no avanzábamos",
+            "impacto_emocional": "Comenzamos a buscar información por nuestra cuenta en internet y grupos de apoyo"
           },
-          "impacto_familiar": {
-            "organizacion_familiar": "Seguíamos con el mismo esquema, pero cada vez más agotados",
-            "trabajo_padres": "Cristián tuvo que faltar algunos días más al trabajo",
-            "cuidado_otros_hijos": "Sofía estaba resentida por la falta de atención de sus padres",
-            "estado_emocional": "Estábamos agotados emocionalmente y con mucha frustración"
+          "contexto_vida": {
+            "situacion_trabajo": "Cristián tuvo que faltar algunos días más al trabajo",
+            "situacion_familiar": "Seguíamos con el mismo esquema, pero cada vez más agotados",
+            "estado_animo": "Estábamos agotados emocionalmente y con mucha frustración"
           },
           "aspectos_practicos": {
-            "tiempo_hospital": "Otra larga espera de casi 3 horas",
-            "gastos_dia": "Alrededor de $45.000 en traslados, estacionamiento y algunos alimentos",
-            "coordinacion_citas": "Nos dieron una nueva cita para 2 meses más",
-            "informacion_recibida": "Nuevamente no tuvimos un diagnóstico claro, sólo que seguirían estudiando el caso"
+            "hospital_experiencia": "La consulta fue muy breve y sentimos que no nos escuchaban realmente",
+            "tiempo_espera": "Otra larga espera de casi 3 horas",
+            "costo_percibido": "Tuvimos que pagar traslados y algunos exámenes adicionales",
+            "acompanamiento": "Padres y familia"
           }
         },
         {
           "momento": "Consulta 4",
+          "fecha_aproximada": "Fecha no especificada",
           "dias_desde_inicio": 174,
-          "narrativa_padres": {
-            "como_estaba_nuestro_hijo": "Martín seguía con los mismos síntomas y su desarrollo estaba muy retrasado",
-            "nuestras_preocupaciones": "Temíamos que su condición fuera algo realmente grave y que no lo estuvieran detectando",
-            "que_esperabamos_del_medico": "Esperábamos finalmente tener respuestas claras y un plan de acción",
-            "experiencia_en_hospital": "La consulta fue nuevamente muy breve y sentimos que no nos tomaban en serio",
-            "como_nos_sentimos_despues": "Salimos devastados y con la sensación de que no avanzábamos",
-            "conversaciones_en_casa": "Discutimos la posibilidad de buscar atención en otro hospital o incluso en otro país"
+          "narrativa_personal": {
+            "como_me_sentia": "Como familia: Martín seguía con los mismos síntomas y su desarrollo estaba muy retrasado",
+            "que_esperaba": "Esperábamos finalmente tener respuestas claras y un plan de acción",
+            "experiencia_consulta": "La consulta fue nuevamente muy breve y sentimos que no nos tomaban en serio",
+            "sentimientos_posteriores": "Salimos devastados y con la sensación de que no avanzábamos",
+            "impacto_emocional": "Discutimos la posibilidad de buscar atención en otro hospital o incluso en otro país"
           },
-          "impacto_familiar": {
-            "organizacion_familiar": "Estábamos agotados y la dinámica familiar estaba muy tensa",
-            "trabajo_padres": "Cristián tuvo que tomar más días libres, lo que afectó su situación laboral",
-            "cuidado_otros_hijos": "Sofía estaba resentida y con problemas en la escuela",
-            "estado_emocional": "Estábamos al borde de la desesperación y con mucha angustia"
+          "contexto_vida": {
+            "situacion_trabajo": "Cristián tuvo que tomar más días libres, lo que afectó su situación laboral",
+            "situacion_familiar": "Estábamos agotados y la dinámica familiar estaba muy tensa",
+            "estado_animo": "Estábamos al borde de la desesperación y con mucha angustia"
           },
           "aspectos_practicos": {
-            "tiempo_hospital": "Otra larga espera de casi 3 horas",
-            "gastos_dia": "Alrededor de $40.000 en traslados y algunos alimentos",
-            "coordinacion_citas": "Nos dieron una nueva cita para 2 meses más",
-            "informacion_recibida": "Nuevamente no tuvimos un diagnóstico claro, sólo que seguirían estudiando el caso"
+            "hospital_experiencia": "La consulta fue nuevamente muy breve y sentimos que no nos tomaban en serio",
+            "tiempo_espera": "Otra larga espera de casi 3 horas",
+            "costo_percibido": "Tuvimos que pagar traslados y algunos exámenes adicionales",
+            "acompanamiento": "Padres y familia"
           }
         },
         {
           "momento": "Consulta 5",
+          "fecha_aproximada": "Fecha no especificada",
           "dias_desde_inicio": 207,
-          "narrativa_padres": {
-            "como_estaba_nuestro_hijo": "Martín seguía con los mismos síntomas y su desarrollo estaba muy retrasado",
-            "nuestras_preocupaciones": "Temíamos que su condición fuera algo realmente grave y que no lo estuvieran detectando",
-            "que_esperabamos_del_medico": "Esperábamos finalmente tener respuestas claras y un plan de acción",
-            "experiencia_en_hospital": "Esta vez nos atendió un especialista y finalmente nos dieron un diagnóstico",
-            "como_nos_sentimos_despues": "Nos sentimos aliviados de tener un diagnóstico, pero también preocupados por el tratamiento",
-            "conversaciones_en_casa": "Conversamos sobre los pasos a seguir y cómo enfrentar la cirugía de Martín"
+          "narrativa_personal": {
+            "como_me_sentia": "Como familia: Martín seguía con los mismos síntomas y su desarrollo estaba muy retrasado",
+            "que_esperaba": "Esperábamos finalmente tener respuestas claras y un plan de acción",
+            "experiencia_consulta": "Esta vez nos atendió un especialista y finalmente nos dieron un diagnóstico",
+            "sentimientos_posteriores": "Nos sentimos aliviados de tener un diagnóstico, pero también preocupados por el tratamiento",
+            "impacto_emocional": "Conversamos sobre los pasos a seguir y cómo enfrentar la cirugía de Martín"
           },
-          "impacto_familiar": {
-            "organizacion_familiar": "Tuvimos que reorganizarnos para poder acompañar a Martín en su tratamiento",
-            "trabajo_padres": "Cristián tuvo que tomar una licencia temporal del trabajo",
-            "cuidado_otros_hijos": "La abuela materna se hizo cargo de Sofía mientras nos enfocábamos en Martín",
-            "estado_emocional": "Estábamos aliviados de tener un diagnóstico, pero también preocupados por el futuro"
+          "contexto_vida": {
+            "situacion_trabajo": "Cristián tuvo que tomar una licencia temporal del trabajo",
+            "situacion_familiar": "Tuvimos que reorganizarnos para poder acompañar a Martín en su tratamiento",
+            "estado_animo": "Estábamos aliviados de tener un diagnóstico, pero también preocupados por el futuro"
           },
           "aspectos_practicos": {
-            "tiempo_hospital": "Estuvimos casi 4 horas en el hospital",
-            "gastos_dia": "Alrededor de $120.000 en traslados, estacionamiento y algunos alimentos",
-            "coordinacion_citas": "Nos dieron las instrucciones para coordinar la cirugía y el seguimiento",
-            "informacion_recibida": "Nos explicaron el diagnóstico y el tratamiento quirúrgico necesario"
+            "hospital_experiencia": "Esta vez nos atendió un especialista y finalmente nos dieron un diagnóstico",
+            "tiempo_espera": "Estuvimos casi 4 horas en el hospital",
+            "costo_percibido": "Tuvimos que pagar traslados y algunos exámenes adicionales",
+            "acompanamiento": "Padres y familia"
           }
         }
-      ]
+      ],
+      "perspectiva_cuidador": {
+        "relacion": "padres",
+        "testimonio_inicial": "Como padres de Martín, enfrentar Otras malformaciones congénitas del intestino, especificadas ha sido muy desafiante",
+        "preocupaciones": "Nuestra mayor preocupación era que Martín no pudiera alimentarse bien y tener un desarrollo saludable",
+        "acciones_tomadas": [
+          "Acompañar a todas las citas médicas",
+          "Buscar segundas opiniones",
+          "Coordinar con especialistas"
+        ]
+      }
     },
     "CLAUDE_Q43.8_UNIFIED_0005": {
       "perfil_paciente": {
@@ -4658,101 +4722,107 @@
       "narrativa_cronologica": [
         {
           "momento": "Consulta 1",
+          "fecha_aproximada": "Fecha no especificada",
           "dias_desde_inicio": 0,
-          "narrativa_padres": {
-            "como_estaba_nuestro_hijo": "Matías presentaba vómitos frecuentes y dificultad para alimentarse",
-            "nuestras_preocupaciones": "Temíamos que fuera algo grave y que no pudiera crecer sanamente",
-            "que_esperabamos_del_medico": "Esperábamos que nos dieran un diagnóstico certero y un tratamiento adecuado",
-            "experiencia_en_hospital": "La sala de espera estaba muy concurrida y tuvimos que esperar mucho tiempo",
-            "como_nos_sentimos_despues": "Salimos confundidos y preocupados porque no tenían claridad sobre lo que le pasaba a Matías",
-            "conversaciones_en_casa": "Analizamos si debíamos buscar una segunda opinión en otro hospital"
+          "narrativa_personal": {
+            "como_me_sentia": "Como familia: Matías presentaba vómitos frecuentes y dificultad para alimentarse",
+            "que_esperaba": "Esperábamos que nos dieran un diagnóstico certero y un tratamiento adecuado",
+            "experiencia_consulta": "La sala de espera estaba muy concurrida y tuvimos que esperar mucho tiempo",
+            "sentimientos_posteriores": "Salimos confundidos y preocupados porque no tenían claridad sobre lo que le pasaba a Matías",
+            "impacto_emocional": "Analizamos si debíamos buscar una segunda opinión en otro hospital"
           },
-          "impacto_familiar": {
-            "organizacion_familiar": "Camila tuvo que tomar días libres en el trabajo para cuidar a Matías",
-            "trabajo_padres": "Javier tuvo que hacer turnos extras para cubrir los gastos adicionales",
-            "cuidado_otros_hijos": "La abuela materna ayudó con el cuidado de Sofía mientras estábamos en el hospital",
-            "estado_emocional": "Predominaba la angustia e incertidumbre por no saber qué le pasaba a nuestro hijo"
+          "contexto_vida": {
+            "situacion_trabajo": "Javier tuvo que hacer turnos extras para cubrir los gastos adicionales",
+            "situacion_familiar": "Camila tuvo que tomar días libres en el trabajo para cuidar a Matías",
+            "estado_animo": "Predominaba la angustia e incertidumbre por no saber qué le pasaba a nuestro hijo"
           },
           "aspectos_practicos": {
-            "tiempo_hospital": "Pasamos casi todo el día en el hospital",
-            "gastos_dia": "Tuvimos gastos de traslado, comidas y algunos medicamentos",
-            "coordinacion_citas": "Nos dieron una nueva cita para un mes después",
-            "informacion_recibida": "Sólo nos dijeron que seguirían evaluando los síntomas"
+            "hospital_experiencia": "La sala de espera estaba muy concurrida y tuvimos que esperar mucho tiempo",
+            "tiempo_espera": "Pasamos casi todo el día en el hospital",
+            "costo_percibido": "Tuvimos que pagar traslados y algunos exámenes adicionales",
+            "acompanamiento": "Padres y familia"
           }
         },
         {
           "momento": "Consulta 2",
+          "fecha_aproximada": "Fecha no especificada",
           "dias_desde_inicio": 78,
-          "narrativa_padres": {
-            "como_estaba_nuestro_hijo": "Matías seguía con vómitos y dificultad para aumentar de peso",
-            "nuestras_preocupaciones": "Nos preocupaba que no estuviera recibiendo el tratamiento adecuado",
-            "que_esperabamos_del_medico": "Esperábamos que nos derivaran a un especialista para un diagnóstico certero",
-            "experiencia_en_hospital": "La atención fue un poco más rápida, pero seguía habiendo mucha gente",
-            "como_nos_sentimos_despues": "Salimos frustrados porque nuevamente no tenían respuestas claras",
-            "conversaciones_en_casa": "Discutimos la posibilidad de consultar en un centro privado para agilizar el diagnóstico"
+          "narrativa_personal": {
+            "como_me_sentia": "Como familia: Matías seguía con vómitos y dificultad para aumentar de peso",
+            "que_esperaba": "Esperábamos que nos derivaran a un especialista para un diagnóstico certero",
+            "experiencia_consulta": "La atención fue un poco más rápida, pero seguía habiendo mucha gente",
+            "sentimientos_posteriores": "Salimos frustrados porque nuevamente no tenían respuestas claras",
+            "impacto_emocional": "Discutimos la posibilidad de consultar en un centro privado para agilizar el diagnóstico"
           },
-          "impacto_familiar": {
-            "organizacion_familiar": "Los abuelos paternos nos ayudaron a cuidar a Matías y Sofía cuando estábamos trabajando",
-            "trabajo_padres": "Javier tuvo que pedir algunos días libres por las consultas médicas",
-            "cuidado_otros_hijos": "Sofía a veces se sentía desplazada por la atención que requerían las consultas de Matías",
-            "estado_emocional": "Predominaba la impaciencia y el estrés por no tener un diagnóstico claro"
+          "contexto_vida": {
+            "situacion_trabajo": "Javier tuvo que pedir algunos días libres por las consultas médicas",
+            "situacion_familiar": "Los abuelos paternos nos ayudaron a cuidar a Matías y Sofía cuando estábamos trabajando",
+            "estado_animo": "Predominaba la impaciencia y el estrés por no tener un diagnóstico claro"
           },
           "aspectos_practicos": {
-            "tiempo_hospital": "Estuvimos casi medio día en el hospital",
-            "gastos_dia": "Tuvimos gastos de traslado y algunas pruebas adicionales",
-            "coordinacion_citas": "Nos agendaron una nueva cita para dos meses después",
-            "informacion_recibida": "Sólo nos dijeron que seguirían evaluando y descartando posibles causas"
+            "hospital_experiencia": "La atención fue un poco más rápida, pero seguía habiendo mucha gente",
+            "tiempo_espera": "Estuvimos casi medio día en el hospital",
+            "costo_percibido": "Tuvimos que pagar traslados y algunos exámenes adicionales",
+            "acompanamiento": "Padres y familia"
           }
         },
         {
           "momento": "Consulta 3",
+          "fecha_aproximada": "Fecha no especificada",
           "dias_desde_inicio": 141,
-          "narrativa_padres": {
-            "como_estaba_nuestro_hijo": "Matías ahora también presentaba episodios de diarrea y dolores abdominales",
-            "nuestras_preocupaciones": "Temíamos que fuera algo más grave de lo que pensaban",
-            "que_esperabamos_del_medico": "Esperábamos finalmente tener un diagnóstico certero y un plan de tratamiento",
-            "experiencia_en_hospital": "La atención fue un poco más rápida, pero el personal parecía muy saturado",
-            "como_nos_sentimos_despues": "Salimos desanimados y con la sensación de que no avanzábamos",
-            "conversaciones_en_casa": "Comenzamos a buscar información por nuestra cuenta en internet y grupos de apoyo"
+          "narrativa_personal": {
+            "como_me_sentia": "Como familia: Matías ahora también presentaba episodios de diarrea y dolores abdominales",
+            "que_esperaba": "Esperábamos finalmente tener un diagnóstico certero y un plan de tratamiento",
+            "experiencia_consulta": "La atención fue un poco más rápida, pero el personal parecía muy saturado",
+            "sentimientos_posteriores": "Salimos desanimados y con la sensación de que no avanzábamos",
+            "impacto_emocional": "Comenzamos a buscar información por nuestra cuenta en internet y grupos de apoyo"
           },
-          "impacto_familiar": {
-            "organizacion_familiar": "Camila tuvo que dejar su trabajo temporalmente para poder llevar a Matías a todas las consultas",
-            "trabajo_padres": "Javier trabajaba turnos extras para compensar la falta de ingresos de Camila",
-            "cuidado_otros_hijos": "Los abuelos maternos se hicieron cargo del cuidado de Sofía la mayor parte del tiempo",
-            "estado_emocional": "Predominaba la frustración y el agotamiento por la situación prolongada"
+          "contexto_vida": {
+            "situacion_trabajo": "Javier trabajaba turnos extras para compensar la falta de ingresos de Camila",
+            "situacion_familiar": "Camila tuvo que dejar su trabajo temporalmente para poder llevar a Matías a todas las consultas",
+            "estado_animo": "Predominaba la frustración y el agotamiento por la situación prolongada"
           },
           "aspectos_practicos": {
-            "tiempo_hospital": "Pasamos casi todo el día nuevamente en el hospital",
-            "gastos_dia": "Tuvimos gastos de traslado, comidas y algunos exámenes adicionales",
-            "coordinacion_citas": "Nos dijeron que nos contactarían para una nueva cita con un especialista",
-            "informacion_recibida": "Sólo mencionaron que podrían ser algunos problemas gastrointestinales"
+            "hospital_experiencia": "La atención fue un poco más rápida, pero el personal parecía muy saturado",
+            "tiempo_espera": "Pasamos casi todo el día nuevamente en el hospital",
+            "costo_percibido": "Tuvimos que pagar traslados y algunos exámenes adicionales",
+            "acompanamiento": "Padres y familia"
           }
         },
         {
           "momento": "Consulta 4",
+          "fecha_aproximada": "Fecha no especificada",
           "dias_desde_inicio": 189,
-          "narrativa_padres": {
-            "como_estaba_nuestro_hijo": "Matías continuaba con los mismos síntomas y dificultades para aumentar de peso",
-            "nuestras_preocupaciones": "Temíamos que no recibiera el tratamiento adecuado a tiempo",
-            "que_esperabamos_del_medico": "Esperábamos finalmente tener un diagnóstico certero y un plan de tratamiento",
-            "experiencia_en_hospital": "La atención fue un poco más ágil, pero igual tuvimos que esperar bastante tiempo",
-            "como_nos_sentimos_despues": "Nos sentimos aliviados de por fin tener un diagnóstico, pero preocupados por los próximos pasos",
-            "conversaciones_en_casa": "Conversamos sobre la importancia de seguir todas las indicaciones médicas y apoyarnos como familia"
+          "narrativa_personal": {
+            "como_me_sentia": "Como familia: Matías continuaba con los mismos síntomas y dificultades para aumentar de peso",
+            "que_esperaba": "Esperábamos finalmente tener un diagnóstico certero y un plan de tratamiento",
+            "experiencia_consulta": "La atención fue un poco más ágil, pero igual tuvimos que esperar bastante tiempo",
+            "sentimientos_posteriores": "Nos sentimos aliviados de por fin tener un diagnóstico, pero preocupados por los próximos pasos",
+            "impacto_emocional": "Conversamos sobre la importancia de seguir todas las indicaciones médicas y apoyarnos como familia"
           },
-          "impacto_familiar": {
-            "organizacion_familiar": "Tuvimos que reorganizarnos nuevamente como familia para el tratamiento de Matías",
-            "trabajo_padres": "Camila pudo reincorporarse a su trabajo con un horario más flexible",
-            "cuidado_otros_hijos": "Sofía entendió mejor la situación y ayudaba en el cuidado de su hermano",
-            "estado_emocional": "Predominaba el alivio de tener un diagnóstico, pero también la preocupación por el futuro"
+          "contexto_vida": {
+            "situacion_trabajo": "Camila pudo reincorporarse a su trabajo con un horario más flexible",
+            "situacion_familiar": "Tuvimos que reorganizarnos nuevamente como familia para el tratamiento de Matías",
+            "estado_animo": "Predominaba el alivio de tener un diagnóstico, pero también la preocupación por el futuro"
           },
           "aspectos_practicos": {
-            "tiempo_hospital": "Estuvimos casi todo el día en el hospital",
-            "gastos_dia": "Tuvimos gastos de traslado, comidas y algunos exámenes adicionales",
-            "coordinacion_citas": "Nos agendaron citas con diferentes especialistas para coordinar el tratamiento",
-            "informacion_recibida": "Nos explicaron detalladamente el diagnóstico y los próximos pasos a seguir"
+            "hospital_experiencia": "La atención fue un poco más ágil, pero igual tuvimos que esperar bastante tiempo",
+            "tiempo_espera": "Estuvimos casi todo el día en el hospital",
+            "costo_percibido": "Tuvimos que pagar traslados y algunos exámenes adicionales",
+            "acompanamiento": "Padres y familia"
           }
         }
-      ]
+      ],
+      "perspectiva_cuidador": {
+        "relacion": "padres",
+        "testimonio_inicial": "Como padres de Matías, enfrentar Otras malformaciones congénitas del intestino, especificadas ha sido muy desafiante",
+        "preocupaciones": "Nuestro mayor temor es que Matías no pueda desarrollarse y crecer sanamente",
+        "acciones_tomadas": [
+          "Acompañar a todas las citas médicas",
+          "Buscar segundas opiniones",
+          "Coordinar con especialistas"
+        ]
+      }
     }
   },
   "informacion_enfermedades": {
